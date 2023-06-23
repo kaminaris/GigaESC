@@ -475,6 +475,14 @@
     [
       "d7bd0144-6752-4d17-8c40-4f37667aefed",
       "LogicBoard"
+    ],
+    [
+      "d8fdef12-a69d-4413-81a2-f2b7e4981b88",
+      "LogicPower"
+    ],
+    [
+      "041ebcb3-3ebc-4f71-a36c-583ff81d6456",
+      "AccelGyro"
     ]
   ],
   "text_variables": {}
