@@ -483,6 +483,10 @@
     [
       "041ebcb3-3ebc-4f71-a36c-583ff81d6456",
       "AccelGyro"
+    ],
+    [
+      "e96edf8e-0a27-43ca-bcac-e718c28dac62",
+      "LogicConnectors"
     ]
   ],
   "text_variables": {}

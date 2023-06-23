@@ -690,6 +690,8 @@
     (uuid ee4a9c3b-3584-4861-b31d-26c41a56cf2c)
   )
 
+  (no_connect (at 73.66 109.22) (uuid 23e9c914-70f5-47e4-a285-8e2e9d4b27e9))
+
   (wire (pts (xy 135.89 86.36) (xy 135.89 88.9))
     (stroke (width 0) (type default))
     (uuid 0220ae7e-5071-4ab4-945d-ab2866e7c802)
