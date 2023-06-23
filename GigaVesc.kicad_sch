@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 768a484b-8a27-40cf-8cad-0f63935b1af0)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 22.86 27.94) (size 55.88 74.93) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d7bd0144-6752-4d17-8c40-4f37667aefed)
+    (property "Sheetname" "LogicBoard" (at 22.86 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "logicboard.kicad_sch" (at 22.86 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "GigaVesc"
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
