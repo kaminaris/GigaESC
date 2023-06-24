@@ -557,7 +557,7 @@
     (uuid fe39c691-ad7a-496c-8fcc-084363e8aece)
   )
 
-  (text "Are we sure its this way?" (at 73.66 73.66 0)
+  (text "Reverse intended" (at 80.645 73.025 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e88e21c6-7d0a-420d-92be-0639a6c41bd8)
   )

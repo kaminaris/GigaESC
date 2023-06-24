@@ -487,6 +487,10 @@
     [
       "e96edf8e-0a27-43ca-bcac-e718c28dac62",
       "LogicConnectors"
+    ],
+    [
+      "71d70e8d-fd59-4527-b3cd-7b195a235c5d",
+      "Switches"
     ]
   ],
   "text_variables": {}
