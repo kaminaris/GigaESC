@@ -458,11 +458,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR07") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "#PWR036") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "#PWR039") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -471,10 +468,10 @@
   (symbol (lib_id "Sensor_Motion:BMI160") (at 137.16 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 240dc0d6-9426-4477-a04d-b89d96455052)
-    (property "Reference" "U5" (at 138.43 92.71 0)
+    (property "Reference" "U3" (at 138.43 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BMI160" (at 138.43 113.03 0)
+    (property "Value" "BMI323" (at 138.43 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm" (at 137.16 101.6 0)
@@ -499,11 +496,8 @@
     (pin "9" (uuid 14a21cdf-b7e8-42cb-bdb0-aa5e29a3c21d))
     (instances
       (project "GigaVesc"
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "U5") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "U5") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -530,11 +524,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "#PWR037") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "#PWR044") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -549,7 +540,7 @@
     (property "Value" "4.7k" (at 105.41 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 103.632 91.44 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 103.632 91.44 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 91.44 0)
@@ -562,11 +553,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "R12") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "R12") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -593,11 +581,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "#PWR039") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "#PWR040") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -624,11 +609,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "#PWR037") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "#PWR038") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -643,7 +625,7 @@
     (property "Value" "100n" (at 127 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 126.6952 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 126.6952 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 85.09 0)
@@ -656,11 +638,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C5") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "C21") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "C21") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -687,11 +666,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR07") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "#PWR038") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "#PWR043") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -706,7 +682,7 @@
     (property "Value" "100n" (at 147.32 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 147.0152 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 147.0152 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 146.05 85.09 0)
@@ -719,11 +695,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C5") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "C22") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "C22") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -750,11 +723,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR07") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "#PWR038") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "#PWR037") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -769,7 +739,7 @@
     (property "Value" "4.7k" (at 110.49 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 108.712 91.44 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 108.712 91.44 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 91.44 0)
@@ -782,11 +752,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "R13") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "R13") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -813,11 +780,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR07") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "#PWR040") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "#PWR041") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -844,11 +808,8 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed"
-          (reference "#PWR041") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d7bd0144-6752-4d17-8c40-4f37667aefed/041ebcb3-3ebc-4f71-a36c-583ff81d6456"
-          (reference "#PWR042") (unit 1)
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
+          (reference "#PWR018") (unit 1)
         )
       )
     )

@@ -473,24 +473,20 @@
       ""
     ],
     [
-      "d7bd0144-6752-4d17-8c40-4f37667aefed",
-      "LogicBoard"
-    ],
-    [
-      "d8fdef12-a69d-4413-81a2-f2b7e4981b88",
-      "LogicPower"
-    ],
-    [
-      "041ebcb3-3ebc-4f71-a36c-583ff81d6456",
+      "3981a847-2f50-47ee-ae81-91fe330099b5",
       "AccelGyro"
     ],
     [
-      "e96edf8e-0a27-43ca-bcac-e718c28dac62",
+      "00b03c15-2f32-40aa-9d15-0626e4794bf1",
+      "Switches"
+    ],
+    [
+      "de95985c-773b-4c54-94d0-28826fc0c854",
       "LogicConnectors"
     ],
     [
-      "71d70e8d-fd59-4527-b3cd-7b195a235c5d",
-      "Switches"
+      "717cb4b7-b47a-435c-946f-7c938a1d7e5f",
+      "LogicPower"
     ]
   ],
   "text_variables": {}
