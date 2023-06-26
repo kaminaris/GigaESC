@@ -1064,70 +1064,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 173.99 74.93 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5c2cb926-f5c7-4b5d-998f-e5eac33ca6be)
-    (property "Reference" "C9" (at 170.18 72.39 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "47u 25v" (at 179.07 72.39 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4" (at 177.8 73.9648 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 173.99 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4d9ce804-6f16-466c-8a9a-c9fcf77e3ba2))
-    (pin "2" (uuid a35862a2-a78f-4a08-b764-194a5e8e70b6))
-    (instances
-      (project "GigaVescDrivers"
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-          (reference "C9") (unit 1)
-        )
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
-          (reference "C13") (unit 1)
-        )
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
-          (reference "C18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 173.99 87.63 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6de2a618-e37a-45ab-bfd7-acc2045ee35a)
-    (property "Reference" "C10" (at 170.18 85.09 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "47u 25v" (at 179.07 85.09 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4" (at 177.8 86.6648 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 173.99 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b9cf6342-23f5-4fb1-bd0f-bf8eae22487e))
-    (pin "2" (uuid 0fa02694-3cd9-417a-99c5-9a5b0696793a))
-    (instances
-      (project "GigaVescDrivers"
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-          (reference "C10") (unit 1)
-        )
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
-          (reference "C14") (unit 1)
-        )
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
-          (reference "C19") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 115.57 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d88bccb-2a4e-4e57-bdec-17d5682bbe43)
@@ -1428,6 +1364,38 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 173.99 87.63 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c770ba88-f481-40a7-8fc9-9c13f4d2f313)
+    (property "Reference" "C9" (at 170.815 85.09 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4.7u 100v" (at 180.975 85.725 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 177.8 86.6648 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 173.99 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fe31a9e3-cfa2-49f0-a7fc-64e8bb5ebc88))
+    (pin "2" (uuid 3bd875d7-1f1f-4485-b106-687e624e5fa1))
+    (instances
+      (project "GigaVescDrivers"
+        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+          (reference "C9") (unit 1)
+        )
+        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
+          (reference "C10") (unit 1)
+        )
+        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
+          (reference "C13") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_Schottky") (at 217.17 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfa8dea0-69ae-4a0a-8cf4-363dc91de005)
@@ -1486,6 +1454,38 @@
         )
         (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
           (reference "#PWR045") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 173.99 74.93 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid df9a680b-3999-432b-acd1-c1ea99ff9779)
+    (property "Reference" "C25" (at 170.18 72.39 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4.7u 100v" (at 181.61 73.025 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 177.8 73.9648 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 173.99 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 28b6d58a-7142-4709-a581-7687082571f8))
+    (pin "2" (uuid 63ba8535-7434-44b5-a578-888856afc763))
+    (instances
+      (project "GigaVescDrivers"
+        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+          (reference "C25") (unit 1)
+        )
+        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
+          (reference "C26") (unit 1)
+        )
+        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
+          (reference "C27") (unit 1)
         )
       )
     )
