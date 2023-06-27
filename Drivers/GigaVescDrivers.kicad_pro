@@ -495,6 +495,10 @@
     [
       "d88911c9-3d35-433d-8e86-fd490f9c0c66",
       "CurrentMeasurement"
+    ],
+    [
+      "70ecf73c-2cbb-41eb-9c52-f3fe8e7a855a",
+      "DriversConnectors"
     ]
   ],
   "text_variables": {}
