@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.32999999999999996
         }
       },
       "diff_pair_dimensions": [
@@ -56,19 +56,14 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|189173000|106066000|0098a98a-98c5-42cc-819c-fc24a74475e1|11feb4b1-b242-4859-b107-ad268b2f60f5",
-        "hole_clearance|189173000|106066000|0098a98a-98c5-42cc-819c-fc24a74475e1|e3d22991-8bea-4eff-b963-45ccf2b83f4f",
-        "hole_clearance|189173000|106266000|0098a98a-98c5-42cc-819c-fc24a74475e1|a7c3f5ad-e936-4f91-8bf8-2a31b705f05c",
-        "hole_clearance|189173000|106266000|0098a98a-98c5-42cc-819c-fc24a74475e1|b5e90f4f-b90d-426b-afb6-044e8a69908f",
-        "hole_clearance|189173000|111666000|81bfb298-1cbb-4fec-8f8d-868ef2bd859b|671db3de-a54b-4c08-9eb5-316bc0ce292a",
-        "hole_clearance|189173000|111666000|81bfb298-1cbb-4fec-8f8d-868ef2bd859b|bafee040-5988-4f2b-b235-42dc3cb5a229",
-        "hole_clearance|189173000|111866000|81bfb298-1cbb-4fec-8f8d-868ef2bd859b|678aa4dd-ac57-4369-b469-5caf7f4f4e14",
-        "hole_clearance|189173000|111866000|81bfb298-1cbb-4fec-8f8d-868ef2bd859b|bff4e0a7-f07e-4c66-a254-6615eb2dcf5b",
-        "silk_edge_clearance|195998000|116500000|5cb598e1-a4ab-4e03-8f99-4f09c03d05bf|07649304-a38e-401e-9ccc-7dc58f2048af",
-        "silk_edge_clearance|195998000|116500000|5cb598e1-a4ab-4e03-8f99-4f09c03d05bf|630fe9f8-58b3-45d1-94b2-8a51db45b898",
-        "silk_edge_clearance|195998000|118700000|5cb598e1-a4ab-4e03-8f99-4f09c03d05bf|a3c8a71d-5cc0-4d54-96b3-9e294580de59",
-        "silk_edge_clearance|195998000|123700000|5cb598e1-a4ab-4e03-8f99-4f09c03d05bf|6e77e303-e856-40df-81a5-994a22a28eff",
-        "silk_edge_clearance|195998000|124920000|5cb598e1-a4ab-4e03-8f99-4f09c03d05bf|c98a5685-0307-4ece-8add-8ae0f2386222"
+        "hole_clearance|188895000|102100000|0098a98a-98c5-42cc-819c-fc24a74475e1|11feb4b1-b242-4859-b107-ad268b2f60f5",
+        "hole_clearance|188895000|102100000|0098a98a-98c5-42cc-819c-fc24a74475e1|e3d22991-8bea-4eff-b963-45ccf2b83f4f",
+        "hole_clearance|188895000|102300000|0098a98a-98c5-42cc-819c-fc24a74475e1|a7c3f5ad-e936-4f91-8bf8-2a31b705f05c",
+        "hole_clearance|188895000|102300000|0098a98a-98c5-42cc-819c-fc24a74475e1|b5e90f4f-b90d-426b-afb6-044e8a69908f",
+        "hole_clearance|188895000|107700000|81bfb298-1cbb-4fec-8f8d-868ef2bd859b|671db3de-a54b-4c08-9eb5-316bc0ce292a",
+        "hole_clearance|188895000|107700000|81bfb298-1cbb-4fec-8f8d-868ef2bd859b|bafee040-5988-4f2b-b235-42dc3cb5a229",
+        "hole_clearance|188895000|107900000|81bfb298-1cbb-4fec-8f8d-868ef2bd859b|678aa4dd-ac57-4369-b469-5caf7f4f4e14",
+        "hole_clearance|188895000|107900000|81bfb298-1cbb-4fec-8f8d-868ef2bd859b|bff4e0a7-f07e-4c66-a254-6615eb2dcf5b"
       ],
       "meta": {
         "version": 2
@@ -520,6 +515,22 @@
     [
       "717cb4b7-b47a-435c-946f-7c938a1d7e5f",
       "LogicPower"
+    ],
+    [
+      "81081265-f675-4f9d-bffe-8ec1eaaaba23",
+      "HardwareProtection"
+    ],
+    [
+      "d3d3a06e-f81d-4927-9a88-9ed5502f322c",
+      "DriverSocket"
+    ],
+    [
+      "04d6ed87-6b10-45aa-8255-84943212068b",
+      "DriverSocket1"
+    ],
+    [
+      "693754e5-6fc9-4123-abfe-2e1335cfdb84",
+      "DriverSocket2"
     ]
   ],
   "text_variables": {}

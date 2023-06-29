@@ -549,7 +549,7 @@
     (property "Datasheet" "~" (at 105.41 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C115319" (at 105.41 91.44 90)
+    (property "MPN" "C17673" (at 105.41 91.44 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e72bc188-19c4-44e9-ba14-7d7cf9a5eaa8))
