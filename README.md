@@ -2,6 +2,10 @@
 
 GigaESC - Based upon the VESC®*-Project VESC is a registered TM, owned by Benjamin Vedder
 
+![](https://i.imgur.com/LlGzm6U.png)
+
+![](https://i.imgur.com/pW6TWpQ.png)
+
 * Modular design
 * Logic board
 * Socketable Drivers
