@@ -985,6 +985,9 @@
     (property "Datasheet" "~" (at 203.2 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C17520" (at 203.2 106.68 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d5140792-c338-4f2c-bdc0-b8efa9741932))
     (pin "2" (uuid 7ae6c2cc-59d7-4c1e-bca1-ad79dd46de28))
     (instances
