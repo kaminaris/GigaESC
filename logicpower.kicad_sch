@@ -1087,7 +1087,7 @@
     (property "Reference" "C8" (at 72.39 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47n 25V" (at 64.77 87.63 0)
+    (property "Value" "47u 25V" (at 64.77 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 69.5452 88.9 0)
