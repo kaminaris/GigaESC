@@ -1727,7 +1727,7 @@
     (property "Value" "ACS773ECB-200B-PFF-T" (at 188.595 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Sensor_Current:Allegro_CB_PSF" (at 173.99 85.09 0)
+    (property "Footprint" "GigaVescLibs:Allegro_CB_SMD" (at 173.99 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en" (at 173.99 85.09 0)
