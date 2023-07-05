@@ -110,75 +110,6 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_01x05" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x05" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x05_1_1"
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 6.35) (end 1.27 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector_Generic:Conn_02x03_Counter_Clockwise" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 5.08 0)
         (effects (font (size 1.27 1.27)))
@@ -304,311 +235,6 @@
         (pin passive line (at 0 -3.81 90) (length 2.794)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Polarized" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Polarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "CP_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Polarized_0_1"
-        (rectangle (start -2.286 0.508) (end 2.286 1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 2.286)
-            (xy -0.762 2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 2.794)
-            (xy -1.27 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "C_Polarized_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "GigaESCSymbols:RDE20110S12" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "RDE20110S12" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "MODULE" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "DOCUMENTATION" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "RDE20110S12_1_0"
-        (rectangle (start -11.43 -7.62) (end 11.43 7.62)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "RDE20110S12_1_1"
-        (pin input line (at -19.05 2.54 0) (length 7.62)
-          (name "+Vin" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -19.05 0 0) (length 7.62)
-          (name "-Vin" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -19.05 -2.54 0) (length 7.62)
-          (name "Control" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 19.05 -2.54 180) (length 7.62)
-          (name "+Vout" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 19.05 0 180) (length 7.62)
-          (name "Trim" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 19.05 2.54 180) (length 7.62)
-          (name "-Vout" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Transistor_FET:FDMT800152DC" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 1.905 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "FDMT800152DC" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:PQFN_8x8" (at 5.08 -1.905 0)
-        (effects (font (size 1.27 1.27) italic) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMT800152DC-D.pdf" (at 0 0 90)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "dual-cool-powertrench MOSFET fairchild" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "13A Id, 150V Vds, N-Channel Dual Cool PowerTrench MOSFET, 9.0mOhm Ron, 83nC Qgmax, -55 to 150 °C, 8x8mm MLP" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "PQFN*8x8*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "FDMT800152DC_0_1"
-        (polyline
-          (pts
-            (xy 0.254 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.27)
-            (xy 0.762 -2.286)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 0.508)
-            (xy 0.762 -0.508)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 2.286)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 0)
-            (xy 0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 0.762 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 0)
-            (xy 2.032 0.381)
-            (xy 2.032 -0.381)
-            (xy 1.016 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.794 0.508)
-            (xy 2.921 0.381)
-            (xy 3.683 0.381)
-            (xy 3.81 0.254)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.302 0.381)
-            (xy 2.921 -0.254)
-            (xy 3.683 -0.254)
-            (xy 3.302 0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.651 0) (radius 2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.54 -1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "FDMT800152DC_1_1"
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+12V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+12V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+12V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+12V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -810,26 +436,17 @@
   (junction (at 193.04 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 147d1da5-896b-445a-93db-c9ce44507079)
   )
-  (junction (at 163.83 41.91) (diameter 0) (color 0 0 0 0)
-    (uuid 1617958d-c195-4572-8522-94670da26ab0)
-  )
   (junction (at 172.72 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 17d7705c-18d4-4e90-a939-48d1c54789ee)
   )
   (junction (at 139.7 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 1ad19d48-521b-4726-9666-96af15a4e6a4)
   )
-  (junction (at 200.66 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid 21a06475-dd21-400b-8b46-901f5bc6ed07)
-  )
   (junction (at 204.47 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 2a9b8756-ea65-4da8-a4d6-d806fbc6e82e)
   )
   (junction (at 234.95 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 334d55f3-76c6-47c7-b255-51ac7ce98c7a)
-  )
-  (junction (at 218.44 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid 34509037-275b-4c9d-88f0-e24e6dc974a8)
   )
   (junction (at 234.95 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 35339c11-3a7d-464f-ad38-6b55736a27f2)
@@ -846,14 +463,8 @@
   (junction (at 214.63 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 5d34089f-afaf-47cc-a8f4-42788914071d)
   )
-  (junction (at 163.83 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid 614c4aaf-5b1d-4192-aa6b-7d8e11224461)
-  )
   (junction (at 161.29 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 65c00f0d-1b49-410a-8a21-f00a867b2e89)
-  )
-  (junction (at 200.66 41.91) (diameter 0) (color 0 0 0 0)
-    (uuid 66b71773-7ca0-4b11-9580-2ec72fc91c56)
   )
   (junction (at 193.04 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 67c7edbd-8b09-4b4b-9d12-01c1953098fc)
@@ -879,23 +490,11 @@
   (junction (at 224.79 78.74) (diameter 0) (color 0 0 0 0)
     (uuid a555b9e0-4083-422c-8e5d-68173c87e27d)
   )
-  (junction (at 144.78 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid ab4363ed-6a86-47e9-b14b-314e23875ef8)
-  )
-  (junction (at 181.61 41.91) (diameter 0) (color 0 0 0 0)
-    (uuid ad6f2630-51d2-4e3e-8d69-5bbf4ad4b946)
-  )
-  (junction (at 181.61 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid ad971388-d8d9-47a8-877a-e4e46143dc55)
-  )
   (junction (at 110.49 43.18) (diameter 0) (color 0 0 0 0)
     (uuid d11c3e19-15c1-4148-9dc1-b59e9b4841e2)
   )
   (junction (at 151.13 63.5) (diameter 0) (color 0 0 0 0)
     (uuid d450aee0-6d99-4bb5-b919-4f98832e5b2f)
-  )
-  (junction (at 144.78 41.91) (diameter 0) (color 0 0 0 0)
-    (uuid ddf1dded-6ac6-45ba-9783-71c750a6dac2)
   )
   (junction (at 245.11 78.74) (diameter 0) (color 0 0 0 0)
     (uuid dfea1f17-33af-4163-995a-8de5a66cb6b7)
@@ -903,33 +502,18 @@
   (junction (at 182.88 63.5) (diameter 0) (color 0 0 0 0)
     (uuid e68180c2-5b44-46a5-91e9-4c51374a9230)
   )
-  (junction (at 218.44 41.91) (diameter 0) (color 0 0 0 0)
-    (uuid e92b02e6-5aba-45d2-bfa0-fcfc21c80922)
-  )
 
   (wire (pts (xy 106.68 26.67) (xy 109.22 26.67))
     (stroke (width 0) (type default))
     (uuid 0641495a-7e01-45b7-9f39-c71e142e991d)
   )
-  (wire (pts (xy 163.83 49.53) (xy 181.61 49.53))
-    (stroke (width 0) (type default))
-    (uuid 0737f2d8-012a-4eda-98f1-80c11fee2d8c)
-  )
   (wire (pts (xy 134.62 78.74) (xy 139.7 78.74))
     (stroke (width 0) (type default))
     (uuid 0e0e28f5-32ec-410d-9f47-a2d32a7db76f)
   )
-  (wire (pts (xy 181.61 49.53) (xy 200.66 49.53))
-    (stroke (width 0) (type default))
-    (uuid 18b6b7b2-a7b3-413b-9ac6-d2780eb237d6)
-  )
   (wire (pts (xy 106.68 46.99) (xy 110.49 46.99))
     (stroke (width 0) (type default))
     (uuid 19385d4c-17ba-4dd4-80a9-c7ed671055c9)
-  )
-  (wire (pts (xy 218.44 49.53) (xy 236.22 49.53))
-    (stroke (width 0) (type default))
-    (uuid 23ae4df0-ba7c-48fc-a5a0-8b553c2dcf84)
   )
   (wire (pts (xy 134.62 63.5) (xy 139.7 63.5))
     (stroke (width 0) (type default))
@@ -987,10 +571,6 @@
     (stroke (width 0) (type default))
     (uuid 7201cc72-e0e8-4724-b9f8-c7911a5b786c)
   )
-  (wire (pts (xy 139.7 41.91) (xy 144.78 41.91))
-    (stroke (width 0) (type default))
-    (uuid 7530595b-de14-4f52-9fa1-1d6756f44bb3)
-  )
   (wire (pts (xy 106.68 40.64) (xy 110.49 40.64))
     (stroke (width 0) (type default))
     (uuid 797d2d0b-84cc-4b9a-9492-668093b200ac)
@@ -1019,21 +599,9 @@
     (stroke (width 0) (type default))
     (uuid a6568e38-fe03-40ef-9c57-7a6c9602da38)
   )
-  (wire (pts (xy 144.78 49.53) (xy 163.83 49.53))
-    (stroke (width 0) (type default))
-    (uuid a765fbec-3991-46f8-89a6-871cb7e812cc)
-  )
   (wire (pts (xy 224.79 63.5) (xy 234.95 63.5))
     (stroke (width 0) (type default))
     (uuid a7bf0ba9-13c2-463d-85d9-31e299f63857)
-  )
-  (wire (pts (xy 200.66 41.91) (xy 218.44 41.91))
-    (stroke (width 0) (type default))
-    (uuid afb17168-0ec6-436a-a0af-3eb77f6d5c86)
-  )
-  (wire (pts (xy 181.61 41.91) (xy 200.66 41.91))
-    (stroke (width 0) (type default))
-    (uuid b5b81f43-e68b-4c8f-b188-4fda63a38967)
   )
   (wire (pts (xy 109.22 26.67) (xy 109.22 29.21))
     (stroke (width 0) (type default))
@@ -1047,17 +615,9 @@
     (stroke (width 0) (type default))
     (uuid ca299c49-00a6-40e6-8fca-a645c35367f3)
   )
-  (wire (pts (xy 200.66 49.53) (xy 218.44 49.53))
-    (stroke (width 0) (type default))
-    (uuid cb6819bd-cd24-4332-9fa3-430e604cd989)
-  )
   (wire (pts (xy 214.63 63.5) (xy 224.79 63.5))
     (stroke (width 0) (type default))
     (uuid cec22a68-513b-4d30-bed4-87c21b57f2e7)
-  )
-  (wire (pts (xy 218.44 41.91) (xy 236.22 41.91))
-    (stroke (width 0) (type default))
-    (uuid d0fb122d-6344-49b4-87e2-55b7c070bb6c)
   )
   (wire (pts (xy 110.49 46.99) (xy 110.49 43.18))
     (stroke (width 0) (type default))
@@ -1075,30 +635,10 @@
     (stroke (width 0) (type default))
     (uuid e1291437-ad47-4c82-aa2f-29a876f750dc)
   )
-  (wire (pts (xy 139.7 49.53) (xy 144.78 49.53))
-    (stroke (width 0) (type default))
-    (uuid eba27bf4-a795-4525-b654-a6e2dfccd754)
-  )
-  (wire (pts (xy 144.78 41.91) (xy 163.83 41.91))
-    (stroke (width 0) (type default))
-    (uuid f64f96ed-85e4-4682-85c4-7a3d918cdc86)
-  )
-  (wire (pts (xy 163.83 41.91) (xy 181.61 41.91))
-    (stroke (width 0) (type default))
-    (uuid fa42d77c-50cf-488a-a129-384c93bacff8)
-  )
 
-  (text "Divider on \nmosfet board" (at 153.67 99.06 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 21182bbb-62ee-41a6-8c21-9df0376edd02)
-  )
   (text "Sense filter enable is \nconnected on logic board" (at 50.8 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 428826e0-6f75-4703-a092-0f1cb77c8ee2)
-  )
-  (text "Total Capacity 4080uF" (at 176.53 39.37 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cce61068-7d25-4485-8285-f26ab64b204f)
   )
 
   (global_label "CURR2" (shape input) (at 115.57 171.45 0) (fields_autoplaced)
@@ -1262,13 +802,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "AUX_FAULT" (shape input) (at 162.56 101.6 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6c1b34f3-c7d4-4f13-8a46-57ba17d409d9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 150.2088 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "PL3" (shape input) (at 38.1 128.27 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 70e12d9a-1f83-41a5-9cbd-2eae8e5d4edc)
@@ -1283,13 +816,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "IN_V" (shape input) (at 162.56 99.06 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 76e1b6ef-27c4-4cd0-801c-ff6bc586c982)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 156.3169 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "CURR1" (shape input) (at 68.58 72.39 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7a651e20-f01a-4d72-9a09-b28431a07759)
@@ -1302,13 +828,6 @@
     (uuid 7c6d3853-f8b5-4e77-bcd9-50555a1c8432)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 79.8314 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "AUX_ENABLE" (shape input) (at 162.56 104.14 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 826bfb33-4b51-4316-8915-d55b8c593407)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 148.697 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "B" (shape input) (at 134.62 26.67 0) (fields_autoplaced)
@@ -1444,13 +963,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "CLEAR_HW_FAULT" (shape input) (at 162.56 106.68 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f177bdf7-1d8e-4b08-a52e-7fe9d9187095)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.2822 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "PHASE1" (shape input) (at 38.1 54.61 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f2c1247d-b868-4329-b299-14368b338d2e)
@@ -1484,34 +996,9 @@
     (pin "1" (uuid 96d30ce1-38b7-4d5e-9369-37d890a81749))
     (pin "2" (uuid f87c1078-e48e-4dae-8abf-a0d8870340ff))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+12V") (at 176.53 24.13 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 04b41b76-155a-4a46-9ff8-7614baffba98)
-    (property "Reference" "#PWR05" (at 180.34 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 172.72 24.13 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 176.53 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 176.53 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 53e23ab8-b975-4e08-975f-73c0464e8ca6))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1535,7 +1022,7 @@
     (pin "1" (uuid f77d6207-8c8e-4d6e-80c1-2408acb9bf7d))
     (pin "2" (uuid f65d8b42-5550-4645-a0fd-3450ea7c5d7e))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C21") (unit 1)
         )
@@ -1563,7 +1050,7 @@
     (pin "3" (uuid 01e43d7c-22a9-47de-9ae4-bf3d3780df10))
     (pin "4" (uuid 9526f934-3738-4cfd-9d2d-2559577e7c65))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J3") (unit 1)
         )
@@ -1589,34 +1076,9 @@
     (pin "1" (uuid 25cd6cd8-5a5f-4408-b6b0-c9e8d2e903e6))
     (pin "2" (uuid a3b78307-d09c-4fd8-9399-ac582ac250f3))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+BATT") (at 139.7 41.91 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 143264f4-55f7-4606-b22f-f08962d47f5c)
-    (property "Reference" "#PWR013" (at 143.51 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+BATT" (at 135.89 41.91 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 139.7 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 139.7 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 18b28694-4178-4d76-9664-a3bc9793e83f))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1640,34 +1102,9 @@
     (pin "1" (uuid 2fab7192-0107-4609-9861-eb175af26205))
     (pin "2" (uuid 72ddd7cc-3b09-439b-8de4-acf2d2982832))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 176.53 19.05 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1cd6807d-ae99-4dfa-a902-44c2bfb2b3c6)
-    (property "Reference" "#PWR03" (at 170.18 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 172.72 19.05 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 176.53 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 176.53 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f90d1f12-d838-40ad-a019-8187f8395ef3))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1690,35 +1127,9 @@
     )
     (pin "1" (uuid 2028bcfb-5678-44bd-9ac1-c114d39136f0))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR028") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 181.61 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 29f38c8c-0e75-4b11-9bbe-8f14ac3060d9)
-    (property "Reference" "C27" (at 185.42 43.561 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "680uF 200V" (at 185.42 46.101 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" (at 182.5752 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 181.61 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ca7e9583-4de4-42ab-a74c-d2cbff6c6aa2))
-    (pin "2" (uuid 95f59a5c-2051-4a13-a52b-d776595e69aa))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "C27") (unit 1)
         )
       )
     )
@@ -1744,7 +1155,7 @@
     (pin "3" (uuid b550ad9c-be53-48c0-a577-9f5e74f3b9a6))
     (pin "4" (uuid 4369e2ff-86ae-415c-97d1-306e0cb20183))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J2") (unit 1)
         )
@@ -1769,7 +1180,7 @@
     )
     (pin "1" (uuid 11c25cfa-a3c9-43d6-949c-01bdaabbf6da))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR022") (unit 1)
         )
@@ -1799,7 +1210,7 @@
     (pin "5" (uuid aac5e21b-ad3c-4086-bd87-ddacc7f6d1b3))
     (pin "6" (uuid 7a384b33-c754-4692-a9e6-fd566d5d4df2))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J4") (unit 1)
         )
@@ -1825,7 +1236,7 @@
     (pin "1" (uuid 92b20e02-f3ec-408a-b7d7-d74c78c46997))
     (pin "2" (uuid d435f8a2-c9f3-436a-8842-2d934f21fdf8))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C13") (unit 1)
         )
@@ -1855,7 +1266,7 @@
     (pin "5" (uuid 9c7aa478-d8eb-40bd-b4eb-5feb66ec8b48))
     (pin "6" (uuid 3c014566-bd42-4799-999a-238590377b8b))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J6") (unit 1)
         )
@@ -1880,7 +1291,7 @@
     )
     (pin "1" (uuid 07fa8533-80fd-4710-92ee-b024cbd0fae0))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J10") (unit 1)
         )
@@ -1906,7 +1317,7 @@
     (pin "1" (uuid fd5dc7bc-8f9f-46f2-b6b2-cf335ee74237))
     (pin "2" (uuid 72a72b4c-fe25-4f1c-82ee-93ce124b46a5))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C18") (unit 1)
         )
@@ -1931,7 +1342,7 @@
     )
     (pin "1" (uuid 9a95e352-09e3-42c3-bf8e-cfaab67c7cb1))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR02") (unit 1)
         )
@@ -1957,7 +1368,7 @@
     (pin "1" (uuid 6ccec052-5a21-40e9-b73b-9f308d253a20))
     (pin "2" (uuid 29af3a15-3abe-4c73-8aa9-886737eadfd2))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C5") (unit 1)
         )
@@ -1982,7 +1393,7 @@
     )
     (pin "1" (uuid d34337d6-52de-40c3-80b3-c60d81ce2610))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J12") (unit 1)
         )
@@ -2007,7 +1418,7 @@
     )
     (pin "1" (uuid c5c3f921-0dc6-44d4-bdbb-5e6bf5c17c1f))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR019") (unit 1)
         )
@@ -2032,7 +1443,7 @@
     )
     (pin "1" (uuid ad5cce88-85c8-42e2-be15-f5f471023016))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR015") (unit 1)
         )
@@ -2062,7 +1473,7 @@
     (pin "5" (uuid a47020d9-744e-48a1-abf5-60be19229bb5))
     (pin "6" (uuid a9c7f6fc-b6a7-44ab-af02-9ea2f27ad89a))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J5") (unit 1)
         )
@@ -2088,7 +1499,7 @@
     (pin "1" (uuid 1863b8f8-a93f-40d0-83a4-d488d5fd59a0))
     (pin "2" (uuid 38a5d510-d83a-483c-9254-ebf53237c7ed))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C11") (unit 1)
         )
@@ -2113,7 +1524,7 @@
     )
     (pin "1" (uuid 00cb590b-8a63-4802-a3ef-09dd4c7760b0))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR021") (unit 1)
         )
@@ -2138,44 +1549,9 @@
     )
     (pin "1" (uuid 52cb034f-e990-4cb9-91d5-2a790b132e05))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 162.56 96.52 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8364e81e-c146-403e-ad50-8ac419655f1a)
-    (property "Reference" "#PWR056" (at 156.21 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 157.226 96.52 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 162.56 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 162.56 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5ad832a9-d9ba-45b9-af52-017c8bc80d70))
-    (instances
-      (project "GigaVescDrivers"
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362"
-          (reference "#PWR056") (unit 1)
-        )
-      )
-      (project "GigaESC"
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854"
-          (reference "#PWR081") (unit 1)
-        )
-      )
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -2199,7 +1575,7 @@
     (pin "1" (uuid 060d06bc-b83a-40bc-859a-02606256c025))
     (pin "2" (uuid 0365cbae-577e-4a28-bb0c-28b62995562a))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C8") (unit 1)
         )
@@ -2227,7 +1603,7 @@
     (pin "3" (uuid 4ae1a57d-b486-4569-aeee-aff7aeb7817d))
     (pin "4" (uuid c86dc9d9-1ce3-4105-82e9-fcd639269c38))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J1") (unit 1)
         )
@@ -2252,7 +1628,7 @@
     )
     (pin "1" (uuid c37512cb-74e6-4ec2-b073-d0eb2e38ff7e))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J13") (unit 1)
         )
@@ -2277,7 +1653,7 @@
     )
     (pin "1" (uuid bfe0f25c-f5d7-4a4f-a34d-311f5c23dfd7))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J9") (unit 1)
         )
@@ -2303,7 +1679,7 @@
     (pin "1" (uuid f285a207-3399-452c-b07e-7e1dd55d821f))
     (pin "2" (uuid 40c6b652-f223-42d9-9f0d-7e0006e04b80))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C14") (unit 1)
         )
@@ -2329,7 +1705,7 @@
     (pin "1" (uuid 7561db25-a89c-4ee1-9c02-a8a40a2b5747))
     (pin "2" (uuid 32cb71d8-9ba6-4b15-b4c6-c66eb9b480c3))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C7") (unit 1)
         )
@@ -2355,7 +1731,7 @@
     (pin "1" (uuid 9ab005be-fd4d-459b-b0b3-31cad7d9a634))
     (pin "2" (uuid 292e4b7e-03b9-4dbf-a6e0-a97916583ad2))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C10") (unit 1)
         )
@@ -2380,51 +1756,9 @@
     )
     (pin "1" (uuid 56aa6b1b-e5b9-41d8-a9e1-32f424bc2f9d))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR029") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x05") (at 167.64 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 99b40f11-0d43-417d-ba93-cecb786777a7)
-    (property "Reference" "J10" (at 170.18 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "AuxConn" (at 170.18 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Left" (at 167.64 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "C124379" (at 167.64 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a6096814-c979-4c7b-836b-6cd63e031aeb))
-    (pin "2" (uuid 0623d60a-ad42-4c97-bf43-72f350f4d4b9))
-    (pin "3" (uuid da07ce3b-b8ec-4d3b-a7f6-11122def47fb))
-    (pin "4" (uuid 95e2f787-1438-4833-98ac-1e4cd66f79ce))
-    (pin "5" (uuid 2296936e-aaa5-4813-96f0-cb5cc9e30813))
-    (instances
-      (project "GigaVescDrivers"
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362"
-          (reference "J10") (unit 1)
-        )
-      )
-      (project "GigaESC"
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854"
-          (reference "J11") (unit 1)
-        )
-      )
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "J15") (unit 1)
         )
       )
     )
@@ -2448,7 +1782,7 @@
     (pin "1" (uuid 71119cc0-c795-444d-8d98-ffc7997c7b16))
     (pin "2" (uuid 54f7f21d-cb98-41f4-b799-0b68fafdeab2))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C17") (unit 1)
         )
@@ -2474,37 +1808,9 @@
     (pin "1" (uuid 3210dace-7a4f-49fe-b61b-6b853a3d965b))
     (pin "2" (uuid 6b485fa1-75a0-427f-abad-508f8ff714e7))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x04") (at 181.61 21.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a1d48cd5-c46d-4dc0-84e5-7f9e10e29d46)
-    (property "Reference" "J7" (at 184.15 21.59 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "VINConn" (at 184.15 24.13 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" (at 181.61 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 181.61 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d742292d-17e9-41bd-8162-55d46a3705e6))
-    (pin "2" (uuid 0dcc8ddf-cf94-4b4c-adc8-154aef95b71c))
-    (pin "3" (uuid 6cc0a51b-078d-4505-a595-947ac0eb1492))
-    (pin "4" (uuid dadffb26-ed54-4a16-b27a-547b4f1e1893))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "J7") (unit 1)
         )
       )
     )
@@ -2528,7 +1834,7 @@
     (pin "1" (uuid b9f81401-7dcc-42cb-8860-7d15d07213c8))
     (pin "2" (uuid 82f62f9c-b25c-41fe-8847-fb145e70c6ac))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C15") (unit 1)
         )
@@ -2553,7 +1859,7 @@
     )
     (pin "1" (uuid 5e9cc64a-855c-4d18-bc09-b7dc26ea505d))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR023") (unit 1)
         )
@@ -2579,34 +1885,9 @@
     (pin "1" (uuid ed3b01a2-93de-4a0e-bef0-f6ba82ac03e8))
     (pin "2" (uuid d487ba94-644a-4a62-822c-5a35a2e01913))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:-BATT") (at 139.7 49.53 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid acabb46f-c25a-4e62-a8c8-2430bdb3c11e)
-    (property "Reference" "#PWR016" (at 143.51 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-BATT" (at 136.525 49.53 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 139.7 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 139.7 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 88614c96-3cb8-4b32-be56-89defa614fe6))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2629,7 +1910,7 @@
     )
     (pin "1" (uuid e86ce007-9f8b-4e37-8950-7d91a3e69c62))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR027") (unit 1)
         )
@@ -2655,7 +1936,7 @@
     (pin "1" (uuid b63a6975-9141-4d06-a32d-4523618b2b7d))
     (pin "2" (uuid d0db7b1d-3b15-4ad6-a4db-96e8870d7fa5))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C20") (unit 1)
         )
@@ -2681,59 +1962,9 @@
     (pin "1" (uuid 7a88c577-77c2-4ae7-a981-26d22d6ef52a))
     (pin "2" (uuid 8ad24822-5714-4eab-8669-77d8cf86d55b))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 176.53 21.59 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b1a8fa17-9ec2-4f43-a98c-b40ed0a0d756)
-    (property "Reference" "#PWR04" (at 170.18 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 172.72 21.59 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 176.53 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 176.53 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b19c9366-5450-4663-b6af-e22aefe795d8))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+12V") (at 176.53 26.67 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b3133f14-20b2-4d93-857d-a5931d077b6d)
-    (property "Reference" "#PWR06" (at 180.34 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 172.72 26.67 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 176.53 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 176.53 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1a946116-6db0-4559-9453-b8ca6a860a73))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2756,7 +1987,7 @@
     )
     (pin "1" (uuid 518a0dba-0906-4778-b8ab-ce54e2c091cf))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J11") (unit 1)
         )
@@ -2781,7 +2012,7 @@
     )
     (pin "1" (uuid 68c05973-92b0-4748-91ef-ddec7c3eb016))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR01") (unit 1)
         )
@@ -2806,7 +2037,7 @@
     )
     (pin "1" (uuid 11079afa-f997-4320-8da7-dc3f2576a03d))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR024") (unit 1)
         )
@@ -2831,7 +2062,7 @@
     )
     (pin "1" (uuid 1e47c888-f93e-4ec8-a1d0-257a4063c063))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR014") (unit 1)
         )
@@ -2856,65 +2087,9 @@
     )
     (pin "1" (uuid edf7a246-c803-4073-9c0b-a7f041d129f7))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR017") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 163.83 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c59fdab1-7d9d-4e39-8246-ada8e6d126f1)
-    (property "Reference" "C26" (at 167.64 43.561 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "680uF 200V" (at 167.64 46.101 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" (at 164.7952 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 163.83 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c7945cae-15e3-48d3-a308-1f605f16f1b7))
-    (pin "2" (uuid f336b1ac-ff1c-46a6-84c4-bbfd6b684253))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "C26") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "GigaESCSymbols:RDE20110S12") (at 241.3 118.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c636a343-938f-484a-813a-ef04c8c763d1)
-    (property "Reference" "U4" (at 241.3 105.41 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "RDE20110S12" (at 241.3 107.95 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_THN30-xxxx_THT" (at 241.3 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "DOCUMENTATION" (at 241.3 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 600d704d-6e43-4ce4-b226-53894cc4c2ca))
-    (pin "2" (uuid 16ed5e94-e6cd-458b-90b9-d1a720fcbaad))
-    (pin "3" (uuid cf4e2c71-ac4e-4ee7-9e9b-59594da0820f))
-    (pin "4" (uuid 81545ffb-5906-483b-be9e-5213874d0fcf))
-    (pin "5" (uuid 8ac7fcaa-a771-4fc4-8e5b-a441d4d98984))
-    (pin "6" (uuid a65d76a5-c577-4bdd-9c94-35ccee154a79))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "U4") (unit 1)
         )
       )
     )
@@ -2938,7 +2113,7 @@
     (pin "1" (uuid 93cc9d5f-4e53-45c2-9ab1-139574fa51e2))
     (pin "2" (uuid dc6ac326-5b90-4521-b054-9cadb55d8d3b))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C2") (unit 1)
         )
@@ -2964,7 +2139,7 @@
     (pin "1" (uuid 8938fd87-a085-4589-9377-1bad4e8fc675))
     (pin "2" (uuid bdf26aa0-ead2-4b16-be8b-832b14c23dc6))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C6") (unit 1)
         )
@@ -2990,91 +2165,9 @@
     (pin "1" (uuid 35aeeaad-faa1-48d5-92c6-5632fc28db10))
     (pin "2" (uuid 52fa5f59-433f-4232-a884-45cd97c88b68))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 236.22 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c9f33a67-5782-4772-91c3-84a1ec5e2af7)
-    (property "Reference" "C30" (at 240.03 43.561 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "680uF 200V" (at 240.03 46.101 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" (at 237.1852 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 236.22 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c271ff3b-c995-4919-b4a8-db5758968ddc))
-    (pin "2" (uuid 6cf63667-f9a8-45b1-a461-ca04244e64eb))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "C30") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 144.78 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ca0d4091-7c27-46d5-8914-ef5e794a6960)
-    (property "Reference" "C25" (at 148.59 43.561 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "680uF 200V" (at 148.59 46.101 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" (at 145.7452 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 144.78 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "C238253" (at 144.78 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dfee5672-ae05-415f-9695-789b366fff43))
-    (pin "2" (uuid 252a7194-7472-4a44-86b9-2cb0171b9873))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "C25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET:FDMT800152DC") (at 114.3 128.27 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cdd21c2d-cd0a-471b-a9a7-8fc01369e516)
-    (property "Reference" "Q13" (at 120.65 127 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "NTMTSC4D3N15MC" (at 120.65 129.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:PQFN_8x8" (at 119.38 130.175 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMT800152DC-D.pdf" (at 114.3 128.27 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid cc5551eb-969d-4bc6-a0f0-f9f929720d12))
-    (pin "2" (uuid d3394940-5388-4716-975f-e24791c5117f))
-    (pin "3" (uuid 0389a4b0-6c91-46d4-94e9-aec9ff6f6c80))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "Q13") (unit 1)
         )
       )
     )
@@ -3098,34 +2191,9 @@
     (pin "1" (uuid 3ac9e8a3-ac37-43da-9c44-d1a05a4bb038))
     (pin "2" (uuid fa25efd4-0910-4d51-ab68-400f28210ed6))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:-BATT") (at 222.25 118.11 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d8782631-e8db-466d-b9df-72033eadfbe2)
-    (property "Reference" "#PWR031" (at 226.06 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-BATT" (at 219.075 118.11 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 222.25 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 222.25 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8485a2f3-2aed-4f13-b6f4-12fee14efd9d))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -3148,61 +2216,9 @@
     )
     (pin "1" (uuid d2c0bec7-e1d0-404c-8e64-49f76b45296a))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 200.66 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f642d083-533a-4619-83fa-47e91d5956a0)
-    (property "Reference" "C31" (at 204.47 43.561 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "680uF 200V" (at 204.47 46.101 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" (at 201.6252 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 200.66 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a7d8fc63-771f-4d8d-b506-05ab2a7996c3))
-    (pin "2" (uuid 55df2ce0-ef8a-476b-ba7d-a96cd3d19a63))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "C31") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 218.44 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f7a551bc-3780-45b1-b268-e8217500bde0)
-    (property "Reference" "C28" (at 222.25 43.561 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "680uF 200V" (at 222.25 46.101 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" (at 219.4052 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 218.44 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 80596e88-38c9-44b6-821c-3e9a45026433))
-    (pin "2" (uuid e6889c49-6706-488d-b20a-11bd68e8e4cd))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "C28") (unit 1)
         )
       )
     )
@@ -3226,7 +2242,7 @@
     (pin "1" (uuid e29e7867-c9df-4f03-950b-b440bbe1a59a))
     (pin "2" (uuid a11adca2-fe86-4972-bfeb-0c49577327d9))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C1") (unit 1)
         )
@@ -3251,34 +2267,9 @@
     )
     (pin "1" (uuid 24b0f198-3e93-4432-823f-dbfd21dee9f2))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "J8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+BATT") (at 222.25 115.57 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fcaab844-178e-47d2-a6d8-1ce9f13d6a49)
-    (property "Reference" "#PWR030" (at 226.06 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+BATT" (at 218.44 115.57 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 222.25 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 222.25 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f3340c17-5b63-4dad-842d-9c332e2f6ccf))
-    (instances
-      (project "MosfetBoard"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3301,7 +2292,7 @@
     )
     (pin "1" (uuid a8c5d3b6-16f1-4997-a221-38eda96ffda3))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR020") (unit 1)
         )
@@ -3327,7 +2318,7 @@
     (pin "1" (uuid 8169dd71-e6aa-4b0f-9386-698cbb81343d))
     (pin "2" (uuid b22e7c1b-1ebf-4ee5-b442-3eb3c6d3612b))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "C4") (unit 1)
         )
@@ -3378,7 +2369,7 @@
       (uuid 36b5fafe-ba27-47b9-9e23-a15c55c7b9cd)
     )
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f" (page "2"))
       )
     )
@@ -3427,7 +2418,7 @@
       (uuid a43e4504-5c95-47aa-8645-68b72da1cad2)
     )
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f" (page "4"))
       )
     )
@@ -3476,7 +2467,7 @@
       (uuid aab4a4db-19f3-4ca2-ad83-af33e467b398)
     )
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f" (page "3"))
       )
     )

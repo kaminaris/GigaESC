@@ -1,0 +1,71 @@
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'win32'
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.5
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x000001D4183A3670>
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with Q11 as a reference
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'Q11'
+Located on: ['PhaseMosfets2']
+With filenames: ['PhaseMosfets.kicad_sch']
+With sheet_id:['PhaseMosfets2']
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('Q11', ['PhaseMosfets2']), ('Q7', ['PhaseMosfets1']), ('Q3', ['PhaseMosfets'])]
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(1883, 80)
+07-05 09:05:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1521, 80)
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['PhaseMosfets'], ['PhaseMosfets1']]
+on level: ['PhaseMosfets2']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
+07-05 09:05:31 root 340:updating GUI message: 'Preparing for replication'
+07-05 09:05:31 root 345:updating GUI with: 0
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 271:Removing tracks and zones, before footprint placement
+07-05 09:05:31 root 340:updating GUI message: 'Removing zones and tracks'
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:41525000, bottom:124005000, Left:148775000, Right:216325000
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:41525000, bottom:124005000, Left:115325000, Right:201225000
+07-05 09:05:31 root 340:updating GUI message: 'Replicating footprints'
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['PhaseMosfets']
+07-05 09:05:31 root 345:updating GUI with: 24
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['PhaseMosfets1']
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 279:Removing tracks and zones, after footprint placement
+07-05 09:05:31 root 340:updating GUI message: 'Removing zones and tracks'
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:41525000, bottom:124005000, Left:167325000, Right:315225000
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:41525000, bottom:124005000, Left:115325000, Right:263225000
+07-05 09:05:31 root 340:updating GUI message: 'Replicating tracks'
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['PhaseMosfets']
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['PhaseMosfets'] :[('Net-(Q9-G)', 'Net-(Q1-G)'), ('PL3', 'PL1'), ('+BATT', '+BATT'), ('Net-(Q11-G)', 'Net-(Q3-G)'), ('MOSTEMP3', 'MOSTEMP1'), ('Net-(Q10-G)', 'Net-(Q2-G)'), ('Net-(U7-S)', 'Net-(U1-S)'), ('CURR3', 'CURR1'), ('Net-(U6-VCC)', 'Net-(U3-VCC)'), ('Net-(C4-Pad1)', 'Net-(C1-Pad2)'), ('Net-(C26-Pad2)', 'Net-(C8-Pad2)'), ('VSENSE3', 'VSENSE1'), ('C', 'A'), ('SENS_FILTER_ENABLE3', 'SENS_FILTER_ENABLE1'), ('Net-(C33-Pad2)', 'Net-(C28-Pad2)'), ('Net-(Q12-G)', 'Net-(Q4-G)'), ('-BATT', '-BATT'), ('+3.3V', '+3.3V'), ('Net-(C54-Pad2)', 'Net-(C50-Pad2)'), ('PHASE3', 'PHASE1'), ('PH3', 'PH1')]
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['PhaseMosfets1']
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['PhaseMosfets1'] :[('+BATT', '+BATT'), ('Net-(Q9-G)', 'Net-(Q5-G)'), ('Net-(U6-VCC)', 'Net-(U2-VCC)'), ('Net-(C4-Pad1)', 'Net-(C25-Pad2)'), ('PH3', 'PH2'), ('SENS_FILTER_ENABLE3', 'SENS_FILTER_ENABLE2'), ('Net-(C26-Pad2)', 'Net-(C10-Pad2)'), ('CURR3', 'CURR2'), ('Net-(C54-Pad2)', 'Net-(C52-Pad2)'), ('PL3', 'PL2'), ('Net-(Q11-G)', 'Net-(Q7-G)'), ('-BATT', '-BATT'), ('+3.3V', '+3.3V'), ('C', 'B'), ('VSENSE3', 'VSENSE2'), ('Net-(C33-Pad2)', 'Net-(C31-Pad2)'), ('Net-(Q10-G)', 'Net-(Q6-G)'), ('PHASE3', 'PHASE2'), ('Net-(U7-S)', 'Net-(U5-S)'), ('Net-(Q12-G)', 'Net-(Q8-G)'), ('MOSTEMP3', 'MOSTEMP2')]
+07-05 09:05:31 root 340:updating GUI message: 'Replicating zones'
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['PhaseMosfets']
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['PhaseMosfets'] :[('Net-(Q9-G)', 'Net-(Q1-G)'), ('PL3', 'PL1'), ('+BATT', '+BATT'), ('Net-(Q11-G)', 'Net-(Q3-G)'), ('MOSTEMP3', 'MOSTEMP1'), ('Net-(Q10-G)', 'Net-(Q2-G)'), ('Net-(U7-S)', 'Net-(U1-S)'), ('CURR3', 'CURR1'), ('Net-(U6-VCC)', 'Net-(U3-VCC)'), ('Net-(C4-Pad1)', 'Net-(C1-Pad2)'), ('Net-(C26-Pad2)', 'Net-(C8-Pad2)'), ('VSENSE3', 'VSENSE1'), ('C', 'A'), ('SENS_FILTER_ENABLE3', 'SENS_FILTER_ENABLE1'), ('Net-(C33-Pad2)', 'Net-(C28-Pad2)'), ('Net-(Q12-G)', 'Net-(Q4-G)'), ('-BATT', '-BATT'), ('+3.3V', '+3.3V'), ('Net-(C54-Pad2)', 'Net-(C50-Pad2)'), ('PHASE3', 'PHASE1'), ('PH3', 'PH1')]
+07-05 09:05:31 root 345:updating GUI with: 16
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['PhaseMosfets1']
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['PhaseMosfets1'] :[('+BATT', '+BATT'), ('Net-(Q9-G)', 'Net-(Q5-G)'), ('Net-(U6-VCC)', 'Net-(U2-VCC)'), ('Net-(C4-Pad1)', 'Net-(C25-Pad2)'), ('PH3', 'PH2'), ('SENS_FILTER_ENABLE3', 'SENS_FILTER_ENABLE2'), ('Net-(C26-Pad2)', 'Net-(C10-Pad2)'), ('CURR3', 'CURR2'), ('Net-(C54-Pad2)', 'Net-(C52-Pad2)'), ('PL3', 'PL2'), ('Net-(Q11-G)', 'Net-(Q7-G)'), ('-BATT', '-BATT'), ('+3.3V', '+3.3V'), ('C', 'B'), ('VSENSE3', 'VSENSE2'), ('Net-(C33-Pad2)', 'Net-(C31-Pad2)'), ('Net-(Q10-G)', 'Net-(Q6-G)'), ('PHASE3', 'PHASE2'), ('Net-(U7-S)', 'Net-(U5-S)'), ('Net-(Q12-G)', 'Net-(Q8-G)'), ('MOSTEMP3', 'MOSTEMP2')]
+07-05 09:05:31 root 340:updating GUI message: 'Replicating text'
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['PhaseMosfets']
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['PhaseMosfets1']
+07-05 09:05:31 root 340:updating GUI message: 'Replicating drawings'
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['PhaseMosfets']
+07-05 09:05:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['PhaseMosfets1']
+07-05 09:05:31 root 340:updating GUI message: 'Removing duplicates'
+07-05 09:05:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete

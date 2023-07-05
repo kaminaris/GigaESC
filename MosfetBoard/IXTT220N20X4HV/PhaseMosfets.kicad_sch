@@ -1025,7 +1025,7 @@
     (pin "2" (uuid d3fb54e1-916c-4cbb-af16-0a1f6a27e2ac))
     (pin "3" (uuid 5871064c-cc4f-43ad-b4af-91c036bab383))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "Q5") (unit 1)
         )
@@ -1059,7 +1059,7 @@
     )
     (pin "1" (uuid 5161be81-de38-475f-9364-7b361e87e0f6))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR034") (unit 1)
         )
@@ -1095,7 +1095,7 @@
     (pin "2" (uuid e4523f9d-9e18-4234-8c7a-2ad5027cf08e))
     (pin "3" (uuid 38fe467c-b7c5-497f-a942-2e1b13e93613))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "Q2") (unit 1)
         )
@@ -1133,7 +1133,7 @@
     (pin "1" (uuid 48b6ec7c-9aea-4a4f-a75b-232e9c20d263))
     (pin "2" (uuid e3f1accb-7bf6-45cf-975b-eeb50ccfb952))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "R1") (unit 1)
         )
@@ -1166,7 +1166,7 @@
     (pin "2" (uuid 17217247-8490-46de-a41e-ba66df15cde2))
     (pin "3" (uuid c1f2b9f2-6deb-4631-8950-eca4e9a0db95))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "Q1") (unit 1)
         )
@@ -1200,7 +1200,7 @@
     )
     (pin "1" (uuid 01c5f20b-e7ca-432d-ac9e-2cc6b3f52d1d))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR032") (unit 1)
         )
@@ -1234,7 +1234,7 @@
     )
     (pin "1" (uuid 2b81f43b-9376-449a-87f0-33c9aee66e8e))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR034") (unit 1)
         )
@@ -1268,7 +1268,7 @@
     )
     (pin "1" (uuid efd17c84-6897-4b46-afc9-b40a2955872f))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR032") (unit 1)
         )
@@ -1302,7 +1302,7 @@
     )
     (pin "1" (uuid 5c224d31-ae1a-4286-86c0-9c7e1f269125))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR034") (unit 1)
         )
@@ -1340,7 +1340,7 @@
     (pin "1" (uuid d812bfc0-a9eb-42cb-8469-a8f9c839a069))
     (pin "2" (uuid aa216b36-4be4-4eb4-925a-75cd65b5c3bb))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "TH1") (unit 1)
         )
@@ -1375,7 +1375,7 @@
     (pin "1" (uuid b8ff3dac-4129-490d-9f47-ff5052da0444))
     (pin "2" (uuid eb663cce-973a-4a69-a2db-81a48f6bdecb))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "C35") (unit 1)
         )
@@ -1410,7 +1410,7 @@
     (pin "1" (uuid b0eadecb-9da7-48c1-ad4c-e30cffa0ab9e))
     (pin "2" (uuid 271d9e15-eade-4061-b29d-6f4fb150ec49))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "R12") (unit 1)
         )
@@ -1448,7 +1448,7 @@
     (pin "1" (uuid 423a424b-219d-4c47-8fbe-ad9f74a53cf7))
     (pin "2" (uuid 40fd94a1-3ecf-40be-9cff-0aab97a93ee2))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "R11") (unit 1)
         )
@@ -1486,7 +1486,7 @@
     (pin "1" (uuid 7b6ca260-5d1f-4266-9bdb-6286b1ea44e8))
     (pin "2" (uuid 0bd1f2a2-37d2-47c6-83ec-f1b244e80921))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "R3") (unit 1)
         )
@@ -1521,7 +1521,7 @@
     (pin "1" (uuid ee8a4030-7fb6-48d1-b4d3-9d2ae7830b6b))
     (pin "2" (uuid 027c2e12-e04b-4916-b8fa-8da0f140b6ff))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "C37") (unit 1)
         )
@@ -1552,7 +1552,7 @@
     )
     (pin "1" (uuid 9fdda24a-7bf7-412f-9f28-4acd5b184022))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR010") (unit 1)
         )
@@ -1590,7 +1590,7 @@
     (pin "1" (uuid 911b3a46-ed37-4184-99f1-f3c73e5e0cb3))
     (pin "2" (uuid 07db91a5-ca6a-4961-af53-35121969c6d4))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "R10") (unit 1)
         )
@@ -1628,7 +1628,7 @@
     (pin "1" (uuid ca8bcafd-a7d9-49c6-b830-7c1de8516b50))
     (pin "2" (uuid 467a3583-ba3e-4437-a45e-bec16a69eaf5))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "L1") (unit 1)
         )
@@ -1663,7 +1663,7 @@
     (pin "1" (uuid 4fba4994-7402-41cd-b438-3ec7b38f421b))
     (pin "2" (uuid c1e444bd-e91f-410a-851c-0cfc8374ce70))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "R9") (unit 1)
         )
@@ -1704,7 +1704,7 @@
     (pin "4" (uuid 1e8c49c8-187e-46cb-a92d-279e94fdb04d))
     (pin "5" (uuid fc041de3-a9e3-42de-8ddb-cefdafca8b47))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "U1") (unit 1)
         )
@@ -1739,7 +1739,7 @@
     (pin "4" (uuid 1eb03c1f-27b0-4b26-8a34-4bd92825e29a))
     (pin "5" (uuid 599a10db-30ab-4f0a-8c1c-3c1ad508f4b4))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "U3") (unit 1)
         )
@@ -1773,7 +1773,7 @@
     )
     (pin "1" (uuid 801d72f1-7fc1-4aec-9d35-f3c764564230))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR032") (unit 1)
         )
@@ -1809,7 +1809,7 @@
     (pin "2" (uuid 96edc485-1738-4f1b-877e-f54846026e7d))
     (pin "3" (uuid d4b7cbb7-0506-425b-a5b6-d4b0a35fc5c9))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "Q4") (unit 1)
         )
@@ -1847,7 +1847,7 @@
     (pin "1" (uuid 210b9599-93e7-43c8-9447-5c19859993fe))
     (pin "2" (uuid 85b213da-3813-4076-9d28-9e9fb10e675c))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "C34") (unit 1)
         )
@@ -1882,7 +1882,7 @@
     (pin "1" (uuid 05ac42a5-6ae6-49a5-b09f-a42e8496b9ba))
     (pin "2" (uuid 2bf4988d-b3b2-415e-815c-bdeebb932cf5))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "C29") (unit 1)
         )
@@ -1917,7 +1917,7 @@
     (pin "1" (uuid 63143cbb-8aee-4425-946d-57dcabfdf444))
     (pin "2" (uuid 69fd9261-1394-4e57-b18c-1222891c17df))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "R2") (unit 1)
         )
@@ -1948,7 +1948,7 @@
     )
     (pin "1" (uuid 6abc3ec5-58d3-451b-984f-4ea644915de6))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR032") (unit 1)
         )
@@ -1986,7 +1986,7 @@
     (pin "1" (uuid 192a80bc-ad2a-42dd-bdf5-de86e4c1237b))
     (pin "2" (uuid 8048a203-ad82-40cd-a660-c06b7699cae6))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
           (reference "C36") (unit 1)
         )
@@ -2017,7 +2017,7 @@
     )
     (pin "1" (uuid 1ff01acb-b223-41bd-af87-768dd3858aa3))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR032") (unit 1)
         )
@@ -2051,7 +2051,7 @@
     )
     (pin "1" (uuid 908a9567-b76b-4fd2-bd7d-5b27998116ad))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR07") (unit 1)
         )
@@ -2085,7 +2085,7 @@
     )
     (pin "1" (uuid 4d4d20c1-16c5-40b2-ab22-6e648e6ba4b0))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR032") (unit 1)
         )
@@ -2119,7 +2119,7 @@
     )
     (pin "1" (uuid 0c8db590-26ce-4e08-bff6-9b52026c182f))
     (instances
-      (project "MosfetBoard"
+      (project "IXTT220N20X4HV"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
           (reference "#PWR032") (unit 1)
         )
