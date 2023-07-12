@@ -1787,7 +1787,7 @@
     (pin "1" (uuid 3566e863-1237-452c-a6f4-f5fbe5390dfc))
     (pin "2" (uuid be608338-3541-452a-84a5-70c2ddcb385e))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "D1") (unit 1)
         )
@@ -1812,7 +1812,7 @@
     )
     (pin "1" (uuid 483dea96-cf91-4547-9e0f-50503830d31b))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR024") (unit 1)
         )
@@ -1842,7 +1842,7 @@
           (reference "#PWR014") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR04") (unit 1)
         )
@@ -1874,7 +1874,7 @@
     (pin "1" (uuid a9b4c77b-e322-461e-afd6-31a99edbd5c4))
     (pin "2" (uuid 6b5a7884-2c49-4743-bd8a-8c409f33103c))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R8") (unit 1)
         )
@@ -1906,7 +1906,7 @@
     (pin "1" (uuid 2123da1e-93dc-4981-88c7-2047eb09f445))
     (pin "2" (uuid feccf81f-e71f-4c5d-9168-e31680297f5a))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R4") (unit 1)
         )
@@ -1936,7 +1936,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR02") (unit 1)
         )
@@ -1961,7 +1961,7 @@
     )
     (pin "1" (uuid cb6cc488-2f02-4c8f-ae53-a30e99d00e0d))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR08") (unit 1)
         )
@@ -1993,7 +1993,7 @@
     (pin "1" (uuid cf7448a9-34f3-4ff0-a0f9-020b8d71eb16))
     (pin "2" (uuid fc60e395-7e37-424d-936c-afa57d0bc2fb))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "D3") (unit 1)
         )
@@ -2025,7 +2025,7 @@
     (pin "1" (uuid 0be88a90-6b7d-4b06-8368-fe026e1f838e))
     (pin "2" (uuid 821180f6-de9b-4160-8b72-c86e236882b5))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R13") (unit 1)
         )
@@ -2063,7 +2063,7 @@
     (pin "1" (uuid df5953af-e124-482a-9b7c-00d618c30a48))
     (pin "2" (uuid 134c577b-c667-4d51-82b1-ba6180773a86))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "D2") (unit 1)
         )
@@ -2093,7 +2093,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR018") (unit 1)
         )
@@ -2125,7 +2125,7 @@
     (pin "1" (uuid 2e6da46f-65d2-42a0-8ea6-cd60a279d243))
     (pin "2" (uuid e1dd3e9b-b27f-4d45-b1bb-884497bb2993))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R15") (unit 1)
         )
@@ -2155,7 +2155,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR021") (unit 1)
         )
@@ -2178,7 +2178,7 @@
     (property "Datasheet" "~" (at 212.09 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 212.09 102.87 0)
+    (property "MPN" "C2918513" (at 212.09 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser" "81-GRM32EC81C476KE5K" (at 212.09 102.87 0)
@@ -2187,7 +2187,7 @@
     (pin "1" (uuid 0cd5245c-270c-4ba2-8e20-81a996b1a09c))
     (pin "2" (uuid fd0c8b18-78a8-4da9-8a2b-75877a7500e1))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C15") (unit 1)
         )
@@ -2217,7 +2217,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR017") (unit 1)
         )
@@ -2249,7 +2249,7 @@
     (pin "1" (uuid 9d943df1-1fa4-44c4-9726-a36c3989dd36))
     (pin "2" (uuid 9f1ccbfe-897f-44e9-8bc9-fbcfee26334c))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R7") (unit 1)
         )
@@ -2282,7 +2282,7 @@
     (pin "2" (uuid 90e6117b-30bf-4fcb-8742-fba7ebe99919))
     (pin "3" (uuid 5ce009fd-ae30-4cc7-be6a-00ad31d7863f))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "D4") (unit 1)
         )
@@ -2312,7 +2312,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR019") (unit 1)
         )
@@ -2344,7 +2344,7 @@
     (pin "1" (uuid 2a33301c-03b3-4dec-86c1-bb302f29930f))
     (pin "2" (uuid 07e373b0-6a56-4c35-9655-e2bc4ebc2f81))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C11") (unit 1)
         )
@@ -2376,7 +2376,7 @@
     (pin "1" (uuid f06b2009-32ba-41c0-8287-d5eaba281420))
     (pin "2" (uuid 7231b4e9-f0f5-414e-a581-d524b1b65fdf))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R16") (unit 1)
         )
@@ -2401,7 +2401,7 @@
     )
     (pin "1" (uuid 0198d143-249a-458a-8dd6-0cec5b7dfdc3))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "H2") (unit 1)
         )
@@ -2427,6 +2427,9 @@
     (property "Mouser" "661-EKMR201VS222MR50" (at 86.36 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C240475" (at 86.36 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5a03dfca-61f1-4a3a-8064-f8c55377e923))
     (pin "2" (uuid 1cb24e02-c9b2-47ad-9933-1c838d0e16c5))
     (instances
@@ -2435,7 +2438,7 @@
           (reference "C26") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C2") (unit 1)
         )
@@ -2467,7 +2470,7 @@
     (pin "1" (uuid 2d9a2533-a0e8-4150-88eb-0ac903c2cad6))
     (pin "2" (uuid 54ee6ad3-4e8e-4299-96cc-3f877ce54ce2))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R11") (unit 1)
         )
@@ -2499,7 +2502,7 @@
     (pin "1" (uuid 9a7a5a76-57f1-43e5-a8ac-6d26ef23343e))
     (pin "2" (uuid df98cf5a-62d8-4d9f-b940-316e6b0735a3))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "D5") (unit 1)
         )
@@ -2529,7 +2532,7 @@
           (reference "#PWR013") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR01") (unit 1)
         )
@@ -2561,7 +2564,7 @@
     (pin "1" (uuid d5e35422-886c-4df7-9871-0d3cafb73551))
     (pin "2" (uuid 28fecbe6-8e7a-4d7f-b27c-46838496a1d9))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C13") (unit 1)
         )
@@ -2591,7 +2594,7 @@
           (reference "#PWR013") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR014") (unit 1)
         )
@@ -2623,7 +2626,7 @@
     (pin "1" (uuid ada25a5d-80f9-451b-9152-756f1883f1c4))
     (pin "2" (uuid 19ee296f-eae4-495d-9723-33d6f904fe99))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C9") (unit 1)
         )
@@ -2653,7 +2656,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR023") (unit 1)
         )
@@ -2685,7 +2688,7 @@
     (pin "1" (uuid fc833b19-b61e-4607-8cdf-4a2a23e4b109))
     (pin "2" (uuid 4ab76f9e-f2f1-4bc6-8989-3d4139578420))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R9") (unit 1)
         )
@@ -2717,7 +2720,7 @@
     (pin "1" (uuid d983696d-312a-4cf3-9096-5f3a0b8035c1))
     (pin "2" (uuid cde42857-c1cb-4b00-bc07-fcc59a2c64ba))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R1") (unit 1)
         )
@@ -2742,7 +2745,7 @@
     )
     (pin "1" (uuid 387071d9-5813-4538-8d06-13feee96b2cf))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "H4") (unit 1)
         )
@@ -2768,6 +2771,9 @@
     (property "Mouser" "851-11328-T078" (at 186.69 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C7423050" (at 186.69 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 598cee20-f2eb-4d5f-b565-28641a09dd2c))
     (pin "10" (uuid cc101755-c09b-4b11-8edc-8d1dea012ff7))
     (pin "11" (uuid 1819e21d-d000-426d-9198-83f688a70222))
@@ -2779,7 +2785,7 @@
     (pin "8" (uuid cd5cd976-2284-4a75-9e2c-4225cba3a5da))
     (pin "9" (uuid 56140d61-9ee9-4f0a-9825-ffbd320efcc0))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "T1") (unit 1)
         )
@@ -2811,7 +2817,7 @@
     (pin "1" (uuid 41a06621-8b5e-4e9e-8282-a361331b7938))
     (pin "2" (uuid dd9e31db-5183-4a43-ab53-2525cb6afdaf))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R12") (unit 1)
         )
@@ -2843,7 +2849,7 @@
     (pin "1" (uuid e383e8e4-fd07-4c72-8164-3c18679390c0))
     (pin "2" (uuid bb100b94-dbce-4b68-982c-1fe06627ea15))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R2") (unit 1)
         )
@@ -2875,7 +2881,7 @@
     (pin "1" (uuid 788e86ed-1993-424f-a767-9c4b75907001))
     (pin "2" (uuid acf7e9db-b8fa-4487-923b-b765a5a1bc4a))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R3") (unit 1)
         )
@@ -2905,7 +2911,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR016") (unit 1)
         )
@@ -2930,7 +2936,7 @@
     )
     (pin "1" (uuid 44bea51b-103e-4fa6-a29b-e4a9a2034e9b))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "H1") (unit 1)
         )
@@ -2969,7 +2975,7 @@
     (pin "2" (uuid c85ceec0-0303-44e5-891b-575b2adfa6fd))
     (pin "3" (uuid e7c4b50b-41d0-4053-b25c-3746a3b66323))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "Q1") (unit 1)
         )
@@ -3001,7 +3007,7 @@
     (pin "1" (uuid 99fba4f1-6da2-4aa8-9bca-637489538f42))
     (pin "2" (uuid 5909d0ae-f0eb-424d-bb9b-55c57bcd17f3))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C12") (unit 1)
         )
@@ -3033,7 +3039,7 @@
     (pin "1" (uuid 419719b9-2409-4ffc-bf80-c79999f29405))
     (pin "2" (uuid 074827c5-f9c1-462a-9e68-5ccd2da2bcb4))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R6") (unit 1)
         )
@@ -3056,7 +3062,7 @@
     (property "Datasheet" "~" (at 67.31 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2761574" (at 67.31 66.04 0)
+    (property "MPN" "C240475" (at 67.31 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser" "661-EKMR201VS222MR50" (at 67.31 66.04 0)
@@ -3070,7 +3076,7 @@
           (reference "C25") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C1") (unit 1)
         )
@@ -3100,7 +3106,7 @@
           (reference "#PWR015") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR07") (unit 1)
         )
@@ -3130,7 +3136,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR015") (unit 1)
         )
@@ -3162,7 +3168,7 @@
     (pin "1" (uuid af417721-7bae-4b5e-8e48-ef58c77254ad))
     (pin "2" (uuid 27c0fdb2-5fd1-497f-af86-93b541a31c36))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C17") (unit 1)
         )
@@ -3194,7 +3200,7 @@
     (pin "1" (uuid 119a8635-8aae-4bd6-9481-c2e504b293ca))
     (pin "2" (uuid 3b7cba04-b2b0-421e-a1d5-9caa0c18a3e5))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R10") (unit 1)
         )
@@ -3217,7 +3223,7 @@
     (property "Datasheet" "~" (at 232.41 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C157991" (at 232.41 66.04 0)
+    (property "MPN" "C161870" (at 232.41 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b73038e5-a59c-41c7-a6a3-d407e281e098))
@@ -3226,7 +3232,7 @@
     (pin "4" (uuid 81a795c3-96d3-4f22-a115-5292e1547603))
     (pin "5" (uuid 52dc1d00-9c1d-41f4-850a-b1f0b931f00c))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "J1") (unit 1)
         )
@@ -3258,7 +3264,7 @@
     (pin "1" (uuid 8696a689-9672-4e0f-8b29-3167fcb0bfbd))
     (pin "2" (uuid 6b89c379-124e-48d3-a1a7-c434fff4e09f))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C10") (unit 1)
         )
@@ -3288,7 +3294,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR020") (unit 1)
         )
@@ -3318,7 +3324,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR09") (unit 1)
         )
@@ -3350,7 +3356,7 @@
     (pin "1" (uuid 521ecbea-9aa9-4127-bcf2-86209e306822))
     (pin "2" (uuid a9681e7e-142a-4f67-b044-587ff96f7d61))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C16") (unit 1)
         )
@@ -3383,7 +3389,7 @@
           (reference "#PWR062") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR010") (unit 1)
         )
@@ -3442,7 +3448,7 @@
     (pin "8" (uuid ba624c5c-42b6-487f-8063-f09b2a2c92f5))
     (pin "9" (uuid 038fbe0d-9489-410d-b4e0-28c434bd8ae3))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "U2") (unit 1)
         )
@@ -3472,7 +3478,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR022") (unit 1)
         )
@@ -3504,7 +3510,7 @@
     (pin "1" (uuid 6eae6683-27f9-4d06-a7d8-6d7c6a788e08))
     (pin "2" (uuid ac70399f-766f-47c1-85ec-a43042f027a3))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C14") (unit 1)
         )
@@ -3534,7 +3540,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR06") (unit 1)
         )
@@ -3567,7 +3573,7 @@
           (reference "#PWR060") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR011") (unit 1)
         )
@@ -3600,7 +3606,7 @@
           (reference "#PWR062") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR025") (unit 1)
         )
@@ -3632,7 +3638,7 @@
     (pin "1" (uuid 60861f5e-04b6-4b2c-b60e-a562c4b432a0))
     (pin "2" (uuid 55aa2797-1e49-4507-8525-628ceb667894))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "R14") (unit 1)
         )
@@ -3664,7 +3670,7 @@
     (pin "1" (uuid 074e8cd6-a640-4b7e-9994-aad9d04b171a))
     (pin "2" (uuid 99dcba15-b32d-4b61-8a2a-61ea1a31647d))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C7") (unit 1)
         )
@@ -3689,7 +3695,7 @@
     )
     (pin "1" (uuid 4a1622b6-38d0-41e4-8d0f-5b25a4eb2386))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR026") (unit 1)
         )
@@ -3721,7 +3727,7 @@
     (pin "1" (uuid 17ae4191-7faa-4fe2-8f67-4b98ab9ba7d7))
     (pin "2" (uuid dbd6031e-1296-475f-8a60-a2941d8e1b9c))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "C8") (unit 1)
         )
@@ -3744,11 +3750,14 @@
     (property "Datasheet" "~" (at 71.12 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C144394" (at 71.12 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9fbd2b3d-b7ab-4edc-89f0-b6ad913cd2b2))
     (pin "2" (uuid 8884fa1a-c512-423e-b180-3f29f49f8531))
     (pin "3" (uuid 922a2223-9e97-4a15-b0ef-ae9007d926f1))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "SW1") (unit 1)
         )
@@ -3773,7 +3782,7 @@
     )
     (pin "1" (uuid 0565c1ec-d5c7-46b7-92c3-bcfc349e04a8))
     (instances
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "H3") (unit 1)
         )
@@ -3803,7 +3812,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "PowerBoard"
+      (project "LT8316"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
           (reference "#PWR05") (unit 1)
         )
