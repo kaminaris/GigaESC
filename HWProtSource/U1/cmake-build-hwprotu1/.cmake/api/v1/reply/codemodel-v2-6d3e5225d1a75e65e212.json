@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-hwprotU1-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "hwprotU1",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "U1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Debug-hwprotU1-b802f8afcdd7bddcbbd3.json",
+					"name" : "Debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Production::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Production-hwprotU1-f341b15358774795f62e.json",
+					"name" : "Production",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Z_DUMMY_TARGET-hwprotU1-bfa11e3f8987ae552d8e.json",
+					"name" : "Z_DUMMY_TARGET",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "A:/Projects/Electronic/GigaESC/HWProtSource/U1/cmake-build-hwprotu1",
+		"source" : "A:/Projects/Electronic/GigaESC/HWProtSource/U1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

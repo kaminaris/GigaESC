@@ -454,7 +454,7 @@
     )
     (pin "1" (uuid 05b88a44-c4ec-4476-9633-e59d403d8f83))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR07") (unit 1)
         )
@@ -498,7 +498,7 @@
     (pin "8" (uuid adedecc9-ffb3-4650-a892-e223907be100))
     (pin "9" (uuid 14a21cdf-b7e8-42cb-bdb0-aa5e29a3c21d))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/3981a847-2f50-47ee-ae81-91fe330099b5"
           (reference "U3") (unit 1)
         )
@@ -523,7 +523,7 @@
     )
     (pin "1" (uuid f3309d32-c338-43a2-8801-8b92c37462a2))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
@@ -543,19 +543,19 @@
     (property "Value" "4.7k" (at 105.41 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 103.632 91.44 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 103.632 91.44 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C17673" (at 105.41 91.44 90)
+    (property "MPN" "C23162" (at 105.41 91.44 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e72bc188-19c4-44e9-ba14-7d7cf9a5eaa8))
     (pin "2" (uuid 59c09463-5ad2-4d42-bdd8-109587227848))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -583,7 +583,7 @@
     )
     (pin "1" (uuid 67d23c83-7afd-47c3-8afb-37a6cd837764))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
@@ -611,7 +611,7 @@
     )
     (pin "1" (uuid 16898c97-0777-47c8-b10a-1f52cc295a3a))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
@@ -631,16 +631,19 @@
     (property "Value" "100n" (at 127 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 126.6952 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 126.6952 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C14663" (at 125.73 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 193962b5-db7d-4891-8343-09a44bd74f01))
     (pin "2" (uuid b364f4ed-0de7-4640-a669-07806f2c4ea7))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C5") (unit 1)
         )
@@ -668,7 +671,7 @@
     )
     (pin "1" (uuid bb604c0a-288a-4196-8ca6-519dcbdb679d))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR07") (unit 1)
         )
@@ -688,16 +691,19 @@
     (property "Value" "100n" (at 147.32 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 147.0152 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 147.0152 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 146.05 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C14663" (at 146.05 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0669078d-1cfc-4fa2-ad21-4fb32f055341))
     (pin "2" (uuid 4c4e97e3-6ac5-4c58-a402-04ac7a80c3d9))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C5") (unit 1)
         )
@@ -725,7 +731,7 @@
     )
     (pin "1" (uuid 4b62d062-2219-40ba-81a2-de5c49aab77b))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR07") (unit 1)
         )
@@ -745,16 +751,19 @@
     (property "Value" "4.7k" (at 110.49 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 108.712 91.44 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 108.712 91.44 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C23162" (at 110.49 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a4451c98-3ff1-4340-abc9-3869c674f4d4))
     (pin "2" (uuid 83e9b24a-bc32-4e4e-80df-2ededa4bdf2b))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -782,7 +791,7 @@
     )
     (pin "1" (uuid c80b4be9-451e-4eea-8c8a-3d6650f187b0))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR07") (unit 1)
         )
@@ -810,7 +819,7 @@
     )
     (pin "1" (uuid 5d288118-d092-412f-bc2e-98d72fea98f4))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )

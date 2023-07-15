@@ -1,0 +1,502 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z_DUMMY_TARGET"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMakeListsPrivate.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu++17 -fpermissive -fno-exceptions -fno-threadsafe-statics -flto -Wno-sized-deallocation -Wno-error=narrowing -mmcu=attiny1616 -Os -w -ffunction-sections -fdata-sections -flto -mrelax -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_MEGAAVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_attinyxy6"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "CLOCK_SOURCE=0"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "CORE_ATTACH_ALL"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "F_CPU=8000000L"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "MEGATINYCORE=\"2.6.7\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "MEGATINYCORE_MAJOR=2UL"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "MEGATINYCORE_MINOR=6UL"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "MEGATINYCORE_PATCH=7UL"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "MEGATINYCORE_RELEASED=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MILLIS_USE_TIMERD0"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "PLATFORMIO=60107"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "TWI_MORS"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "UARTBAUD5V"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 19,
+					"path" : "A:/Projects/Electronic/GigaESC/HWProtSource/U1/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "A:/Projects/Electronic/GigaESC/HWProtSource/U1/src"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Logic/src"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Event/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Comparator/src"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/cores/megatinycore/api/deprecated"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/cores/megatinycore"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/variants/txy6"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Optiboot_flasher/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/SD/src"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Servo/src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Servo_megaTinyCore/src"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/USERSIG/src"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/megaTinyCore/src"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/tinyNeoPixel"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/tinyNeoPixel_Static"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "E:/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include"
+				},
+				{
+					"backtrace" : 40,
+					"path" : "E:/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "E:/.platformio/packages/toolchain-atmelavr/avr/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=gnu++17 -fpermissive -fno-exceptions -fno-threadsafe-statics -flto -Wno-sized-deallocation -Wno-error=narrowing -mmcu=attiny1616 -Os -w -ffunction-sections -fdata-sections -flto -mrelax",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Z_DUMMY_TARGET",
+	"nameOnDisk" : "Z_DUMMY_TARGET",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

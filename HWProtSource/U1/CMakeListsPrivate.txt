@@ -1,0 +1,77 @@
+# !!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE
+# https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+#
+# If you need to override existing CMake configuration or add extra,
+# please create `CMakeListsUser.txt` in the root of project.
+# The `CMakeListsUser.txt` will not be overwritten by PlatformIO.
+
+
+
+set(CMAKE_CONFIGURATION_TYPES "hwprotU1" CACHE STRING "Build Types reflect PlatformIO Environments" FORCE)
+
+# Convert "Home Directory" that may contain unescaped backslashes on Windows
+file(TO_CMAKE_PATH $ENV{HOMEDRIVE}$ENV{HOMEPATH} ENV_HOME_PATH)
+
+
+SET(CMAKE_C_COMPILER "E:/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe")
+SET(CMAKE_CXX_COMPILER "E:/.platformio/packages/toolchain-atmelavr/bin/avr-g++.exe")
+SET(CMAKE_CXX_FLAGS "-std=gnu++17 -fpermissive -fno-exceptions -fno-threadsafe-statics -flto -Wno-sized-deallocation -Wno-error=narrowing -mmcu=attiny1616 -Os -w -ffunction-sections -fdata-sections -flto -mrelax")
+SET(CMAKE_C_FLAGS "-std=gnu11 -fno-fat-lto-objects -mmcu=attiny1616 -Os -w -ffunction-sections -fdata-sections -flto -mrelax")
+
+SET(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+
+if (CMAKE_BUILD_TYPE MATCHES "hwprotU1")
+    add_definitions(-DPLATFORMIO=60107)
+    add_definitions(-DARDUINO_attinyxy6)
+    add_definitions(-DMILLIS_USE_TIMERD0)
+    add_definitions(-DUARTBAUD5V)
+    add_definitions(-DF_CPU=8000000L)
+    add_definitions(-DARDUINO_ARCH_MEGAAVR)
+    add_definitions(-DARDUINO=10808)
+    add_definitions(-DCLOCK_SOURCE=0)
+    add_definitions(-DMEGATINYCORE=\"2.6.7\")
+    add_definitions(-DMEGATINYCORE_MAJOR=2UL)
+    add_definitions(-DMEGATINYCORE_MINOR=6UL)
+    add_definitions(-DMEGATINYCORE_PATCH=7UL)
+    add_definitions(-DMEGATINYCORE_RELEASED=1)
+    add_definitions(-DCORE_ATTACH_ALL)
+    add_definitions(-DTWI_MORS)
+
+    include_directories("${CMAKE_CURRENT_LIST_DIR}/include")
+    include_directories("${CMAKE_CURRENT_LIST_DIR}/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Wire/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Logic/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Event/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Comparator/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/cores/megatinycore/api/deprecated")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/cores/megatinycore")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/variants/txy6")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/EEPROM/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Optiboot_flasher/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/SD/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/SPI/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Servo/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/Servo_megaTinyCore/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/SoftwareSerial/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/USERSIG/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/megaTinyCore/src")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/tinyNeoPixel")
+    include_directories("E:/.platformio/packages/framework-arduino-megaavr-megatinycore/libraries/tinyNeoPixel_Static")
+    include_directories("E:/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include")
+    include_directories("E:/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed")
+    include_directories("E:/.platformio/packages/toolchain-atmelavr/avr/include")
+
+    FILE(GLOB_RECURSE EXTRA_LIB_SOURCES
+        ${CMAKE_CURRENT_LIST_DIR}/.pio/libdeps/hwprotU1/*.*
+    )
+endif()
+
+
+FILE(GLOB_RECURSE SRC_LIST
+    ${CMAKE_CURRENT_LIST_DIR}/src/*.*
+    ${CMAKE_CURRENT_LIST_DIR}/lib/*.*
+    ${CMAKE_CURRENT_LIST_DIR}/test/*.*
+)
+
+list(APPEND SRC_LIST ${EXTRA_LIB_SOURCES})

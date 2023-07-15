@@ -5,11 +5,11 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector_Generic:Conn_01x03" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
+    (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x03" (at 0 -5.08 0)
+      (property "Value" "Conn_01x02" (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -21,13 +21,13 @@
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x03_1_1"
+      (symbol "Conn_01x02_1_1"
         (rectangle (start -1.27 -2.413) (end 0 -2.667)
           (stroke (width 0.1524) (type default))
           (fill (type none))
@@ -36,25 +36,17 @@
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 3.81) (end 1.27 -3.81)
+        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
+        (pin passive line (at -5.08 0 0) (length 3.81)
           (name "Pin_1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 0 0) (length 3.81)
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
           (name "Pin_2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1324,6 +1316,11 @@
     (uuid ff81959e-031b-45e8-b999-36ca36077fe9)
   )
 
+  (no_connect (at 186.69 137.16) (uuid 0c1860b3-245a-4df0-b051-dd122b877ebb))
+  (no_connect (at 186.69 134.62) (uuid 295791f1-127e-4ba3-9808-1c9aba9e8c6a))
+  (no_connect (at 167.64 137.16) (uuid e73de45e-3ee1-4b19-a33a-c78b8ab288ed))
+  (no_connect (at 167.64 134.62) (uuid f438896f-3d86-4d74-9d92-4351e96198d9))
+
   (wire (pts (xy 123.19 114.3) (xy 128.27 114.3))
     (stroke (width 0) (type default))
     (uuid 01885729-0b89-4769-a524-00aefa70d324)
@@ -1424,7 +1421,7 @@
     (stroke (width 0) (type default))
     (uuid 27662c5a-10ff-4aa4-82f1-e380dac82740)
   )
-  (wire (pts (xy 163.83 149.86) (xy 167.64 149.86))
+  (wire (pts (xy 163.83 149.86) (xy 181.61 149.86))
     (stroke (width 0) (type default))
     (uuid 2a052cb2-6eb0-4272-893b-a6ea724b77dc)
   )
@@ -1471,6 +1468,10 @@
   (wire (pts (xy 233.68 129.54) (xy 237.49 129.54))
     (stroke (width 0) (type default))
     (uuid 49bc4d3c-75f5-431f-be91-ba527e6dd03f)
+  )
+  (wire (pts (xy 77.47 60.96) (xy 78.74 60.96))
+    (stroke (width 0) (type default))
+    (uuid 4ac0a994-4cb7-4b9a-b630-e888ed07b3aa)
   )
   (wire (pts (xy 251.46 66.04) (xy 251.46 71.12))
     (stroke (width 0) (type default))
@@ -1644,6 +1645,10 @@
     (stroke (width 0) (type default))
     (uuid 8d8ff3b2-9a80-4e46-93a2-08357387d740)
   )
+  (wire (pts (xy 73.66 44.45) (xy 73.66 60.96))
+    (stroke (width 0) (type default))
+    (uuid 93cc92ad-417e-42d9-8f23-a7cb0e8ef08e)
+  )
   (wire (pts (xy 123.19 116.84) (xy 128.27 116.84))
     (stroke (width 0) (type default))
     (uuid 93e8156a-ee48-4f88-930d-db866f3f1604)
@@ -1800,7 +1805,7 @@
     (stroke (width 0) (type default))
     (uuid cefb87fb-3471-4f2a-a687-5e78edc3ea6a)
   )
-  (wire (pts (xy 78.74 44.45) (xy 78.74 59.69))
+  (wire (pts (xy 78.74 44.45) (xy 78.74 60.96))
     (stroke (width 0) (type default))
     (uuid d0a2ec29-dd85-439a-b14a-47dd0078baea)
   )
@@ -1820,9 +1825,9 @@
     (stroke (width 0) (type default))
     (uuid d8bae702-2f1f-405d-ba25-5f1a773cec33)
   )
-  (wire (pts (xy 73.66 44.45) (xy 73.66 59.69))
+  (wire (pts (xy 73.66 60.96) (xy 74.93 60.96))
     (stroke (width 0) (type default))
-    (uuid d8f6ab90-2700-47e0-b4e9-44414b0633d7)
+    (uuid dbe9842f-9ad2-4f37-b84f-a3da6bd9479a)
   )
   (wire (pts (xy 60.96 173.99) (xy 60.96 182.88))
     (stroke (width 0) (type default))
@@ -1937,6 +1942,24 @@
     (uuid fff8f7e9-1853-4de7-98e3-3e8bcee71c3e)
   )
 
+  (rectangle (start 166.37 92.71) (end 214.63 102.87)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 5b6c188c-fe3f-4f1d-bc35-388e7ae7cfa2)
+  )
+
+  (text "Same Header, either adc or spi" (at 182.88 102.87 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 225b4db7-514e-4e80-8c7f-b7f4709373a2)
+  )
+  (text "UART4" (at 104.14 134.62 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 40fc549e-b2de-4b5e-9de8-2a269caea42b)
+  )
+  (text "EXT UART or I2C" (at 177.8 154.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6402a312-8022-47c4-ab81-e1a231082d62)
+  )
   (text "Do not solder" (at 69.85 71.12 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d588ca59-cd78-4b0b-8b4a-a4941b8a73de)
@@ -1949,10 +1972,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "CANRx" (shape input) (at 167.64 147.32 0) (fields_autoplaced)
+  (global_label "CAN_RX" (shape input) (at 167.64 147.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0a67dd00-ec01-4214-b299-091f2ef0152a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 175.8788 147.32 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 177.0278 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1991,6 +2014,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "SPI1_MISO" (shape input) (at 167.64 99.06 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 25bf9491-92e5-4496-998a-b4463c14b2d3)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 179.7492 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "HALL2" (shape input) (at 123.19 124.46 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 28def448-15bf-4f48-b60c-8818c5f0dd80)
@@ -2003,13 +2033,6 @@
     (uuid 29618710-e571-4845-9add-9d8a10a69031)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 178.2372 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "EXT2_TX_SCK" (shape input) (at 123.19 132.08 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 29ef6d1d-38dc-4cfa-b971-ea85a0c54265)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 108.541 132.08 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "SWCLK" (shape input) (at 167.64 119.38 0) (fields_autoplaced)
@@ -2047,11 +2070,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "SENSOR_VOLTAGE_SELECT" (shape input) (at 167.64 137.16 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "SENSOR_VOLTAGE_SELECT" (shape input) (at 123.19 119.38 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid 46f86206-acd5-4c07-81de-47031bc49c54)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 194.0214 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 96.8086 119.38 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "VSENSE3" (shape input) (at 205.74 58.42 90) (fields_autoplaced)
@@ -2110,10 +2133,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "LED_RUN" (shape input) (at 167.64 132.08 0) (fields_autoplaced)
+  (global_label "LED_RUN" (shape input) (at 167.64 144.78 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5c2231cb-3dc3-43c7-9f0e-855b82c96556)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 178.2373 132.08 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 178.2373 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2131,10 +2154,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TX_SCL_MOSI" (shape input) (at 167.64 101.6 0) (fields_autoplaced)
+  (global_label "ADC_EXT" (shape input) (at 193.04 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6c874bdd-a7fb-4237-a808-65e86ec631c3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 182.1077 101.6 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 203.2139 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2149,6 +2172,13 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6d72f645-38b3-43dd-9b64-d6314a9b04c1)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 178.2372 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "SPI1_MOSI" (shape input) (at 167.64 101.6 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6f0666f4-8480-4a98-ba64-e82fbd757f18)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 179.7492 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2187,13 +2217,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "EXT2_RX_MISO" (shape input) (at 123.19 134.62 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 95c0de59-aad7-49b0-8fda-db302ed5c70a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 107.3919 134.62 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "L1" (shape input) (at 40.64 24.13 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9fd8c9dc-c74e-44a3-9999-084741d683ec)
@@ -2229,6 +2252,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "EXT_TX" (shape input) (at 167.64 152.4 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ac14b642-5ad2-456f-b366-be99ef4921d1)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 176.3624 152.4 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "BOOT" (shape input) (at 44.45 142.24 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ad2a3476-400c-40d2-a482-ef6acc232026)
@@ -2236,10 +2266,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "CANTx" (shape input) (at 167.64 149.86 0) (fields_autoplaced)
+  (global_label "CAN_TX" (shape input) (at 189.23 149.86 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b001ab9c-8243-4581-b289-1b564825b9ec)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 175.5764 149.86 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 198.3154 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2264,17 +2294,31 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "RX_SDA_NSS" (shape input) (at 167.64 121.92 0) (fields_autoplaced)
+  (global_label "SPI1_MISO" (shape input) (at 193.04 99.06 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c56141ea-2f67-44fd-8e14-cddda0596ad2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 180.9308 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "SPI1_NSS" (shape input) (at 167.64 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c5843950-edf6-4b91-92a1-5ae4e33272db)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 181.6239 121.92 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 178.9025 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "EXT2_MOSI" (shape input) (at 123.19 137.16 180) (fields_autoplaced)
+  (global_label "SPI1_SCK" (shape input) (at 193.04 96.52 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c865d591-631f-4db0-8ffd-7915357df510)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 181.7775 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "EXT2_TX" (shape input) (at 123.19 132.08 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c9cbe4f4-bf6f-440c-b580-f077b5c32690)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.839 137.16 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 113.2581 132.08 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2285,31 +2329,31 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "IMU_SDA" (shape input) (at 167.64 154.94 0) (fields_autoplaced)
+  (global_label "IMU_SDA" (shape input) (at 167.64 132.08 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ce5662a9-20ec-4c68-8f71-b958e3096774)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 177.814 154.94 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 177.814 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "IMU_SCL" (shape input) (at 167.64 152.4 0) (fields_autoplaced)
+  (global_label "IMU_SCL" (shape input) (at 167.64 121.92 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d236c7b2-828d-4758-90f5-da64be9059e5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 177.7535 152.4 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 177.7535 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "CURR_TRIP_HIGH" (shape input) (at 167.64 93.98 0) (fields_autoplaced)
+  (global_label "CURR_TRIP_HIGH" (shape input) (at 186.69 134.62 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d3a2e31e-6fef-47f0-ba18-c06e18bc8fb8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 185.6155 93.98 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 204.6655 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "SCK_ADC_EXT" (shape input) (at 167.64 134.62 0) (fields_autoplaced)
+  (global_label "SPI1_SCK" (shape input) (at 167.64 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d473e866-fde9-4e3d-abf7-42d2fdbf265b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 182.531 134.62 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 178.9025 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2348,10 +2392,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "SENS_FILTER_ENABLE" (shape input) (at 123.19 139.7 180) (fields_autoplaced)
+  (global_label "PHASE_FILTER_ENABLE" (shape input) (at 123.19 139.7 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid dfe837bf-2fa3-4e58-87f0-871d18672651)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 100.9814 139.7 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 99.8323 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2376,10 +2420,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "CURR_TRIP_LOW" (shape input) (at 167.64 96.52 0) (fields_autoplaced)
+  (global_label "CURR_TRIP_LOW" (shape input) (at 186.69 137.16 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e4184de8-f0c4-42fa-9c72-786b459f11b5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 184.8897 96.52 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 203.9397 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2390,11 +2434,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "SCK_ADC_EXT" (shape input) (at 123.19 119.38 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e67e6c51-211b-4738-9ac8-a82e9e65c135)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 108.299 119.38 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
+  (global_label "EXT_RX" (shape input) (at 167.64 154.94 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e47e8aba-ffb0-41bc-b694-c4b93d15b3c9)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 176.6648 154.94 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "HALL1" (shape input) (at 123.19 121.92 180) (fields_autoplaced)
@@ -2411,10 +2455,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "MISO_ADC_EXT2" (shape input) (at 167.64 99.06 0) (fields_autoplaced)
+  (global_label "EXT2_RX" (shape input) (at 123.19 134.62 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ef367137-5e13-44d8-b27c-529f6bedc6cf)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 112.9557 134.62 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ADC_EXT2" (shape input) (at 193.04 99.06 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f2d05a14-bffc-4f9d-8f17-b71965ee5bee)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 184.5872 99.06 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 204.4234 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2432,11 +2483,11 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "HALL_FILTER_ENABLE" (shape input) (at 167.64 144.78 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "HALL_FILTER_ENABLE" (shape input) (at 123.19 137.16 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid f920b1ce-3451-47ad-b050-122c53cbfdf3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 189.4254 144.78 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.4046 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "MOSTEMP1" (shape input) (at 243.84 58.42 90) (fields_autoplaced)
@@ -2444,38 +2495,6 @@
     (uuid f9a0d65d-224c-4646-923e-9b5bf59f61d0)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 243.84 46.1295 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-
-  (symbol (lib_id "Device:D_Schottky") (at 185.42 157.48 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0a21f672-1545-4410-90e4-2b2aa119b6e2)
-    (property "Reference" "D4" (at 185.7375 151.13 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SS14" (at 185.7375 153.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SMA" (at 185.42 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 185.42 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "C2480" (at 185.42 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d8a3d62f-1494-4604-8ecc-95e3c34131e9))
-    (pin "2" (uuid c6b824af-82eb-4584-9e88-b203e7dc4c76))
-    (instances
-      (project "GigaESC"
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/81081265-f675-4f9d-bffe-8ec1eaaaba23"
-          (reference "D4") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
-          (reference "D4") (unit 1)
-        )
-      )
     )
   )
 
@@ -2488,19 +2507,19 @@
     (property "Value" "1n" (at 207.645 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 206.7052 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 206.7052 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C94121" (at 205.74 62.23 90)
+    (property "MPN" "C1588" (at 205.74 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bb17eb43-abe1-4930-8bc0-0149e3babcf6))
     (pin "2" (uuid 86cf8478-4204-48f7-96dd-bf70c37958cb))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C3") (unit 1)
         )
@@ -2517,16 +2536,19 @@
     (property "Value" "1u" (at 260.35 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 257.5052 134.62 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 257.5052 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 256.54 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C15849" (at 256.54 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b821c935-7539-4167-8f7d-b6277f3c6bde))
     (pin "2" (uuid 2d2111e2-f3bf-41e6-9484-95571b6f10a0))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C15") (unit 1)
         )
@@ -2555,7 +2577,7 @@
     (pin "1" (uuid cab03307-6200-41af-9cec-35758bd42c24))
     (pin "2" (uuid ea62490f-9dfc-4c7e-b9ac-417df09dc6cc))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "SW1") (unit 1)
         )
@@ -2584,7 +2606,7 @@
     (pin "1" (uuid 2265ed5a-8411-496a-9122-2beb14e0e65a))
     (pin "2" (uuid 389c3b36-47f2-43d1-8923-3ca46b518738))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "SW3") (unit 1)
         )
@@ -2601,21 +2623,53 @@
     (property "Value" "1n" (at 253.365 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 252.4252 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 252.4252 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 251.46 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C94121" (at 251.46 62.23 90)
+    (property "MPN" "C1588" (at 251.46 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a12fa28b-082c-45af-940e-12544913b8f9))
     (pin "2" (uuid 05d60cb2-86af-4e70-b24f-3b2998f96759))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C41") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 185.42 149.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2686635f-0785-4416-a98d-d66b032fe8a6)
+    (property "Reference" "D8" (at 185.42 147.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1N5819WS" (at 185.42 144.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 185.42 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 185.42 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "C191023" (at 185.42 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b5072e4f-24ce-47b9-85c5-96a2b363ba7d))
+    (pin "2" (uuid 943daa62-2598-4335-9e8f-ed4e4b7b6920))
+    (instances
+      (project "DevKit"
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/72793ee1-8b24-4ded-a030-5a38e70b572c"
+          (reference "D8") (unit 1)
+        )
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -2630,16 +2684,19 @@
     (property "Value" "10n" (at 128.27 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 133.0452 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 133.0452 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C57112" (at 132.08 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 02352bfb-1c01-4aa2-8f2f-9a041523ab8f))
     (pin "2" (uuid f881e467-a55f-48ff-973e-5dc5d4f8dd7c))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C8") (unit 1)
         )
@@ -2664,7 +2721,7 @@
     )
     (pin "1" (uuid e710a3f3-dbf0-4f22-a060-60406f6d442d))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR04") (unit 1)
         )
@@ -2681,16 +2738,19 @@
     (property "Value" "100n" (at 174.625 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 181.3052 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 181.3052 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C14663" (at 180.34 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2943277c-9158-4348-b159-2379c6aa04cf))
     (pin "2" (uuid 6f662a98-c148-49f8-a7d5-1df8793aea0d))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C13") (unit 1)
         )
@@ -2707,16 +2767,19 @@
     (property "Value" "100n" (at 116.84 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 122.8852 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 122.8852 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C14663" (at 121.92 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2637b324-ff82-435c-9e27-2652b1999700))
     (pin "2" (uuid b416d0a2-6a00-4141-b249-cf65e3e2dba8))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C6") (unit 1)
         )
@@ -2741,7 +2804,7 @@
     )
     (pin "1" (uuid 309bb366-34b7-4bc8-9dfc-d697e944bc6a))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -2758,16 +2821,19 @@
     (property "Value" "10k" (at 53.34 182.88 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 53.34 184.658 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 53.34 184.658 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C25804" (at 53.34 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c201fd13-abf6-44b4-a041-d51c39f7051a))
     (pin "2" (uuid 62b23213-7b24-4d33-a3e5-79769decc00c))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R4") (unit 1)
         )
@@ -2784,19 +2850,19 @@
     (property "Value" "1u" (at 237.49 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 234.6452 142.24 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 234.6452 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C28323" (at 233.68 138.43 0)
+    (property "MPN" "C15849" (at 233.68 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b0aa37dc-6a99-4fb6-9510-bae07d3328ad))
     (pin "2" (uuid 463b1b18-da66-4fc5-8de6-586b8cee54af))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C14") (unit 1)
         )
@@ -2813,19 +2879,19 @@
     (property "Value" "1n" (at 238.125 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 237.1852 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 237.1852 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 236.22 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C94121" (at 236.22 62.23 90)
+    (property "MPN" "C1588" (at 236.22 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5ec1a6f2-4b4e-4370-b4f6-8b6a3e3248e0))
     (pin "2" (uuid 513f8b56-850d-4c0a-96cc-4bef97ce1db1))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C39") (unit 1)
         )
@@ -2850,7 +2916,7 @@
     )
     (pin "1" (uuid 43a18b11-c5ce-47ec-a8fc-29bb432075f3))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR016") (unit 1)
         )
@@ -2875,7 +2941,7 @@
     )
     (pin "1" (uuid 4337b4fc-a0c3-4abc-b358-aff3c2192af1))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR014") (unit 1)
         )
@@ -2900,7 +2966,7 @@
     )
     (pin "1" (uuid c4dcbd28-fa48-435d-b1a5-ee7c7cef9d1e))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -2917,19 +2983,19 @@
     (property "Value" "10k" (at 27.94 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 26.162 106.68 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 26.162 106.68 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.94 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C17414" (at 27.94 106.68 90)
+    (property "MPN" "C25804" (at 27.94 106.68 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1f4b7150-99e1-4a8a-9efc-4c167ca740b0))
     (pin "2" (uuid d0d31644-a875-44f8-8851-d895659d6b27))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -2958,7 +3024,7 @@
     (pin "1" (uuid b0dcc559-afcb-4292-a693-d447288d7b26))
     (pin "2" (uuid a6ab9b4b-51b9-4793-80d2-27f56e62ca2e))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C52") (unit 1)
         )
@@ -2983,7 +3049,7 @@
     )
     (pin "1" (uuid 1dca9511-2de7-4826-908c-58a49df67b06))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
@@ -3000,19 +3066,19 @@
     (property "Value" "10n" (at 148.59 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 153.3652 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 153.3652 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C1710" (at 152.4 60.96 0)
+    (property "MPN" "C57112" (at 152.4 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5544cbfa-c2ea-47b2-83fe-aede63542f1b))
     (pin "2" (uuid 6712ea45-537a-4970-a75a-5a55068bae83))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C10") (unit 1)
         )
@@ -3037,7 +3103,7 @@
     )
     (pin "1" (uuid 0e40766e-c5fa-495e-81ed-f69857c5663e))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR010") (unit 1)
         )
@@ -3054,19 +3120,19 @@
     (property "Value" "100n" (at 38.1 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 37.7952 118.11 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 37.7952 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 36.83 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C28233" (at 36.83 114.3 0)
+    (property "MPN" "C14663" (at 36.83 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2301f0a4-6d9a-4518-aa1c-fc23f570fbad))
     (pin "2" (uuid d1dec9d6-b6e7-4731-9b8d-5e2ae0faacba))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C1") (unit 1)
         )
@@ -3091,7 +3157,7 @@
     )
     (pin "1" (uuid dd68d475-c323-4e3d-84f1-62070272b5c8))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR013") (unit 1)
         )
@@ -3116,7 +3182,7 @@
     )
     (pin "1" (uuid 0c32bceb-c335-45dc-ba28-5abf09a1439b))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR09") (unit 1)
         )
@@ -3133,16 +3199,19 @@
     (property "Value" "100n" (at 135.89 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 141.9352 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 141.9352 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C14663" (at 140.97 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid df10b7c2-5969-4909-87cd-a8987e73777e))
     (pin "2" (uuid d8d1290a-377b-4d36-9d64-aca24c4d6149))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C9") (unit 1)
         )
@@ -3159,21 +3228,53 @@
     (property "Value" "1n" (at 222.885 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 221.9452 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 221.9452 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 220.98 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C94121" (at 220.98 62.23 90)
+    (property "MPN" "C1588" (at 220.98 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ff25bf05-b798-4ca1-88f9-beaab172029c))
     (pin "2" (uuid 5f8526a9-473b-4871-b887-451b7c22a2fe))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C37") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 185.42 157.48 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7c5b03e1-c080-4149-acf5-1e6dd9381f63)
+    (property "Reference" "D8" (at 185.42 160.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1N5819WS" (at 185.42 162.56 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 185.42 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 185.42 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "C191023" (at 185.42 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d3fbf853-48a0-42dc-b617-775a82fc610a))
+    (pin "2" (uuid 4542ec7b-8c1b-4a5d-994e-3c0c188f243c))
+    (instances
+      (project "DevKit"
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/72793ee1-8b24-4ded-a030-5a38e70b572c"
+          (reference "D8") (unit 1)
+        )
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3196,39 +3297,9 @@
     )
     (pin "1" (uuid 78cb5da4-c6ad-4891-bf05-abe42b412568))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR087") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 76.2 59.69 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 83d41aa6-e0b1-4e2d-babb-cd2ddb8f3e11)
-    (property "Reference" "#PWR010" (at 76.2 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 76.2 53.34 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 76.2 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 76.2 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a968bf07-e777-4ed7-9ee4-c68daed26bbe))
-    (instances
-      (project "GigaVescDrivers"
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362"
-          (reference "#PWR010") (unit 1)
-        )
-      )
-      (project "GigaESC"
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
-          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -3259,7 +3330,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854"
           (reference "#PWR073") (unit 1)
         )
@@ -3282,19 +3353,19 @@
     (property "Value" "1n" (at 200.025 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 199.0852 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 199.0852 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 198.12 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C46653" (at 198.12 62.23 90)
+    (property "MPN" "C1588" (at 198.12 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a4c1baa2-4640-42c4-aa30-681ed6abd23a))
     (pin "2" (uuid 787fdd92-1749-4644-a4cc-632c8bae1817))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C2") (unit 1)
         )
@@ -3319,7 +3390,7 @@
     )
     (pin "1" (uuid 0fbba0d4-3409-4724-a20d-ef14c37488cd))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR02") (unit 1)
         )
@@ -3344,50 +3415,9 @@
     )
     (pin "1" (uuid e6affc30-76c1-46f7-9743-b17515b9b033))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR086") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 76.2 64.77 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 94fee75f-6116-4bdc-95f4-a733dda186b5)
-    (property "Reference" "J3" (at 81.28 63.5 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "UpdiConn" (at 81.28 66.04 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 76.2 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 76.2 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPNxx" "C49257" (at 76.2 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCRotOffset" "-90" (at 76.2 64.77 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPosOffset" "2.54,0" (at 76.2 64.77 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d5162527-e443-40ae-93c8-63ce5cdfe707))
-    (pin "2" (uuid a9b177fe-aa79-4e51-8d03-40f2dde6d6a8))
-    (pin "3" (uuid 3857dc6a-61c0-4573-84d1-93093fc8543a))
-    (instances
-      (project "GigaVescDrivers"
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362"
-          (reference "J3") (unit 1)
-        )
-      )
-      (project "GigaESC"
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
-          (reference "J12") (unit 1)
         )
       )
     )
@@ -3402,19 +3432,19 @@
     (property "Value" "L_RUN" (at 41.91 176.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 41.91 173.99 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 41.91 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2297" (at 41.91 173.99 90)
+    (property "MPN" "C72043" (at 41.91 173.99 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 769c5266-0bd6-4ff8-a9f3-d7eb92f1ef15))
     (pin "2" (uuid 7e6d0ced-ac7f-4569-bb5a-e214fdcd2f47))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "D1") (unit 1)
         )
@@ -3447,7 +3477,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854"
           (reference "#PWR073") (unit 1)
         )
@@ -3478,7 +3508,7 @@
     )
     (pin "1" (uuid af482068-220a-43bc-b76f-8a71db82a1a6))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR017") (unit 1)
         )
@@ -3495,16 +3525,19 @@
     (property "Value" "1u" (at 105.41 158.75 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 110.1852 162.56 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 110.1852 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 109.22 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C15849" (at 109.22 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 172f67de-f9b7-4421-bb64-712745b63d7d))
     (pin "2" (uuid 05b8db5d-50e0-48c8-bba6-2ecb21da2f82))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C4") (unit 1)
         )
@@ -3529,7 +3562,7 @@
     )
     (pin "1" (uuid 3e083315-93a9-4380-9a53-130a9f438ca1))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR012") (unit 1)
         )
@@ -3546,16 +3579,19 @@
     (property "Value" "1u" (at 118.11 158.75 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 122.8852 162.56 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 122.8852 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C15849" (at 121.92 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 47acd04c-5b4e-49d9-b79b-32ef0ef847d2))
     (pin "2" (uuid d5192f39-c806-4f22-9544-b2cc48826300))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C7") (unit 1)
         )
@@ -3572,19 +3608,19 @@
     (property "Value" "1n" (at 268.605 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 267.6652 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 267.6652 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.7 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C94121" (at 266.7 62.23 90)
+    (property "MPN" "C1588" (at 266.7 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 682a24d5-0c83-4500-bc47-6b0c681562b4))
     (pin "2" (uuid bcd4c935-4193-403a-ba55-dae05662e0a2))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C43") (unit 1)
         )
@@ -3601,19 +3637,19 @@
     (property "Value" "1n" (at 245.745 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 244.8052 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 244.8052 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 243.84 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C94121" (at 243.84 62.23 90)
+    (property "MPN" "C1588" (at 243.84 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 119a2e4c-6322-4ec2-b291-40ac0e3d6bfb))
     (pin "2" (uuid 6f14c6b3-de5f-48dd-9495-932ba8e70770))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C40") (unit 1)
         )
@@ -3630,19 +3666,19 @@
     (property "Value" "1n" (at 215.265 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 214.3252 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 214.3252 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C94121" (at 213.36 62.23 90)
+    (property "MPN" "C1588" (at 213.36 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 21166fc1-54ef-4b47-9b7f-0ef544160a0e))
     (pin "2" (uuid 6ce6b81e-1694-48ae-9f54-d1ebba85e0d4))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C36") (unit 1)
         )
@@ -3667,7 +3703,7 @@
     )
     (pin "1" (uuid fd4112ec-c42d-41f7-9822-27ea0cdf4b00))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR07") (unit 1)
         )
@@ -3692,7 +3728,7 @@
     )
     (pin "1" (uuid ea844bdb-9c42-4d41-abcf-92e668062f7e))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR01") (unit 1)
         )
@@ -3709,19 +3745,19 @@
     (property "Value" "L_FAULT" (at 41.91 185.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 41.91 182.88 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 41.91 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C84256" (at 41.91 182.88 90)
+    (property "MPN" "C2286" (at 41.91 182.88 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9d2a904e-fee8-4bb2-bc6d-186f80db769e))
     (pin "2" (uuid 39943c04-4786-4ec7-9920-8e327939cdae))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "D2") (unit 1)
         )
@@ -3750,7 +3786,7 @@
     (pin "1" (uuid 5619202d-79c9-48dc-bc4e-8414fa73a533))
     (pin "2" (uuid 6b093caf-5406-4726-baa7-0c7819afc08c))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "Y1") (unit 1)
         )
@@ -3779,7 +3815,7 @@
     (pin "1" (uuid e45e37e0-5de8-44d4-9653-903b4443cc55))
     (pin "2" (uuid 1d523144-12ba-4715-a319-5ad3c5fcee7b))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R2") (unit 1)
         )
@@ -3873,7 +3909,7 @@
     (pin "8" (uuid ca93123a-c538-4a31-870c-6f3cbdc47996))
     (pin "9" (uuid dfba499a-1ce1-44ce-8307-8bf312bafe12))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "U1") (unit 1)
         )
@@ -3890,16 +3926,19 @@
     (property "Value" "10k" (at 53.34 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 53.34 175.768 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 53.34 175.768 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C25804" (at 53.34 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3ae4b813-5823-4b8a-baef-2c7b41558cad))
     (pin "2" (uuid 78263f54-032d-4389-aa7d-61ec93510798))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R3") (unit 1)
         )
@@ -3916,16 +3955,19 @@
     (property "Value" "10n" (at 167.64 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 172.4152 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 172.4152 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C57112" (at 171.45 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 20af4043-e4af-4ed4-985c-cd53bd19e073))
     (pin "2" (uuid b6091a20-3742-4f7c-b137-9b3953fc5b43))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C12") (unit 1)
         )
@@ -3942,19 +3984,19 @@
     (property "Value" "1n" (at 230.505 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 229.5652 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 229.5652 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 228.6 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C94121" (at 228.6 62.23 90)
+    (property "MPN" "C1588" (at 228.6 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 579881b4-fa56-4f20-84a7-c4110adeacab))
     (pin "2" (uuid 64e9fac3-c59a-422e-b95a-4d5baedc4679))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C38") (unit 1)
         )
@@ -3971,16 +4013,19 @@
     (property "Value" "10n" (at 109.22 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 113.9952 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 113.9952 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 113.03 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C57112" (at 113.03 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 83c0d58a-db50-4d36-9fab-212cd4d41849))
     (pin "2" (uuid b78848a0-264a-4591-913a-fc16ee56ad7b))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C5") (unit 1)
         )
@@ -3997,16 +4042,19 @@
     (property "Value" "100n" (at 155.575 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 162.2552 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 162.2552 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C14663" (at 161.29 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 57da76f6-be35-45d5-acc0-5a7c60a8c043))
     (pin "2" (uuid 2b31442c-289c-4a6a-853d-d5494460c8aa))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C11") (unit 1)
         )
@@ -4031,7 +4079,7 @@
     )
     (pin "1" (uuid 37ccd74d-c9ba-45f1-a32f-5dcae2c5349a))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR015") (unit 1)
         )
@@ -4060,7 +4108,7 @@
     (pin "1" (uuid baf87dc0-40d7-4a46-93a4-5c70d7ff6944))
     (pin "2" (uuid 205cdefa-708f-48fd-8f9e-0f1917379cd7))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C35") (unit 1)
         )
@@ -4085,9 +4133,35 @@
     )
     (pin "1" (uuid 77d3e4bc-3f9c-4c98-a9a5-b08a9e121d14))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 74.93 66.04 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f2744c02-72a1-4d13-8476-b70a6f6a488d)
+    (property "Reference" "J12" (at 72.39 64.77 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "UpdiConn" (at 72.39 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 74.93 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 74.93 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9da9804f-499e-49a3-b081-e1097abb9200))
+    (pin "2" (uuid 9bd8250d-d96b-4e7f-9e09-cc631fc63204))
+    (instances
+      (project "DevKit"
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -4110,7 +4184,7 @@
     )
     (pin "1" (uuid 5bb0c11a-ff73-4a2a-a2fd-0cf360d7be46))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR082") (unit 1)
         )
@@ -4145,7 +4219,7 @@
     (pin "4" (uuid bdea4e6f-42d0-4bb2-b853-536783235c2e))
     (pin "5" (uuid bed0fe24-fee9-40f4-b0b9-484b488bad81))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "U14") (unit 1)
         )
@@ -4170,7 +4244,7 @@
     )
     (pin "1" (uuid 1a25ec65-63bd-4e70-acf7-6362a425aec2))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR06") (unit 1)
         )
@@ -4187,19 +4261,19 @@
     (property "Value" "1n" (at 260.985 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 260.0452 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 260.0452 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 259.08 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C94121" (at 259.08 62.23 90)
+    (property "MPN" "C1588" (at 259.08 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e8366662-198f-4ed2-9cf6-06b9db647e89))
     (pin "2" (uuid 09097599-537a-4ad9-9054-b39c7bc4ab8d))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C42") (unit 1)
         )
@@ -4218,7 +4292,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "4"))
       )
     )
@@ -4243,7 +4317,7 @@
       (uuid 42620a77-ad4b-4039-8e40-c382ab6eed3f)
     )
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "11"))
       )
     )
@@ -4260,7 +4334,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "3"))
       )
     )
@@ -4285,7 +4359,7 @@
       (uuid 8ef3ae13-4b05-4421-a514-5622dfbaa024)
     )
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "12"))
       )
     )
@@ -4302,8 +4376,25 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 60.96 129.54) (size 21.59 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 72793ee1-8b24-4ded-a030-5a38e70b572c)
+    (property "Sheetname" "ESP32BT" (at 60.96 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ESP32BT.kicad_sch" (at 60.96 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DevKit"
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "2"))
       )
     )
   )
@@ -4327,7 +4418,7 @@
       (uuid 87851d93-39ba-4bf9-bd7a-39861911e930)
     )
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "9"))
       )
     )
@@ -4352,7 +4443,7 @@
       (uuid e5f199d0-4ad5-4dde-a272-9d2897aadc2f)
     )
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "10"))
       )
     )
@@ -4369,7 +4460,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0" (page "5"))
       )
     )

@@ -1,0 +1,23 @@
+Standard: Cpp11
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+ObjCBlockIndentWidth: 4
+ContinuationIndentWidth: 4
+AccessModifierOffset: 0
+UseTab: Always
+ColumnLimit: 120
+BinPackArguments: false
+BinPackParameters: false
+IndentCaseLabels: true
+ExperimentalAutoDetectBinPacking: true
+AllowAllParametersOfDeclarationOnNextLine: false
+AlignAfterOpenBracket: BlockIndent
+DerivePointerAlignment: false
+AllowShortFunctionsOnASingleLine: None
+PointerAlignment: Left
+BreakBeforeBraces: 'Custom'
+IndentPPDirectives: BeforeHash
+BraceWrapping:
+  BeforeCatch: true
+  BeforeElse: true
