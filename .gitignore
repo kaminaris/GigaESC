@@ -1,4 +1,6 @@
 # Temporary files
+.idea
+.vscode
 *.000
 *.bak
 *.bck
