@@ -1,5 +1,0 @@
-A:/Projects/Electronic/GigaESC/HWProtSource/U1/cmake-build-upload_updi/CMakeFiles/Production.dir
-A:/Projects/Electronic/GigaESC/HWProtSource/U1/cmake-build-upload_updi/CMakeFiles/Debug.dir
-A:/Projects/Electronic/GigaESC/HWProtSource/U1/cmake-build-upload_updi/CMakeFiles/Z_DUMMY_TARGET.dir
-A:/Projects/Electronic/GigaESC/HWProtSource/U1/cmake-build-upload_updi/CMakeFiles/edit_cache.dir
-A:/Projects/Electronic/GigaESC/HWProtSource/U1/cmake-build-upload_updi/CMakeFiles/rebuild_cache.dir

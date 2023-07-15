@@ -1,1 +1,0 @@
-E:\.platformio\packages\toolchain-atmelavr\bin\avr-g++.exe -std=gnu++17 -fpermissive -fno-exceptions -fno-threadsafe-statics -flto -Wno-sized-deallocation -Wno-error=narrowing -mmcu=attiny1616 -Os -w -ffunction-sections -fdata-sections -flto -mrelax -g CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj -o Z_DUMMY_TARGET 
