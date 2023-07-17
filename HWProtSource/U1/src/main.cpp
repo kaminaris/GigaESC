@@ -15,8 +15,8 @@
 #define HAS_DUAL_POT
 #define HAS_I2C
 
-#define POT_A_ADDRESS 0x2E	// 0b0101110
-#define POT_B_ADDRESS 0x3E	// 0b0111110
+#define POT_A_ADDRESS 0x2E    // 0b0101110
+#define POT_B_ADDRESS 0x3E    // 0b0111110
 
 #define LOW_SIDE_SETTING (127 - 5)
 #define HIGH_SIDE_SETTING 5
@@ -25,9 +25,9 @@ void setPotValue(uint8_t addr, uint8_t value) {
 	wdt_reset();
 	delay(100);
 	Wire.beginTransmission(addr);
-	Wire.write(0x00);		 // sends instruction.  0x00 = Write
-	Wire.write(value);		 // sends value 0 = 10K, 127 = 0K
-	auto res = Wire.endTransmission();	 // end transmission
+	Wire.write(0x00);         // sends instruction.  0x00 = Write
+	Wire.write(value);         // sends value 0 = 10K, 127 = 0K
+	auto res = Wire.endTransmission();     // end transmission
 	Serial.printf("i2c res: %d\n", res);
 	delay(100);
 	wdt_reset();
@@ -35,6 +35,15 @@ void setPotValue(uint8_t addr, uint8_t value) {
 
 void setup() {
 	_PROTECTED_WRITE(WDT.CTRLA, WDT_PERIOD_1KCLK_gc);
+
+	// ADC
+	pinMode(PIN_PA5, INPUT);
+	pinMode(PIN_PA6, INPUT);
+	pinMode(PIN_PA7, INPUT);
+	// FAULT
+	pinMode(PIN_PC0, INPUT);
+	// Latch reset
+	pinMode(PIN_PB5, INPUT);
 
 	Serial.begin(115200);
 	while (!Serial) {
@@ -49,8 +58,8 @@ void setup() {
 	Event1.start();
 
 	// Initialize logic block 1
-	Logic1.enable = true;				 // Enable logic block 1
-	Logic1.input0 = logic::in::event_a;	 // Connect input 0 to ccl1_event_a (PB2 through Event1)
+	Logic1.enable = true;                 // Enable logic block 1
+	Logic1.input0 = logic::in::event_a;     // Connect input 0 to ccl1_event_a (PB2 through Event1)
 	Logic1.input1 = logic::in::masked;
 	Logic1.input2 = logic::in::masked;
 	Logic1.output = logic::out::disable;
@@ -74,8 +83,8 @@ void setup() {
 	Logic0.input2 = logic::in::ac2;
 	Logic0.output = logic::out::enable;
 	Logic0.filter = logic::filter::filter;
-	Logic0.sequencer = logic::sequencer::rs_latch;	// Latch output
-	Logic0.truth = 0xFE;							// Set truth table (3 input OR)
+	Logic0.sequencer = logic::sequencer::rs_latch;    // Latch output
+	Logic0.truth = 0xFE;                            // Set truth table (3 input OR)
 	Logic0.init();
 
 	// Start comparators
@@ -86,30 +95,79 @@ void setup() {
 	// Start the AVR logic hardware
 	Logic::start();
 
-
-#ifdef HAS_I2C
+	#ifdef HAS_I2C
 	Wire.swap(1);
 	Wire.begin();
 	// A is connected to HIGH side, B to LOW side
-	#ifdef IS_HIGH_SIDE
+		#ifdef IS_HIGH_SIDE
 	setPotValue(POT_A_ADDRESS, HIGH_SIDE_SETTING);
-	#else
+		#else
 
 	setPotValue(POT_B_ADDRESS, LOW_SIDE_SETTING);
-	#endif
+		#endif
 
 	// Is connected to both potentiometers IS_HIGH_SIDE has to be defined as well
-	#ifdef HAS_DUAL_POT
+		#ifdef HAS_DUAL_POT
 	setPotValue(POT_B_ADDRESS, LOW_SIDE_SETTING);
-	#endif
+		#endif
 
-#endif
+	#endif
+	analogReference(EXTERNAL); // PA5
+	analogClockSpeed(-1);
 }
 
 void loop() {
+	int curr1 = 0;
+	int curr2 = 0;
+	int curr3 = 0;
+	bool latchReset = false;
+	bool latchOut = false;
+	bool fault = false;
+	bool out = true;
+
 	while (true) {
 		wdt_reset();
-		delay(500);
-		Serial.println("ping");
+
+		// read main mcu fault output
+		fault = digitalRead(PIN_PC0);
+
+		if (!latchOut) {
+			// latch not triggered, read adc, check limits and set latch if needed
+			curr1 = analogRead(PIN_PA5);
+			curr2 = analogRead(PIN_PA6);
+			curr3 = analogRead(PIN_PA7);
+
+			if (
+				curr1 > TOP_LIMIT || curr2 > TOP_LIMIT || curr3 > TOP_LIMIT ||
+				curr1 < BOT_LIMIT || curr2 < BOT_LIMIT || curr3 < BOT_LIMIT
+			) {
+				latchOut = true;
+			}
+		}
+		else {
+			latchReset = digitalRead(PIN_PB5);
+			if (latchReset) {
+				// latch triggered, check if we got info to reset it
+				latchOut = false;
+			}
+		}
+
+		// check if either latch or main MCU fault is triggered (OR GATE)
+		if (latchOut || fault) {
+			if (!out) {
+				digitalWrite(PIN_PA4, 1);
+				out = true;
+			}
+		}
+		else {
+			// Both flags are clear, resume operation
+			if (out) {
+				digitalWrite(PIN_PA4, 0);
+				out = false;
+			}
+		}
+
+		// delay(500);
+		// Serial.println("ping");
 	}
 }
