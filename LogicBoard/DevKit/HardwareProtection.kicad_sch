@@ -588,6 +588,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cc1a0631-d10e-4d41-b95c-db7759d74565)
   )
+  (text "If you do not want to use hardware protection, also remember to not solder R26 and R31"
+    (at 72.39 35.56 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d6252d6b-a3d7-47fe-8381-c467f0c57911)
+  )
 
   (global_label "CURR1_FILTERED" (shape input) (at 92.71 95.25 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
