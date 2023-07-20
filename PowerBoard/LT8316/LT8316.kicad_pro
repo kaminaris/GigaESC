@@ -470,7 +470,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LT8316.step",
       "vrml": "PowerBoard.wrl"
     },
     "page_layout_descr_file": ""

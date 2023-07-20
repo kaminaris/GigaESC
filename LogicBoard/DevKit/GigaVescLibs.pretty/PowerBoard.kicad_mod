@@ -15,7 +15,7 @@
   )
   (fp_rect (start -22.5 -50) (end 22.5 50)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 3b5e7b9d-99fb-40ed-914c-112ea35410c7))
-  (model "${KIPRJMOD}/PowerBoard.wrl"
+  (model "A:/Projects/Electronic/GigaESC/PowerBoard/LT8316/LT8316.wrl"
     (offset (xyz 0 0 8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

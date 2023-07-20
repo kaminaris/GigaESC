@@ -1130,8 +1130,8 @@
     (property "MPN" "C5156756" (at 137.16 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c716d4f-fbe3-48f6-b8b9-17f274f7c8f7))
-    (pin "2" (uuid c81a732a-433e-45b9-9820-fada160c9bdd))
+    (pin "1" (uuid fc05ae20-cab6-4265-8a12-a2c51a483bae))
+    (pin "2" (uuid 242aaf75-b96e-46ad-a385-b9f09a0597d8))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -1293,7 +1293,7 @@
     (property "Datasheet" "" (at 100.33 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ebe5ec00-9618-4a3a-81d6-c1a3e7310f5c))
+    (pin "1" (uuid 72e130ae-74d7-4bc7-b32c-b0c78b6d48c1))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -1367,8 +1367,8 @@
     (property "MPN" "C5156756" (at 137.16 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7b8add9-5366-4c5c-b0ed-53b5cffb1f11))
-    (pin "2" (uuid e61418d0-59ba-4ea8-bb67-861208ca8889))
+    (pin "1" (uuid de53adac-4f8a-4537-b000-c275867d0dac))
+    (pin "2" (uuid 1bc7bd68-c080-4f60-b396-57e374f71fea))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -1480,8 +1480,8 @@
     (property "MPN" "C5156756" (at 116.84 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 48f97ecc-9779-4f30-87d7-3b1ff23ae8d7))
-    (pin "2" (uuid ba2bd759-9d31-4eee-82a7-64ffe1a2e95c))
+    (pin "1" (uuid 6ea7ce4d-6cc2-426f-b7c5-bd0df38d9cc7))
+    (pin "2" (uuid 598a3318-e2b3-4e93-8c2a-3a730d141431))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -1953,7 +1953,7 @@
     (property "Datasheet" "" (at 100.33 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e7bce51-db3b-4f10-8cde-5c37ce9cf2b7))
+    (pin "1" (uuid eaff8706-dec0-46e5-bdd5-7e4b489ac380))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2186,8 +2186,8 @@
     (property "MPN" "C5156756" (at 116.84 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6b437b4-10c8-44c3-b003-b6b9c46634f3))
-    (pin "2" (uuid df65570f-9545-4b45-ba5b-e6eaec215847))
+    (pin "1" (uuid aec3157f-8e52-4a26-b281-5a91a92bc825))
+    (pin "2" (uuid 12572a01-055e-4d57-9b12-51ce70cb8fc6))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2295,8 +2295,8 @@
     (property "Mouser" "81-GRM32EC72A106KE5K" (at 106.68 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 965483f8-ac19-4120-903e-7fdecfe9bc15))
-    (pin "2" (uuid 58310be5-bdfe-47ae-8335-572048e2e2e5))
+    (pin "1" (uuid 60da3b77-8a1a-4d23-8c65-4a72fc2a4304))
+    (pin "2" (uuid be1c7c28-f1d7-4d98-a8aa-8bc917867d78))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2336,8 +2336,8 @@
     (property "MPN" "C5156756" (at 127 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 47056eba-24a7-4a24-b753-fe7c8ed83876))
-    (pin "2" (uuid cb210b37-d6dc-4234-8e62-16696b0bdc50))
+    (pin "1" (uuid 2f292878-708d-461f-b1c0-9114cd5b3024))
+    (pin "2" (uuid 11b22b85-4fc7-49f2-8b96-58b13e99e5fe))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2517,8 +2517,8 @@
     (property "MPN" "C5156756" (at 127 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b926570a-515d-40ac-acf2-cb943c8938bf))
-    (pin "2" (uuid d28a850d-db34-4042-8baf-9651468c48f2))
+    (pin "1" (uuid 55c8b59d-3ff9-4da2-8faf-3d8110663b61))
+    (pin "2" (uuid 577c75c2-fa06-4d0f-aed1-78d4a2f5aa41))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2558,8 +2558,8 @@
     (property "MPN" "C5156756" (at 106.68 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7a18c68b-6be5-471a-b52d-ed3eeedcd677))
-    (pin "2" (uuid 1f83a092-9d63-4848-a236-133856ddb9db))
+    (pin "1" (uuid 4036aacb-83b3-40ec-8c3a-c3d9e0d73d61))
+    (pin "2" (uuid ef43a909-2efb-4d86-a99b-ba2690a96118))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"

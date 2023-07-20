@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "GigaVescLibs")(type "KiCad")(uri "A:/Projects/Electronic/GigaESC/GigaESC/GigaVescLibs.pretty")(options "")(descr ""))
+  (lib (name "GigaVescLibs")(type "KiCad")(uri "A:/Projects/Electronic/GigaESC/LogicBoard/DevKit/GigaVescLibs.pretty")(options "")(descr ""))
 )
