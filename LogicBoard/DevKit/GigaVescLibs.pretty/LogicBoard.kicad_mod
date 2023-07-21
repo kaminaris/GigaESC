@@ -15,7 +15,7 @@
   )
   (fp_rect (start -50 -43.5) (end 50 43.5)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 0884e04f-4301-4bda-b69e-90176e0c78e4))
-  (model "A:/Projects/Electronic/GigaESC/LogicBoard/DevKit/GigaESC.wrl"
+  (model "A:/Projects/Electronic/GigaESC/LogicBoard/DevKit/DevKit.wrl"
     (offset (xyz 0 0 9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

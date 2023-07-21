@@ -485,7 +485,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "DevKit.step",
-      "vrml": "GigaESC.wrl"
+      "vrml": "DevKit.wrl"
     },
     "page_layout_descr_file": ""
   },

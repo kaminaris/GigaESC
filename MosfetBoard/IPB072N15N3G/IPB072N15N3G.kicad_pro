@@ -508,7 +508,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "IPB072N15N3G.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -553,15 +553,15 @@
     ],
     [
       "3d569e84-87d6-4696-b0ce-a4e576394c1a",
-      "PhaseMosfets"
-    ],
-    [
-      "db7451b3-bde8-4d72-ba04-6d13b057caad",
       "PhaseMosfets1"
     ],
     [
-      "ccaed507-63cb-4563-a707-3e0cba7d2643",
+      "db7451b3-bde8-4d72-ba04-6d13b057caad",
       "PhaseMosfets2"
+    ],
+    [
+      "ccaed507-63cb-4563-a707-3e0cba7d2643",
+      "PhaseMosfets3"
     ]
   ],
   "text_variables": {}
