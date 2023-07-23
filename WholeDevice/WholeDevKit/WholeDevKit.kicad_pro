@@ -217,8 +217,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "WholeDevKit.step",
+      "vrml": "WholeDevKit.wrl"
     },
     "page_layout_descr_file": ""
   },

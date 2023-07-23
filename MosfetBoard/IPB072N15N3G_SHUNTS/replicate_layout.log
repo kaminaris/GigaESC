@@ -1,53 +1,53 @@
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'win32'
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.5
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x00000241C556BEE0>
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with Q11 as a reference
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'Q11'
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'win32'
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.5
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x0000019A6B54F310>
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with Q11 as a reference
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'Q11'
 Located on: ['PhaseMosfets2']
 With filenames: ['PhaseMosfets.kicad_sch']
 With sheet_id:['PhaseMosfets2']
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
 [('Q3', ['PhaseMosfets']), ('Q11', ['PhaseMosfets2']), ('Q7', ['PhaseMosfets1'])]
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(3619, 117)
-07-20 07:54:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(3257, 117)
-07-20 07:54:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
-07-20 07:54:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
-07-20 07:54:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
-07-20 07:54:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
-07-20 07:54:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
-07-20 07:54:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
-07-20 07:54:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
-07-20 07:54:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
-07-20 07:54:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
-07-20 07:54:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
-07-20 07:54:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
-07-20 07:54:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['PhaseMosfets'], ['PhaseMosfets1']]
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(1699, 117)
+07-22 11:07:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1337, 117)
+07-22 11:07:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
+07-22 11:07:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
+07-22 11:07:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
+07-22 11:07:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
+07-22 11:07:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
+07-22 11:07:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
+07-22 11:07:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
+07-22 11:07:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
+07-22 11:07:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
+07-22 11:07:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
+07-22 11:07:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
+07-22 11:07:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['PhaseMosfets2']
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'PhaseMosfets2', file:'PhaseMosfets.kicad_sch'
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['PhaseMosfets'], ['PhaseMosfets1']]
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['PhaseMosfets'], ['PhaseMosfets1']]
 on level: ['PhaseMosfets2']
 with tracks=False, zone=False, text=False, text=False, intersecting=False, remove=False, locked footprints=False, group_only=False
-07-20 07:54:09 root 340:updating GUI message: 'Preparing for replication'
-07-20 07:54:09 root 345:updating GUI with: 0
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
-07-20 07:54:09 root 340:updating GUI message: 'Replicating footprints'
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['PhaseMosfets']
-07-20 07:54:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['PhaseMosfets1']
-07-20 07:54:09 root 345:updating GUI with: 86
-07-20 07:54:11 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
+07-22 11:07:06 root 340:updating GUI message: 'Preparing for replication'
+07-22 11:07:06 root 345:updating GUI with: 0
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+07-22 11:07:06 root 340:updating GUI message: 'Replicating footprints'
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['PhaseMosfets']
+07-22 11:07:06 root 345:updating GUI with: 47
+07-22 11:07:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['PhaseMosfets1']
+07-22 11:07:07 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
