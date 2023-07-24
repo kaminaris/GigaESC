@@ -830,7 +830,7 @@
     )
     (pin "1" (uuid 038f6e60-fadb-489d-89ca-d5191ee1cc26))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -858,7 +858,7 @@
     )
     (pin "1" (uuid 14c4ee85-fa1a-4347-86fb-24bd075c0306))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -890,7 +890,7 @@
     (pin "1" (uuid adea11d9-ad58-45f5-aef8-159d7534bf0d))
     (pin "2" (uuid 7d21ca8b-4a27-430c-b306-494e0e1c320b))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "D9") (unit 1)
         )
@@ -907,19 +907,19 @@
     (property "Value" "22u 25V" (at 220.98 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 220.6752 100.33 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 220.6752 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C12891" (at 219.71 96.52 0)
+    (property "MPN" "C45783" (at 219.71 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 17c83ec4-06e6-4cc4-9d33-9262d48ca527))
     (pin "2" (uuid e5cec0e5-c455-4072-a5cc-dd4432e46948))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "C33") (unit 1)
         )
@@ -944,7 +944,7 @@
     )
     (pin "1" (uuid aa4061d3-8956-4736-aff3-fca8d909aea6))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "#FLG02") (unit 1)
         )
@@ -969,7 +969,7 @@
     )
     (pin "1" (uuid cc7844d5-28a0-4f02-b7fd-996136b10bd6))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -997,7 +997,7 @@
     )
     (pin "1" (uuid ce54647b-8c2e-4b81-b643-2374fabf0571))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -1029,7 +1029,7 @@
     (pin "1" (uuid a030682e-b046-4a9c-b99f-eab5da575ed9))
     (pin "2" (uuid 4e3f4a90-9528-4877-92ac-4915e602919e))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "C54") (unit 1)
         )
@@ -1054,7 +1054,7 @@
     )
     (pin "1" (uuid 1eed3ab0-fb54-4d11-be92-0c4f82be3806))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -1082,7 +1082,7 @@
     )
     (pin "1" (uuid 2772b8d1-e400-43b9-b66d-f31b3f3efd13))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -1110,7 +1110,7 @@
     )
     (pin "1" (uuid b2869397-01e8-4674-b601-9fa9594de2f1))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
@@ -1138,7 +1138,7 @@
     )
     (pin "1" (uuid 6c4994e1-7a6c-430e-8d1b-ce7c84e712ff))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "#PWR074") (unit 1)
         )
@@ -1171,7 +1171,7 @@
     (pin "2" (uuid b46db7c5-c8a3-4da9-a5e4-cb90fe89bd4f))
     (pin "3" (uuid cca69627-d091-42ca-8ab2-f32cc11862a5))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "U9") (unit 1)
         )
@@ -1196,7 +1196,7 @@
     )
     (pin "1" (uuid 15c12942-5055-421b-b45b-3157778dd979))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -1216,19 +1216,19 @@
     (property "Value" "22u 25V" (at 156.21 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 155.9052 99.06 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 155.9052 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.94 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C12891" (at 154.94 95.25 0)
+    (property "MPN" "C45783" (at 154.94 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5b7deaa7-a485-4a38-9052-7be44f77eaf7))
     (pin "2" (uuid cefbbad9-25cf-4d8c-8d0c-b7bc087cd8db))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "C34") (unit 1)
         )
@@ -1264,7 +1264,7 @@
     (pin "8" (uuid 4e15f14d-1e22-455b-9f2e-04aede99e556))
     (pin "9" (uuid 9a05b5c3-2768-4e76-8567-60561ad17b18))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "U16") (unit 1)
         )
@@ -1281,19 +1281,19 @@
     (property "Value" "22u 25V" (at 57.15 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 61.9252 99.06 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 61.9252 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 60.96 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C12891" (at 60.96 95.25 0)
+    (property "MPN" "C45783" (at 60.96 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid eddc60e3-5c73-4b1d-81a4-68e17bb53dfb))
     (pin "2" (uuid dc0d390f-94cb-437d-ae47-8531df57e9fa))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C8") (unit 1)
         )
@@ -1321,7 +1321,7 @@
     )
     (pin "1" (uuid dec8e814-49ee-48b0-84cc-f6fb6efd01d0))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "#FLG01") (unit 1)
         )
@@ -1346,7 +1346,7 @@
     )
     (pin "1" (uuid 0e88d888-0cc1-4dd8-a27e-92fb4fa01fae))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -1378,7 +1378,7 @@
     (pin "1" (uuid 6b0f7d2b-0838-4da3-a31c-150122c2da30))
     (pin "2" (uuid beb49c84-4bc3-4326-8847-a8e697e0ae08))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "R46") (unit 1)
         )
@@ -1395,19 +1395,19 @@
     (property "Value" "22u 25V" (at 186.69 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 191.4652 100.33 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 191.4652 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 190.5 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C12891" (at 190.5 96.52 0)
+    (property "MPN" "C45783" (at 190.5 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cc7fe364-9d32-42db-82e4-b2ef0132168c))
     (pin "2" (uuid 86cac070-98c1-4f49-aee8-ce0fd72139b8))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "C32") (unit 1)
         )
@@ -1436,7 +1436,7 @@
     (pin "1" (uuid 6e00812b-0edb-4e07-94bb-51951373411e))
     (pin "2" (uuid 22ea8317-d7cc-40d3-b9ee-4d19ab3d9c14))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "C31") (unit 1)
         )
@@ -1461,7 +1461,7 @@
     )
     (pin "1" (uuid 0d8437be-c853-4141-97de-5570a041c818))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "#PWR072") (unit 1)
         )
@@ -1486,7 +1486,7 @@
     )
     (pin "1" (uuid 57bad904-788b-4625-91d3-80543bf8e5f2))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "#FLG03") (unit 1)
         )
@@ -1511,7 +1511,7 @@
     )
     (pin "1" (uuid c11437e0-7663-4f1f-a149-a19bf88a15b2))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -1539,7 +1539,7 @@
     )
     (pin "1" (uuid 99eaf439-5553-45ed-a738-0ca724acefb8))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "#PWR071") (unit 1)
         )
@@ -1568,7 +1568,7 @@
     (pin "1" (uuid de583341-aaf7-4860-8073-b6bb70217bc9))
     (pin "2" (uuid d449e87f-a211-41c5-8af1-053c9966dd57))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R47") (unit 1)
         )
@@ -1609,7 +1609,7 @@
     (pin "1" (uuid 8fb207a8-9a8b-456b-940e-9a1865cf6ee5))
     (pin "2" (uuid dabc76c3-b1c3-40e9-9d6a-e05986d8e025))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "C30") (unit 1)
         )
@@ -1634,7 +1634,7 @@
     )
     (pin "1" (uuid 172cc9cd-4e57-4bb3-be77-0e8958d5788d))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -1666,7 +1666,7 @@
     (pin "1" (uuid f1561fc4-765f-41f7-ad61-de24311e63a7))
     (pin "2" (uuid 8fa14cfe-2487-4703-8929-6bf06572ec76))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "L2") (unit 1)
         )

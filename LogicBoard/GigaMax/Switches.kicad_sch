@@ -676,7 +676,7 @@
     )
     (pin "1" (uuid 5bf35c16-c855-4e99-8a15-3a51ad7aa27b))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0170") (unit 1)
         )
@@ -701,7 +701,7 @@
     )
     (pin "1" (uuid f574f8b3-234c-4223-af4c-133dc67e1ba5))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR031") (unit 1)
         )
@@ -726,7 +726,7 @@
     )
     (pin "1" (uuid bbcae42b-9fc2-4e69-a3f9-92a022647eb9))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0149") (unit 1)
         )
@@ -755,7 +755,7 @@
     (pin "1" (uuid c4922254-8a48-4f55-a156-704681627084))
     (pin "2" (uuid 45f95ab2-3a69-4f28-85ae-2cbca46de8af))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "C22") (unit 1)
         )
@@ -791,7 +791,7 @@
     (pin "5" (uuid f6fb8c15-78ed-4f27-8b1b-9991f2129b54))
     (pin "6" (uuid 913b67b0-c01f-4c99-8917-eeb3b08229ec))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "U20") (unit 1)
         )
@@ -816,7 +816,7 @@
     )
     (pin "1" (uuid eff1422a-6b48-450d-bd8e-9d1a24678b21))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0165") (unit 1)
         )
@@ -845,7 +845,7 @@
     (pin "1" (uuid a34c826a-3ade-4f6f-9415-1e373bd9e790))
     (pin "2" (uuid ba453021-7dd3-4bdd-a5f3-6996acb008e4))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "C21") (unit 1)
         )
@@ -874,7 +874,7 @@
     (pin "1" (uuid 92c9ef67-bc67-44a2-991c-a3a5ec09346a))
     (pin "2" (uuid ca440fcb-a254-4af6-ab3d-b11237f13deb))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -916,7 +916,7 @@
     (pin "5" (uuid e8128da3-b8a1-4d45-906a-71603b140897))
     (pin "6" (uuid 17568786-4b3e-473e-afe5-03b4e49ef06b))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "U21") (unit 1)
         )
@@ -945,7 +945,7 @@
     (pin "1" (uuid c830b064-860d-40e3-8711-09cbf55bad32))
     (pin "2" (uuid 0e22f427-bfcb-4cda-9bea-d40ae746d9a2))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -980,7 +980,7 @@
     (pin "1" (uuid c29024a6-d444-46c1-aeff-cf8b1b604b23))
     (pin "2" (uuid 4b37ba85-d841-4ef5-893c-e5d058c482b1))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -1011,7 +1011,7 @@
     )
     (pin "1" (uuid 91b7eb48-d871-4f19-99e5-cd2521c670e4))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR03") (unit 1)
         )
@@ -1053,7 +1053,7 @@
     (pin "5" (uuid 8631e00a-06b4-4f6a-9e43-c684b023edd7))
     (pin "6" (uuid 88466b4e-624f-42a2-be9d-2a3ed3dfc16f))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "U22") (unit 1)
         )
@@ -1078,7 +1078,7 @@
     )
     (pin "1" (uuid b6dc5d7b-4b2e-4b23-9126-2e3da63afaee))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR028") (unit 1)
         )
@@ -1103,7 +1103,7 @@
     )
     (pin "1" (uuid fa55dbae-c7d6-447a-8097-5c47d73aa599))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR033") (unit 1)
         )
@@ -1137,7 +1137,7 @@
           (reference "R43") (unit 1)
         )
       )
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/81081265-f675-4f9d-bffe-8ec1eaaaba23"
           (reference "R37") (unit 1)
         )
@@ -1165,7 +1165,7 @@
     )
     (pin "1" (uuid eb9af840-1453-4e72-8db5-0cf28a95ba39))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0164") (unit 1)
         )
@@ -1199,7 +1199,7 @@
           (reference "C24") (unit 1)
         )
       )
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/81081265-f675-4f9d-bffe-8ec1eaaaba23"
           (reference "C51") (unit 1)
         )
@@ -1231,7 +1231,7 @@
     (pin "1" (uuid 0e2de592-19c8-4140-8534-757236255997))
     (pin "2" (uuid 11c828a5-d2c0-44ce-9278-15c5288ed0bb))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C57") (unit 1)
         )
@@ -1262,7 +1262,7 @@
     )
     (pin "1" (uuid f004e19c-8ee1-4870-8eee-23f232943d0b))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -1290,7 +1290,7 @@
     )
     (pin "1" (uuid cd171601-75e1-4fde-8325-13143bec7c31))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -1318,7 +1318,7 @@
     )
     (pin "1" (uuid fc8c7e92-1feb-479c-a902-f81f652ec118))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR069") (unit 1)
         )
@@ -1347,7 +1347,7 @@
     (pin "1" (uuid 267320cb-5a8c-4c3e-8bb8-f3aa06d7e73d))
     (pin "2" (uuid 0168c1a1-7b54-4ebc-bdf3-cdfa46f1ff6a))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C57") (unit 1)
         )
@@ -1375,7 +1375,7 @@
     )
     (pin "1" (uuid 0f1be88c-6ecb-4071-a28e-d2eedf3d70c9))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
         )
@@ -1406,7 +1406,7 @@
     )
     (pin "1" (uuid ae63b1ed-bce0-431d-8ef2-2a2b26549da5))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -1434,7 +1434,7 @@
     )
     (pin "1" (uuid 5cb3c96e-d939-44b2-9ac1-24dd962f6a31))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0158") (unit 1)
         )
@@ -1470,7 +1470,7 @@
     (pin "5" (uuid 4fb70bfb-6067-4d5b-ba58-a8650f41a09d))
     (pin "6" (uuid 9fdd364e-616e-4827-9988-165670fc3754))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "U18") (unit 1)
         )
@@ -1499,7 +1499,7 @@
     (pin "1" (uuid 6859865e-924c-419b-bb3e-e676b0b8afe6))
     (pin "2" (uuid 5084b0dc-ef14-430b-a8b1-fd09c461cbbf))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "C38") (unit 1)
         )
@@ -1535,7 +1535,7 @@
     (pin "5" (uuid 95874cdb-6518-4e5c-b17a-206a8ba8262b))
     (pin "6" (uuid bdce9707-0646-487e-8543-4bfde6f51a23))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "U17") (unit 1)
         )
@@ -1560,7 +1560,7 @@
     )
     (pin "1" (uuid c9cfbbb0-ab56-47a4-869c-63a844a8b86e))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -1597,7 +1597,7 @@
           (reference "R44") (unit 1)
         )
       )
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/81081265-f675-4f9d-bffe-8ec1eaaaba23"
           (reference "R38") (unit 1)
         )
@@ -1625,7 +1625,7 @@
     )
     (pin "1" (uuid d78323a9-0a73-487f-8388-a71dd4af7596))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0153") (unit 1)
         )
@@ -1650,7 +1650,7 @@
     )
     (pin "1" (uuid 59810809-6c4a-4c09-978b-92e1b83a4bf7))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0171") (unit 1)
         )
@@ -1684,7 +1684,7 @@
           (reference "C22") (unit 1)
         )
       )
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/81081265-f675-4f9d-bffe-8ec1eaaaba23"
           (reference "C49") (unit 1)
         )
@@ -1712,7 +1712,7 @@
     )
     (pin "1" (uuid edeb68e0-3849-46b9-bc0b-a85e7d70f1ab))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR026") (unit 1)
         )
@@ -1746,7 +1746,7 @@
           (reference "C23") (unit 1)
         )
       )
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/81081265-f675-4f9d-bffe-8ec1eaaaba23"
           (reference "C50") (unit 1)
         )
@@ -1778,7 +1778,7 @@
     (pin "1" (uuid abff5da5-f161-47fd-9cf6-cc87e8b41eb4))
     (pin "2" (uuid 6ee9ae9b-ebdf-406e-9ef1-2e5912ed7460))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "C18") (unit 1)
         )
@@ -1807,7 +1807,7 @@
     (pin "1" (uuid fd70c950-5f1a-4502-8a26-e089388ec6cb))
     (pin "2" (uuid 0f16877d-8e44-4750-a220-790541dff941))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -1838,7 +1838,7 @@
     )
     (pin "1" (uuid 802d1222-e934-4060-bc09-e8167fa8f7b6))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0156") (unit 1)
         )
@@ -1867,7 +1867,7 @@
     (pin "1" (uuid d21916e7-b0eb-46d8-975b-06989f6fa51c))
     (pin "2" (uuid 47f4e908-4960-4931-9f27-1235903ecf7f))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C57") (unit 1)
         )
@@ -1899,7 +1899,7 @@
     (pin "1" (uuid e4bb4965-0ccb-4e23-99eb-bad2d21c6844))
     (pin "2" (uuid f7fba334-248d-41e0-b7a1-291f14d06928))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -1930,7 +1930,7 @@
     )
     (pin "1" (uuid 0a1f45d0-2d6d-4f14-9ad9-def8ee07e1d7))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -1967,7 +1967,7 @@
           (reference "R45") (unit 1)
         )
       )
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/81081265-f675-4f9d-bffe-8ec1eaaaba23"
           (reference "R39") (unit 1)
         )
@@ -1995,7 +1995,7 @@
     )
     (pin "1" (uuid 39a5ad2b-ee6c-4782-954e-be6b84d85317))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0169") (unit 1)
         )
@@ -2031,7 +2031,7 @@
     (pin "5" (uuid b3400a8c-2b27-423a-a435-e136de894cc6))
     (pin "6" (uuid 69394beb-85b2-482f-bfb0-5c52b9acbade))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "U19") (unit 1)
         )
@@ -2056,7 +2056,7 @@
     )
     (pin "1" (uuid 8a4c2970-b761-4c49-b982-e58f06a10ac3))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -2084,7 +2084,7 @@
     )
     (pin "1" (uuid 36f0613a-e435-4e7f-a9c6-6d563c69099d))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0157") (unit 1)
         )
@@ -2113,7 +2113,7 @@
     (pin "1" (uuid b5b2f1f4-2db4-491a-8e39-5262c8085563))
     (pin "2" (uuid 805fbd5d-2e1d-4dcf-bd28-870195e2e04f))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -2144,7 +2144,7 @@
     )
     (pin "1" (uuid 3f11567d-d9cc-40bd-9676-9fb716451bd1))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0154") (unit 1)
         )
@@ -2169,7 +2169,7 @@
     )
     (pin "1" (uuid 7c4ffd6e-9185-4a16-9193-0b51c6cb2111))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0168") (unit 1)
         )
@@ -2194,7 +2194,7 @@
     )
     (pin "1" (uuid f520c6f9-151b-4861-a7fe-7d1a35eb252c))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -2222,7 +2222,7 @@
     )
     (pin "1" (uuid 26b6c311-f906-4b20-bdf0-9152e4e0e348))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0159") (unit 1)
         )
@@ -2247,7 +2247,7 @@
     )
     (pin "1" (uuid 3022a60f-c75a-4861-a861-c1c6056ee7f5))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0151") (unit 1)
         )
@@ -2272,7 +2272,7 @@
     )
     (pin "1" (uuid 7331a4c0-3cd6-4ce7-8cb0-bc14fedb820d))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0150") (unit 1)
         )
@@ -2297,7 +2297,7 @@
     )
     (pin "1" (uuid eb2e88de-f59b-4b96-8e61-57be87f9a798))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0172") (unit 1)
         )
@@ -2322,7 +2322,7 @@
     )
     (pin "1" (uuid 2ad4c87f-f03f-4757-ac1b-f51293de00f5))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0166") (unit 1)
         )
@@ -2358,7 +2358,7 @@
     (pin "5" (uuid 3e866ac4-460f-4ae3-861a-9a119560da1f))
     (pin "6" (uuid d900d920-35b2-46b7-88bd-9b1bd108b99b))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "U5") (unit 1)
         )
@@ -2383,7 +2383,7 @@
     )
     (pin "1" (uuid fb3a424e-1fe9-48b3-98be-a0d98ce48f54))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0163") (unit 1)
         )
@@ -2412,7 +2412,7 @@
     (pin "1" (uuid 398e1c65-b3e7-47e5-87a2-3d8c0346f9d2))
     (pin "2" (uuid 2423d06f-e768-426c-9214-c4c93e54d283))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "C20") (unit 1)
         )
@@ -2441,7 +2441,7 @@
     (pin "1" (uuid 4f987d5d-af90-4dab-8478-be9d1db7b82f))
     (pin "2" (uuid b649cff2-9c69-497f-a435-c18fa55685f8))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "C37") (unit 1)
         )
@@ -2466,7 +2466,7 @@
     )
     (pin "1" (uuid a15caaf1-6c24-4fcb-86a8-7ab606341876))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR030") (unit 1)
         )
@@ -2495,7 +2495,7 @@
     (pin "1" (uuid e740e51c-5ce3-4efa-8338-9dbe6b49b135))
     (pin "2" (uuid 51c4fac2-6892-4ac2-9f41-426cfb2e16b8))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -2530,7 +2530,7 @@
     (pin "1" (uuid 368f9b08-4558-405e-9830-a41a6e38a817))
     (pin "2" (uuid dff2d732-0dbe-4b28-8cc4-92312ff7e6f4))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "C19") (unit 1)
         )
@@ -2555,7 +2555,7 @@
     )
     (pin "1" (uuid e58f5745-9ef5-4796-a1e8-ea504b3e3fc7))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR027") (unit 1)
         )
@@ -2584,7 +2584,7 @@
     (pin "1" (uuid 3a5f262f-4099-47a8-a7ac-b1ad66d079c3))
     (pin "2" (uuid f28ee0bf-93e3-4938-b00a-52686c571ad6))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "R1") (unit 1)
         )
@@ -2615,7 +2615,7 @@
     )
     (pin "1" (uuid 570abdfd-e356-4c45-a008-281cfda65baa))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -2647,7 +2647,7 @@
     (pin "1" (uuid 484df6c4-3247-47e7-818c-e96047fcf671))
     (pin "2" (uuid 5d394193-88cd-4de5-8f20-b6a3198a61ac))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "C57") (unit 1)
         )
@@ -2675,7 +2675,7 @@
     )
     (pin "1" (uuid a2747527-3519-4570-b9ec-e03bc31a8850))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR0167") (unit 1)
         )
@@ -2700,7 +2700,7 @@
     )
     (pin "1" (uuid 9cd7353b-2fc3-42bf-8286-a7bbc24c0195))
     (instances
-      (project "DevKit"
+      (project "GigaMax"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/00b03c15-2f32-40aa-9d15-0626e4794bf1"
           (reference "#PWR029") (unit 1)
         )
