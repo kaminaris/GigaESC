@@ -1,3 +1,8 @@
+# Production files
+production/
+*.wrl
+*.step
+
 # Temporary files
 .idea
 .vscode
