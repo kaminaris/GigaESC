@@ -838,7 +838,7 @@
 
   (footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" (layer "F.Cu")
     (tstamp 09d229d2-4f13-4acc-9a78-5d52b8861909)
-    (at 155 76.2)
+    (at 155 76.25)
     (descr "JST PH series connector, B4B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PH side entry")
     (property "JLCPosOffset" "-3,0")
@@ -1481,7 +1481,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 1b81cd39-a71b-40a7-a388-46e738330349)
-    (at 138.475 83.725)
+    (at 138.5 83.75)
     (descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x02 2.54mm double row")
     (property "JLCPosOffset" "1.27,1.27")
@@ -2025,7 +2025,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 28f520fc-2bd4-486b-be3d-30f8b707e2b6)
-    (at 155.6625 72.75 180)
+    (at 155.75 72.75 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "C4184")
@@ -2036,7 +2036,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/04d6ed87-6b10-45aa-8255-84943212068b/2f55f5c1-190c-423a-aa18-35458d52f3a0")
     (attr smd)
-    (fp_text reference "R56" (at 6.4125 0.75) (layer "F.SilkS")
+    (fp_text reference "R56" (at 6.25 0.75) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d6c479a1-90eb-4c53-9118-8a84aa676da2)
     )

@@ -483,7 +483,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "DevKit.step",
-      "vrml": "DevKit.wrl"
+      "vrml": "GigaMax.wrl"
     },
     "page_layout_descr_file": ""
   },
