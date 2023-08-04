@@ -1659,7 +1659,8 @@
     (uuid 224303c0-dfe6-4f87-a33a-3acc619910b4)
   )
 
-  (text "Can be omitted\ninserting pins works just fine" (at 123.19 99.06 0)
+  (text "Can be omitted, replaced MPN so its not exported with bom\ninserting pins works just fine"
+    (at 107.95 100.33 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 176e319b-e658-438f-a5ba-1c05ba040cc2)
   )
@@ -2891,7 +2892,7 @@
     (property "Datasheet" "~" (at 134.62 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2685136" (at 134.62 88.9 0)
+    (property "MPNx" "C2685136" (at 134.62 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLCRotOffset" "-90" (at 134.62 88.9 0)
