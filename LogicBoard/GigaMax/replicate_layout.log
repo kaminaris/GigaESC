@@ -1,0 +1,54 @@
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'win32'
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.5
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x000001C2109C7820>
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with U4 as a reference
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'U4'
+Located on: ['DriverSocketPhase1']
+With filenames: ['DriverSocket.kicad_sch']
+With sheet_id:['DriverSocketPhase1']
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('U24', ['DriverSocketPhase3']), ('U23', ['DriverSocketPhase2']), ('U4', ['DriverSocketPhase1'])]
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'DriverSocketPhase1', file:'DriverSocket.kicad_sch'
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['DriverSocketPhase2'], ['DriverSocketPhase3']]
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['DriverSocketPhase1']
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(-37, 80)
+07-23 19:03:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(-399, 80)
+07-23 19:03:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'DriverSocketPhase1', file:'DriverSocket.kicad_sch'
+07-23 19:03:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['DriverSocketPhase2'], ['DriverSocketPhase3']]
+07-23 19:03:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['DriverSocketPhase1']
+07-23 19:03:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'DriverSocketPhase1', file:'DriverSocket.kicad_sch'
+07-23 19:03:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['DriverSocketPhase2'], ['DriverSocketPhase3']]
+07-23 19:03:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['DriverSocketPhase1']
+07-23 19:03:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'DriverSocketPhase1', file:'DriverSocket.kicad_sch'
+07-23 19:03:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['DriverSocketPhase2'], ['DriverSocketPhase3']]
+07-23 19:03:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['DriverSocketPhase1']
+07-23 19:03:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'DriverSocketPhase1', file:'DriverSocket.kicad_sch'
+07-23 19:03:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['DriverSocketPhase2'], ['DriverSocketPhase3']]
+07-23 19:03:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['DriverSocketPhase1']
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'DriverSocketPhase1', file:'DriverSocket.kicad_sch'
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['DriverSocketPhase2'], ['DriverSocketPhase3']]
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['DriverSocketPhase2'], ['DriverSocketPhase3']]
+on level: ['DriverSocketPhase1']
+with tracks=False, zone=False, text=False, text=False, intersecting=False, remove=False, locked footprints=False, group_only=False
+07-23 19:03:40 root 340:updating GUI message: 'Preparing for replication'
+07-23 19:03:40 root 345:updating GUI with: 0
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+07-23 19:03:40 root 345:updating GUI with: 50
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+07-23 19:03:40 root 340:updating GUI message: 'Replicating footprints'
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['DriverSocketPhase2']
+07-23 19:03:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['DriverSocketPhase3']
+07-23 19:03:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete

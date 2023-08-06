@@ -353,7 +353,7 @@
     )
     (pin "1" (uuid 6a60ebd6-bad8-4743-9341-a834b9acecac))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854"
           (reference "#PWR089") (unit 1)
         )
@@ -404,7 +404,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d3d3a06e-f81d-4927-9a88-9ed5502f322c"
           (reference "J23") (unit 1)
         )
@@ -433,6 +433,9 @@
     (property "Datasheet" "~" (at 143.51 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "C780055" (at 143.51 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 729d4658-aebe-47f7-819a-a2010ce59524))
     (pin "2" (uuid f14c2186-dc13-458d-93fc-eb15dc62f2fb))
     (pin "3" (uuid a2c58225-682a-4bd6-8afa-3a17aa561ddc))
@@ -443,7 +446,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/d3d3a06e-f81d-4927-9a88-9ed5502f322c"
           (reference "J26") (unit 1)
         )
@@ -474,7 +477,7 @@
     )
     (pin "1" (uuid 1c442e0a-122c-4935-aa08-4d0071bf87bb))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR011") (unit 1)
         )
@@ -511,7 +514,7 @@
     )
     (pin "1" (uuid b2a65be3-88dd-4109-811b-f440ce4430c6))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854"
           (reference "#PWR090") (unit 1)
         )
@@ -559,7 +562,7 @@
     (pin "5" (uuid 55c756d8-7471-4a0d-9948-9fbcdb61631a))
     (pin "6" (uuid b02fab69-3830-4a29-8e76-c5fb4cae8e23))
     (instances
-      (project "GigaESC"
+      (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854"
           (reference "J3") (unit 1)
         )
