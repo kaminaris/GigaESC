@@ -1,82 +1,57 @@
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'win32'
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.5
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x000001A20B959E50>
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with U2 as a reference
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'U2'
-Located on: ['HardwareProtection', 'ComparatorHigh']
-With filenames: ['HardwareProtection.kicad_sch', 'ATTinyComp.kicad_sch']
-With sheet_id:['HardwareProtection', 'ComparatorHigh']
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
-[('U15', ['HardwareProtection', 'ComparatorLow']), ('U2', ['HardwareProtection', 'ComparatorHigh'])]
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ComparatorHigh', file:'ATTinyComp.kicad_sch'
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['HardwareProtection', 'ComparatorLow']]
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['HardwareProtection', 'ComparatorHigh']
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(1699, 117)
-07-17 03:59:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1337, 117)
-07-17 03:59:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ComparatorHigh', file:'ATTinyComp.kicad_sch'
-07-17 03:59:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['HardwareProtection', 'ComparatorLow']]
-07-17 03:59:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['HardwareProtection', 'ComparatorHigh']
-07-17 03:59:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-07-17 03:59:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ComparatorHigh', file:'ATTinyComp.kicad_sch'
-07-17 03:59:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['HardwareProtection', 'ComparatorLow']]
-07-17 03:59:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['HardwareProtection', 'ComparatorHigh']
-07-17 03:59:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-07-17 04:00:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ComparatorHigh', file:'ATTinyComp.kicad_sch'
-07-17 04:00:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['HardwareProtection', 'ComparatorLow']]
-07-17 04:00:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['HardwareProtection', 'ComparatorHigh']
-07-17 04:00:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ComparatorHigh', file:'ATTinyComp.kicad_sch'
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['HardwareProtection', 'ComparatorLow']]
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['HardwareProtection', 'ComparatorLow']]
-on level: ['HardwareProtection', 'ComparatorHigh']
-with tracks=True, zone=False, text=False, text=False, intersecting=False, remove=False, locked footprints=False, group_only=False
-07-17 04:00:02 root 340:updating GUI message: 'Preparing for replication'
-07-17 04:00:02 root 345:updating GUI with: 0
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
-07-17 04:00:02 root 345:updating GUI with: 50
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
-07-17 04:00:02 root 340:updating GUI message: 'Replicating footprints'
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['HardwareProtection', 'ComparatorLow']
-07-17 04:00:02 root 340:updating GUI message: 'Replicating tracks'
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['HardwareProtection', 'ComparatorLow']
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['CURR3_FILTERED'] and dst net: ['', 'HardwareProtection', 'ComparatorLow', 'CMP1+'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['CURR1_FILTERED'] and dst net: ['', 'HardwareProtection', 'ComparatorLow', 'CMP1+'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['CURR2_FILTERED'] and dst net: ['', 'HardwareProtection', 'ComparatorLow', 'CMP1+'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['', 'HardwareProtection', 'ComparatorHigh', 'CMP1-'] and dst net: ['CURR3_FILTERED'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['', 'HardwareProtection', 'ComparatorHigh', 'CMP1-'] and dst net: ['CURR1_FILTERED'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['', 'HardwareProtection', 'ComparatorHigh', 'CMP1-'] and dst net: ['CURR2_FILTERED'], with src_net_depth=4, dst_net_depth=1, src_fp_depth=2, dst_fp_depth=2
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['', 'HardwareProtection', 'ComparatorHigh', 'CMP1-'] and dst net: ['', 'HardwareProtection', 'ComparatorLow', 'CMP1+'], with src_net_depth=4, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['', 'HardwareProtection', 'ComparatorHigh', 'CMP1-'] and dst net: ['', 'HardwareProtection', 'ComparatorLow', 'CMP1+'], with src_net_depth=4, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['', 'HardwareProtection', 'ComparatorHigh', 'CMP1-'] and dst net: ['', 'HardwareProtection', 'ComparatorLow', 'CMP1+'], with src_net_depth=4, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2
-07-17 04:00:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['HardwareProtection', 'ComparatorLow'] :[('GND', 'GND'), ('CLEAR_HW_FAULT', 'CLEAR_HW_FAULT'), ('unconnected-(U2-PC2-Pad17)', 'unconnected-(U15-PC2-Pad17)'), ('/HardwareProtection/ComparatorHigh/ATTINY_SDA', '/HardwareProtection/ComparatorLow/ATTINY_SDA'), ('/HardwareProtection/ComparatorHigh/LATCH_OUT', '/HardwareProtection/ComparatorLow/LATCH_OUT'), ('/HardwareProtection/ComparatorHigh/AT_TX', '/HardwareProtection/ComparatorLow/AT_TX'), ('', ''), ('unconnected-(U2-PC0-Pad15)', 'unconnected-(U15-PC0-Pad15)'), ('/HardwareProtection/ComparatorHigh/AT_RX', '/HardwareProtection/ComparatorLow/AT_RX'), ('Net-(U2-~{RESET}{slash}PA0)', 'Net-(U15-~{RESET}{slash}PA0)'), ('unconnected-(U2-PC1-Pad16)', 'unconnected-(U15-PC1-Pad16)'), ('unconnected-(U2-PA3-Pad2)', 'unconnected-(U15-PA3-Pad2)'), ('unconnected-(U2-PC3-Pad18)', 'unconnected-(U15-PC3-Pad18)'), ('+3.3V', '+3.3V'), ('/HardwareProtection/ComparatorHigh/ATTINY_SCL', '/HardwareProtection/ComparatorLow/ATTINY_SCL'), ('Net-(D10-K)', 'Net-(D12-K)'), ('+3.3VADC', '+3.3VADC')]
-07-17 04:00:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
-07-17 04:00:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 267:Letting the user know there are some issues with replicated design
-07-17 04:00:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 271:Looks like the design has an exotic connectivity that is not supported by the plugin
- Make sure that you check the connectivity around:
-Footprint U15, pad 13
-Footprint U15, pad 14
-Footprint U15, pad 6
-Footprint U15, pad 7
-Footprint U15, pad 10
-Footprint U13, pad 5
-Footprint C47, pad 1
-Footprint U15, pad 8
-Footprint TP4, pad 1
-
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'win32'
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.5
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x00000174A795AE50>
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with U25 as a reference
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'U25'
+Located on: ['LogicConnectors', 'ShuntAmp1']
+With filenames: ['logicconnectors.kicad_sch', 'ShuntAmp.kicad_sch']
+With sheet_id:['LogicConnectors', 'ShuntAmp1']
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('U26', ['LogicConnectors', 'ShuntAmp2']), ('U27', ['LogicConnectors', 'ShuntAmp3']), ('U25', ['LogicConnectors', 'ShuntAmp1'])]
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ShuntAmp1', file:'ShuntAmp.kicad_sch'
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['LogicConnectors', 'ShuntAmp2'], ['LogicConnectors', 'ShuntAmp3']]
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['LogicConnectors', 'ShuntAmp1']
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(1699, 125)
+08-07 01:47:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1337, 125)
+08-07 01:47:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ShuntAmp1', file:'ShuntAmp.kicad_sch'
+08-07 01:47:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['LogicConnectors', 'ShuntAmp2'], ['LogicConnectors', 'ShuntAmp3']]
+08-07 01:47:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['LogicConnectors', 'ShuntAmp1']
+08-07 01:47:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ShuntAmp1', file:'ShuntAmp.kicad_sch'
+08-07 01:47:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['LogicConnectors', 'ShuntAmp2'], ['LogicConnectors', 'ShuntAmp3']]
+08-07 01:47:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['LogicConnectors', 'ShuntAmp1']
+08-07 01:47:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ShuntAmp1', file:'ShuntAmp.kicad_sch'
+08-07 01:47:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['LogicConnectors', 'ShuntAmp2'], ['LogicConnectors', 'ShuntAmp3']]
+08-07 01:47:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['LogicConnectors', 'ShuntAmp1']
+08-07 01:47:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ShuntAmp1', file:'ShuntAmp.kicad_sch'
+08-07 01:47:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['LogicConnectors', 'ShuntAmp2'], ['LogicConnectors', 'ShuntAmp3']]
+08-07 01:47:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['LogicConnectors', 'ShuntAmp1']
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'ShuntAmp1', file:'ShuntAmp.kicad_sch'
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['LogicConnectors', 'ShuntAmp2'], ['LogicConnectors', 'ShuntAmp3']]
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['LogicConnectors', 'ShuntAmp2'], ['LogicConnectors', 'ShuntAmp3']]
+on level: ['LogicConnectors', 'ShuntAmp1']
+with tracks=False, zone=False, text=False, text=False, intersecting=False, remove=False, locked footprints=False, group_only=False
+08-07 01:47:12 root 340:updating GUI message: 'Preparing for replication'
+08-07 01:47:12 root 345:updating GUI with: 0
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+08-07 01:47:12 root 345:updating GUI with: 50
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+08-07 01:47:12 root 340:updating GUI message: 'Replicating footprints'
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LogicConnectors', 'ShuntAmp2']
+08-07 01:47:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['LogicConnectors', 'ShuntAmp3']
+08-07 01:47:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete

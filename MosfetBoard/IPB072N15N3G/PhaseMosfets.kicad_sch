@@ -2081,11 +2081,11 @@
     (property "Mouser" "863-MC74VHC1G66DFT2G" (at 204.47 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e061dce-12f6-478c-8813-72714ea32a1e))
-    (pin "2" (uuid c0c4c6b5-de7e-45ea-bb3f-ed5fbb2f16dc))
-    (pin "3" (uuid 9c3fa32f-7711-42bb-8139-4802d11c3fae))
-    (pin "4" (uuid 1e8c49c8-187e-46cb-a92d-279e94fdb04d))
-    (pin "5" (uuid fc041de3-a9e3-42de-8ddb-cefdafca8b47))
+    (pin "1" (uuid 298f8c3d-d470-4621-93be-e6ef7f87260c))
+    (pin "2" (uuid 6e11cdff-d34f-456e-bdb7-0e29d170a9d2))
+    (pin "3" (uuid ac8acfe6-7c86-405f-9642-b66d21fbea61))
+    (pin "4" (uuid 083cdcf9-5da7-4fad-81b2-da3be596f645))
+    (pin "5" (uuid 38c04760-21df-4ae5-8462-5d60e9a00da4))
     (instances
       (project "IPB072N15N3G"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
