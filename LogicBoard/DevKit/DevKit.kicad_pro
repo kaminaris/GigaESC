@@ -84,16 +84,16 @@
         "silk_overlap|139000000|48376359|5ec7daff-162b-4a5e-ad62-27d887bf0f16|5f7fa819-b53f-4229-8f6a-ea8e2d71b8fd",
         "silk_overlap|139000000|56752955|9eaea8f5-cd2a-4e5c-9439-b5291f76e4d2|5f7fa819-b53f-4229-8f6a-ea8e2d71b8fd",
         "silk_overlap|144500000|59608024|15c584b7-8acc-424d-8b64-c0c8f4a388af|c7582152-2525-429f-a4b7-21cfaffbc27f",
+        "silk_overlap|159735000|85485000|273e13c7-71e9-46cf-b43b-a2e999ee7874|bc2d44ca-527a-42b7-8e52-7fe623db28ae",
+        "silk_overlap|159735000|85485000|aeceaeb9-a463-4569-bfcf-fc42837b1f2e|37f3582b-53d9-425b-8cc0-30e3fbe5004c",
+        "silk_overlap|159735000|85485000|aeceaeb9-a463-4569-bfcf-fc42837b1f2e|bc2d44ca-527a-42b7-8e52-7fe623db28ae",
         "silk_overlap|159735000|85515000|37f3582b-53d9-425b-8cc0-30e3fbe5004c|273e13c7-71e9-46cf-b43b-a2e999ee7874",
-        "silk_overlap|159735000|85515000|37f3582b-53d9-425b-8cc0-30e3fbe5004c|aeceaeb9-a463-4569-bfcf-fc42837b1f2e",
-        "silk_overlap|159735000|85515000|bc2d44ca-527a-42b7-8e52-7fe623db28ae|273e13c7-71e9-46cf-b43b-a2e999ee7874",
-        "silk_overlap|159735000|85515000|bc2d44ca-527a-42b7-8e52-7fe623db28ae|aeceaeb9-a463-4569-bfcf-fc42837b1f2e",
         "silk_overlap|167500000|55629810|fa5faa7b-d2ec-4a06-aa5a-7caa01e4c52d|c7582152-2525-429f-a4b7-21cfaffbc27f",
         "silk_overlap|173000000|46696607|fa5faa7b-d2ec-4a06-aa5a-7caa01e4c52d|38a91c36-7f51-4a76-beef-696ecb50622a",
         "silk_overlap|185265000|95985000|03e3f4bc-7ed3-40f1-a3ca-4f6f06f8acd8|1c490417-1eea-4902-b632-43b4473ba08a",
-        "silk_overlap|185265000|95985000|03e3f4bc-7ed3-40f1-a3ca-4f6f06f8acd8|a9f30a41-f458-4e48-9827-191eae2d9e31",
         "silk_overlap|185265000|95985000|e7ac3e0d-5477-4baa-9fe7-7258eba9f84e|1c490417-1eea-4902-b632-43b4473ba08a",
-        "silk_overlap|185265000|95985000|e7ac3e0d-5477-4baa-9fe7-7258eba9f84e|a9f30a41-f458-4e48-9827-191eae2d9e31"
+        "silk_overlap|185265000|96015000|a9f30a41-f458-4e48-9827-191eae2d9e31|03e3f4bc-7ed3-40f1-a3ca-4f6f06f8acd8",
+        "silk_overlap|185265000|96015000|a9f30a41-f458-4e48-9827-191eae2d9e31|e7ac3e0d-5477-4baa-9fe7-7258eba9f84e"
       ],
       "meta": {
         "version": 2
