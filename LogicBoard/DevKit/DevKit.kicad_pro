@@ -564,10 +564,6 @@
       "ComparatorLow"
     ],
     [
-      "dbcb2bcb-5dc6-40a6-a76e-54ecde2c4268",
-      "ShuntAmp2"
-    ],
-    [
       "81081265-f675-4f9d-bffe-8ec1eaaaba23",
       "HardwareProtection"
     ],
@@ -589,11 +585,7 @@
     ],
     [
       "cc96b9fa-7921-4558-9ae4-c4f65cd0f1d2",
-      "ShuntAmp1"
-    ],
-    [
-      "1bcc1156-d6cd-4412-8c40-de0d0427fdea",
-      "ShuntAmp3"
+      "ShuntAmp"
     ]
   ],
   "text_variables": {}

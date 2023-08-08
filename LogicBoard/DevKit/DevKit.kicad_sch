@@ -284,6 +284,58 @@
         )
       )
     )
+    (symbol "GigaVescSymbols:+3.3REF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3REF" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3REF\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3REF_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3REF_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3REF" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Jumper:SolderJumper_3_Bridged12" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (at -2.54 -2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1329,58 +1381,6 @@
         (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3.3VADC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 3.81 -1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3VADC" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3VADC\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3VADC_0_0"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3VADC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "+3.3VADC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
         )
       )
     )
@@ -2611,45 +2611,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3VADC") (at 184.15 110.49 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3667c2bc-b228-47c3-9b46-de131752fbe8)
-    (property "Reference" "#PWR08" (at 185.42 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3VADC" (at 180.34 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 184.15 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 184.15 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 935a34a0-5bf3-4027-8de2-232effa347ff))
-    (instances
-      (project "GigaVescDrivers"
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/70ecf73c-2cbb-41eb-9c52-f3fe8e7a855a"
-          (reference "#PWR08") (unit 1)
-        )
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/1b71110b-792f-43a8-a427-1a0737a683d1"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "DevKit"
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854"
-          (reference "#PWR073") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/81081265-f675-4f9d-bffe-8ec1eaaaba23"
-          (reference "#PWR061") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
-          (reference "#PWR059") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 219.71 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37c7dd14-df2a-4365-ac2f-7cb9bab5f27f)
@@ -2966,6 +2927,34 @@
       (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "GigaVescSymbols:+3.3REF") (at 184.15 110.49 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 515d95d2-d5b2-4c9b-ab90-eb3ed57ba26e)
+    (property "Reference" "#PWR017" (at 187.96 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3REF" (at 180.34 110.49 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 184.15 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 184.15 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 46ad772d-5c5a-47aa-8f40-fc484421501a))
+    (instances
+      (project "DevKit"
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
+          (reference "#PWR017") (unit 1)
+        )
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -3602,45 +3591,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3VADC") (at 217.17 92.71 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d7e1675e-d1f6-4f4d-a720-0bbb4bfab94a)
-    (property "Reference" "#PWR08" (at 215.9 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3VADC" (at 220.98 92.71 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 217.17 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 217.17 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9043d326-e3bd-4cd2-98a4-1030317bc220))
-    (instances
-      (project "GigaVescDrivers"
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/70ecf73c-2cbb-41eb-9c52-f3fe8e7a855a"
-          (reference "#PWR08") (unit 1)
-        )
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/1b71110b-792f-43a8-a427-1a0737a683d1"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "DevKit"
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854"
-          (reference "#PWR073") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/81081265-f675-4f9d-bffe-8ec1eaaaba23"
-          (reference "#PWR061") (unit 1)
-        )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
-          (reference "#PWR0145") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 53.34 173.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d908ac6f-38e4-48fc-82e7-ea7fed001521)
@@ -3860,6 +3810,34 @@
       (project "DevKit"
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "GigaVescSymbols:+3.3REF") (at 217.17 92.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fc717e0c-d4f9-4057-965d-4d19f9e0222c)
+    (property "Reference" "#PWR017" (at 217.17 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3REF" (at 223.52 91.44 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 217.17 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 217.17 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 716cde69-9b48-4d81-bb5b-37ff0d8bb867))
+    (instances
+      (project "DevKit"
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
+          (reference "#PWR017") (unit 1)
+        )
+        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0"
+          (reference "#PWR085") (unit 1)
         )
       )
     )
