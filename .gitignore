@@ -2,6 +2,7 @@
 production/
 *.wrl
 *.step
+replicate_layout.log
 
 # Temporary files
 .idea
