@@ -14663,7 +14663,7 @@
   (gr_text "13mm clearance for cable plug" (at 91.25 112 90) (layer "User.6") (tstamp a40e8c42-de4e-48ca-aae4-3c10ea342499)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "DriverConnector\nY: 63\nX: 108.5  156   203.5" (at 84.75 64.75) (layer "User.6") (tstamp a4b3eb83-af27-4977-9240-8ec1da5954a2)
+  (gr_text "DriverConnector\nY: 63\nX: 110.25  156   201.75" (at 84.75 64.75) (layer "User.6") (tstamp a4b3eb83-af27-4977-9240-8ec1da5954a2)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (dimension (type aligned) (layer "User.2") (tstamp 61943d07-b18f-428d-a4f1-4abc63d84b67)
