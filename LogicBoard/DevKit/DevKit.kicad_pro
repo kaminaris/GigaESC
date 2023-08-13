@@ -585,8 +585,16 @@
       "DriverSocketPhase3"
     ],
     [
+      "2e028ce4-cda5-49cd-8980-a1d0ca588b12",
+      "ShuntAmp1"
+    ],
+    [
       "cc96b9fa-7921-4558-9ae4-c4f65cd0f1d2",
-      "ShuntAmp"
+      "ShuntAmp3"
+    ],
+    [
+      "548c8c7c-56ef-4141-a426-9bb226c7bc09",
+      "ShuntAmp2"
     ]
   ],
   "text_variables": {}
