@@ -545,16 +545,8 @@
       "DriverSocketPhase3"
     ],
     [
-      "2e028ce4-cda5-49cd-8980-a1d0ca588b12",
-      "ShuntAmp1"
-    ],
-    [
-      "cc96b9fa-7921-4558-9ae4-c4f65cd0f1d2",
-      "ShuntAmp3"
-    ],
-    [
-      "548c8c7c-56ef-4141-a426-9bb226c7bc09",
-      "ShuntAmp2"
+      "635bfdc3-86f7-4a05-b7b5-f00d1f22e24a",
+      "LowSideShuntAmp"
     ]
   ],
   "text_variables": {}
