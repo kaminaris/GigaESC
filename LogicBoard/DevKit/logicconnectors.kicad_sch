@@ -3295,7 +3295,7 @@
     (property "Datasheet" "~" (at 82.55 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPNx" "C2685136" (at 82.55 113.03 0)
+    (property "MxPNx" "C2685136" (at 82.55 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLCRotOffset" "-90" (at 82.55 113.03 0)

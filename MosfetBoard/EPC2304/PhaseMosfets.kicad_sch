@@ -1793,13 +1793,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0039edd0-61fc-4b89-8660-16da11867944)
   )
-  (label "3.3V_IN2" (at 266.7 31.75 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (label "3.3V_IN2" (at 266.7 31.75 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 05083396-f133-462d-a377-9b969dcd3089)
   )
   (label "PHASE_OUT" (at 147.32 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 064a0436-3a2d-4ef5-a363-61210529dc79)
+  )
+  (label "SH-" (at 166.37 77.47 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 0d1ed8da-3e5b-4e1f-8943-e57afc4a9c31)
   )
   (label "SH-" (at 254 34.29 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3641,53 +3645,6 @@
         )
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
           (reference "C85") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 166.37 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 740deb22-4244-43b3-a456-33f249cf63a2)
-    (property "Reference" "#PWR06" (at 166.37 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 170.18 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 166.37 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 166.37 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6f222c2d-ca77-4415-ab43-67c8d429537a))
-    (instances
-      (project "2EDF7275KXUMA1"
-        (path "/21ffef13-51c1-4f75-9c5e-4fb42baba5c7"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-      (project "GigaVescDrivers"
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-          (reference "#PWR027") (unit 1)
-        )
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
-          (reference "#PWR037") (unit 1)
-        )
-        (path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-      (project "EPC2304"
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
-          (reference "#PWR034") (unit 1)
-        )
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-          (reference "#PWR035") (unit 1)
-        )
-        (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
-          (reference "#PWR043") (unit 1)
         )
       )
     )

@@ -1336,9 +1336,6 @@
     (property "Mouser" "80-T491D476K25AT7280" (at 118.11 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCRotOffset" "-180" (at 118.11 116.84 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid e78349f0-967c-470f-a896-caac92afa070))
     (pin "2" (uuid c8695e5d-afde-4853-b870-bffe40806b71))
     (instances
@@ -1671,7 +1668,7 @@
     (property "Datasheet" "~" (at 91.44 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C17521" (at 91.44 96.52 0)
+    (property "MPN" "C22939" (at 91.44 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser" "603-RC0805JR-072R2L" (at 91.44 96.52 0)
