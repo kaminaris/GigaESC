@@ -20952,7 +20952,7 @@
   (gr_text "PhaseConnector\nY: 119.25\nX: 110.25  156   201.75" (at 80.75 122.25) (layer "User.6") (tstamp 07b8ee97-79ad-45f6-9caf-80e57bb4395a)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "Center\nX: 156\nY: 83" (at 101.5 26.5) (layer "User.6") (tstamp 86ef8621-baa5-462f-9637-d37110ffd217)
+  (gr_text "Center\nX: 156\nY: 90.5" (at 101.5 26.5) (layer "User.6") (tstamp 86ef8621-baa5-462f-9637-d37110ffd217)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "13mm clearance for cable plug" (at 91.25 112 90) (layer "User.6") (tstamp a40e8c42-de4e-48ca-aae4-3c10ea342499)
