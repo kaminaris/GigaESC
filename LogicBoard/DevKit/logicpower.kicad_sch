@@ -2227,9 +2227,6 @@
         (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/717cb4b7-b47a-435c-946f-7c938a1d7e5f"
           (reference "#PWR0160") (unit 1)
         )
-        (path "/768a484b-8a27-40cf-8cad-0f63935b1af0/de95985c-773b-4c54-94d0-28826fc0c854/cc96b9fa-7921-4558-9ae4-c4f65cd0f1d2"
-          (reference "#PWR0160") (unit 1)
-        )
       )
     )
   )

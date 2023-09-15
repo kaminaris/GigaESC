@@ -1759,7 +1759,7 @@
     (uuid bfc95786-faab-4083-b55b-04ed6ca04753)
   )
   (text "Division up to 186V => 3.3V\n!!Those values have to be the same as on mosfet board!!"
-    (at 170.18 54.61 0)
+    (at 195.58 54.61 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d73127d2-9e29-48ee-84be-e7dd97727768)
   )
