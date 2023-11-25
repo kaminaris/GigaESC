@@ -40,12 +40,12 @@
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.7999999999999999,
-        "silk_text_size_v": 0.7999999999999999,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,27 +56,11 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|190400000|108340000|831e81ec-a31e-4cb1-8737-589834e7f0e8|ef2a3100-0e72-49c8-9c55-91db853d7b0a",
-        "copper_edge_clearance|106000000|109000000|5cb598e1-a4ab-4e03-8f99-4f09c03d05bf|9d6bb1be-f4b4-4bab-98fc-44f39b71ec3f",
-        "lib_footprint_mismatch|118000000|102825000|eebdfd63-9a5b-4152-9f1e-d4601491b516|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|118000000|93075000|84f025bf-ebb1-4f23-b8f1-b90e245f1f76|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|126250000|103250000|a0e23012-6ce9-4599-807e-80a694406f27|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|128706369|75556250|e3155a82-85aa-4ff9-a123-6a061acad4b3|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|131025000|87070000|1b81cd39-a71b-40a7-a388-46e738330349|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|152000000|80500000|46384dab-486e-4d1f-a494-66506971930a|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|153500000|104718750|4bf6e8de-4fe0-4cfa-b30b-10be95587383|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|181000000|113875000|045a15c0-aee9-4572-b7b9-25e744c528fe|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|164300000|97350000|754ed240-fe6b-4d4e-9ed3-f469b95db1ce|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|164850000|97350000|9cce1575-4ee4-411e-98dc-63c2fb081caf|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|198650000|72100000|f53c6820-cb6a-45a7-91ae-94f28ee3dca4|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|152235000|85265000|37f3582b-53d9-425b-8cc0-30e3fbe5004c|273e13c7-71e9-46cf-b43b-a2e999ee7874",
-        "silk_overlap|152235000|85265000|37f3582b-53d9-425b-8cc0-30e3fbe5004c|aeceaeb9-a463-4569-bfcf-fc42837b1f2e",
-        "silk_overlap|152235000|85265000|bc2d44ca-527a-42b7-8e52-7fe623db28ae|273e13c7-71e9-46cf-b43b-a2e999ee7874",
-        "silk_overlap|152235000|85265000|bc2d44ca-527a-42b7-8e52-7fe623db28ae|aeceaeb9-a463-4569-bfcf-fc42837b1f2e",
-        "silk_overlap|185265000|95985000|03e3f4bc-7ed3-40f1-a3ca-4f6f06f8acd8|1c490417-1eea-4902-b632-43b4473ba08a",
-        "silk_overlap|185265000|95985000|03e3f4bc-7ed3-40f1-a3ca-4f6f06f8acd8|a9f30a41-f458-4e48-9827-191eae2d9e31",
-        "silk_overlap|185265000|95985000|e7ac3e0d-5477-4baa-9fe7-7258eba9f84e|1c490417-1eea-4902-b632-43b4473ba08a",
-        "silk_overlap|185265000|96015000|a9f30a41-f458-4e48-9827-191eae2d9e31|e7ac3e0d-5477-4baa-9fe7-7258eba9f84e"
+        "lib_footprint_mismatch|60272220|117918750|139c92e7-6a91-419c-bd6f-9e3823422960|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|60272220|99418750|d46864bb-2386-4de9-959a-0e05f4658e7f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|78727780|101000000|bdda3a27-5db8-4e44-8493-844b18e24c83|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|78727780|119581250|2c3a0427-673e-4bb7-a878-08664b754279|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|100000000|130510000|95cd5605-913c-4b34-881e-3dc4507e4218|8d513314-8c8a-4e30-bdde-69c4b92d3fc1"
       ],
       "meta": {
         "version": 2
@@ -135,18 +119,18 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.16999999999999998,
+        "min_copper_edge_clearance": 0.0,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7,
+        "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -195,26 +179,17 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
         0.3,
-        0.4,
         0.5,
-        0.8,
         1.0,
-        1.5
+        1.5,
+        2.0,
+        3.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -438,11 +413,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "GigaVescLibs"
+    ],
+    "pinned_symbol_libs": [
+      "GigaESCSymbols"
+    ]
   },
   "meta": {
-    "filename": "DevKit.kicad_pro",
+    "filename": "TL594.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -459,9 +438,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -478,8 +457,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "DevKit.step",
-      "vrml": "DevKit.wrl"
+      "step": "LT8316.step",
+      "vrml": "LT8316.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -497,9 +476,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -519,52 +498,8 @@
   },
   "sheets": [
     [
-      "768a484b-8a27-40cf-8cad-0f63935b1af0",
+      "bd3f89f6-d222-47d4-8082-7044d630a3f6",
       ""
-    ],
-    [
-      "72793ee1-8b24-4ded-a030-5a38e70b572c",
-      "ESP32BT"
-    ],
-    [
-      "3981a847-2f50-47ee-ae81-91fe330099b5",
-      "AccelGyro"
-    ],
-    [
-      "00b03c15-2f32-40aa-9d15-0626e4794bf1",
-      "Switches"
-    ],
-    [
-      "de95985c-773b-4c54-94d0-28826fc0c854",
-      "LogicConnectors"
-    ],
-    [
-      "717cb4b7-b47a-435c-946f-7c938a1d7e5f",
-      "LogicPower"
-    ],
-    [
-      "ac734765-aa76-45cd-b5a0-b23ad6c1564a",
-      "ComparatorLow"
-    ],
-    [
-      "81081265-f675-4f9d-bffe-8ec1eaaaba23",
-      "HardwareProtection"
-    ],
-    [
-      "d3d3a06e-f81d-4927-9a88-9ed5502f322c",
-      "DriverSocketPhase1"
-    ],
-    [
-      "04d6ed87-6b10-45aa-8255-84943212068b",
-      "DriverSocketPhase2"
-    ],
-    [
-      "4e84f19f-3250-45a9-9b88-20e811e150a6",
-      "ComparatorHigh"
-    ],
-    [
-      "693754e5-6fc9-4123-abfe-2e1335cfdb84",
-      "DriverSocketPhase3"
     ]
   ],
   "text_variables": {}
