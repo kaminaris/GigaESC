@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -56,21 +56,23 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|106770001|106729999|e79abb86-7c24-485f-9828-3bc91fb99682|7f1db29d-8007-44a4-a09b-a0894c13d261",
+        "courtyards_overlap|106770001|106729999|7f1db29d-8007-44a4-a09b-a0894c13d261|e79abb86-7c24-485f-9828-3bc91fb99682",
         "courtyards_overlap|106770001|85229999|386e07c6-994a-47b2-8850-14ed80c74f4f|5d593819-24ba-4830-9e86-7ca53181d334",
         "courtyards_overlap|118270001|106729999|9d8352ef-85b2-4ef2-b0be-42d694689171|ad71f0c6-835a-43af-9853-ea826631c368",
-        "courtyards_overlap|118270001|85229999|e2d59ad8-2883-416e-9c12-81bcd2a38007|c1758c82-4db5-4ed2-a448-c0ec9c61ca7a",
+        "courtyards_overlap|118270001|85229999|c1758c82-4db5-4ed2-a448-c0ec9c61ca7a|e2d59ad8-2883-416e-9c12-81bcd2a38007",
         "courtyards_overlap|140020001|106729999|58a4c8ce-8ee8-40a2-924b-d29c97f12276|78f6cbb4-0dd0-4ec7-a425-41e5cef20557",
-        "courtyards_overlap|140020001|85229999|c8fc47e4-a46a-4240-8605-22dba71b80c2|5df47f00-b1c9-4347-aca0-d774ef1e7bb8",
+        "courtyards_overlap|140020001|85229999|5df47f00-b1c9-4347-aca0-d774ef1e7bb8|c8fc47e4-a46a-4240-8605-22dba71b80c2",
         "courtyards_overlap|151520001|106729999|3d3b75f6-57b7-4167-9793-62ee75db671b|72b78624-3738-41a0-a410-717f1a392d8c",
         "courtyards_overlap|151520001|85229999|b01c8d95-255f-451f-bc4a-83dd2bc0caff|b6a45f56-ef8d-4b30-be87-515ca3c9523a",
-        "courtyards_overlap|173270001|106729999|a8093257-5060-4718-bbd4-6046bda485cc|72bb16a0-0df4-408c-8c92-fb1384ac2294",
-        "courtyards_overlap|173270001|85229999|60121031-0c4c-4cc7-aa26-86d65c93ac05|2a67701b-b9f8-4bd1-b11a-e603dbdd52b4",
+        "courtyards_overlap|173270001|106729999|72bb16a0-0df4-408c-8c92-fb1384ac2294|a8093257-5060-4718-bbd4-6046bda485cc",
+        "courtyards_overlap|173270001|85229999|2a67701b-b9f8-4bd1-b11a-e603dbdd52b4|60121031-0c4c-4cc7-aa26-86d65c93ac05",
         "courtyards_overlap|184770001|106729999|5588b875-acfe-4c78-a756-17d265956282|928c3871-d807-4edf-9ddf-0a902720afa2",
         "courtyards_overlap|184770001|85229999|161db3f9-bbd8-4da6-b829-1f5088e4ed19|f0eeaae3-9720-43aa-b663-41b8b98341fa",
-        "lib_footprint_mismatch|136681250|97749999|d18637dc-8014-45b8-b47d-0a5839bb037f|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|169931250|97749999|5b4ec48b-00ac-4509-b0f2-0fb717e90e13|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|203181250|97749999|21b6927d-78cf-4396-a1b8-75110ffe490d|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|136681250|94749999|d18637dc-8014-45b8-b47d-0a5839bb037f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|169931250|94749999|5b4ec48b-00ac-4509-b0f2-0fb717e90e13|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|203181250|94749999|21b6927d-78cf-4396-a1b8-75110ffe490d|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|129540000|99063553|88419ec4-b685-4dd3-9d88-d1abfbc43285|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|162785308|98318244|132cff4b-f71c-4fdc-a9c6-7154cef4ad23|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -216,11 +218,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|1104900|292100|68c05973-92b0-4748-91ef-ddec7c3eb016|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|1739900|723900|d6cea536-46d8-4bf6-b5dc-ca5d79d0c40a|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|1739900|876300|d35074dc-ad95-4add-9747-4411918c8105|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -471,7 +469,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "IPB072N15N3G.step",
       "vrml": "IPB072N15N3G.wrl"
     },
     "page_layout_descr_file": ""
