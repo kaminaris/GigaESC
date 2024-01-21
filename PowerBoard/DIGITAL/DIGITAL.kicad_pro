@@ -418,10 +418,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "GigaVescLibs"
+      "GigaVescLibs",
+      "MyGlobalKicad"
     ],
     "pinned_symbol_libs": [
-      "GigaESCSymbols"
+      "GigaESCSymbols",
+      "MyGlobalKicadLib"
     ]
   },
   "meta": {
@@ -451,7 +453,10 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(0, 194, 0)",
+      "Net-(U7-+)": "rgb(255, 153, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

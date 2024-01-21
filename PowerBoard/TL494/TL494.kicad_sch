@@ -1999,7 +1999,7 @@
     (property "Datasheet" "" (at 71.12 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6805fc48-9fe2-4f83-9354-2938ed0576fa))
+    (pin "1" (uuid ea7fb04d-f0e1-4ccb-9d34-53a5cda6b26f))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2029,7 +2029,7 @@
     (property "Datasheet" "" (at 128.27 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09e779fc-309a-4552-82ff-47a35457f212))
+    (pin "1" (uuid bad4f79b-c735-43d6-88d5-2765f4cce4ea))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2089,7 +2089,7 @@
     (property "Datasheet" "" (at 243.84 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 483dea96-cf91-4547-9e0f-50503830d31b))
+    (pin "1" (uuid 377d37d7-1145-434b-a680-7bfc58ba4e5b))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2114,7 +2114,7 @@
     (property "Datasheet" "" (at 248.92 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4db60d5-cda7-4ccc-a433-51a9e1196a33))
+    (pin "1" (uuid 6ddbbd23-8dbb-4610-9c29-09529274f186))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2153,8 +2153,8 @@
     (property "Mouser" "603-RC0805FR-0744K2L" (at 39.37 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b3544da-7f96-4dc1-9c28-f353d1de6403))
-    (pin "2" (uuid f4f1bf03-f0e0-44d6-a3a0-c9cc9931b649))
+    (pin "1" (uuid 178d648d-1333-4bd5-ae77-e3600d8c3f01))
+    (pin "2" (uuid b6e0d6ad-b548-43ae-9bfa-7a17ce887580))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2185,8 +2185,8 @@
     (property "Mouser" "603-RC0805FR-0744K2L" (at 68.58 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca539148-046a-4105-8519-ede2406b0263))
-    (pin "2" (uuid 8c5f82c0-d95b-4e66-b872-d622db4316cc))
+    (pin "1" (uuid f2e3c843-5486-4b3b-a175-240ce4e22ee3))
+    (pin "2" (uuid ff5c8302-1e3b-4240-a9c1-d427dfde1ec7))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2211,7 +2211,7 @@
     (property "Datasheet" "" (at 218.44 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ccdef669-6911-4bda-8554-36235e2c509d))
+    (pin "1" (uuid 721af0f0-553f-4dfe-ba59-c7e66adb4929))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2244,7 +2244,7 @@
     (property "Datasheet" "" (at 240.03 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7daba07-f4e1-4d63-8d31-e85a3e8c4342))
+    (pin "1" (uuid 3c08a2a9-3918-4a75-b85f-40bc1db45a9f))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2341,8 +2341,8 @@
     (property "MPN" "C123955" (at 176.53 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d88cfb4c-7e15-4cb9-8500-2e2881de22fd))
-    (pin "2" (uuid 6472465f-c148-4ca0-898e-9f5d1c988f22))
+    (pin "1" (uuid b2687407-c203-4511-aa04-334653783e32))
+    (pin "2" (uuid 273e8999-3a59-4964-992d-973164a7128c))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/144a673d-64a9-413f-998d-d6e18d46a900"
@@ -2372,7 +2372,7 @@
     (property "Datasheet" "" (at 109.22 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid abfc3194-3ee4-4fe8-9602-3840b120b4ad))
+    (pin "1" (uuid 53180cdd-5a8e-4000-b2a1-9f616228f3b1))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2402,7 +2402,7 @@
     (property "Datasheet" "" (at 243.84 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cb6cc488-2f02-4c8f-ae53-a30e99d00e0d))
+    (pin "1" (uuid a8b82524-f79b-4034-8e43-729da7c81343))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2427,7 +2427,7 @@
     (property "Datasheet" "" (at 187.96 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 706f7fd2-ab97-4ddb-8168-c8d5727cdc35))
+    (pin "1" (uuid c86bb302-7ab4-4f3c-acf7-a1de05701700))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2466,9 +2466,9 @@
     (property "JLCPosOffset" "-1.4,0" (at 167.64 106.68 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7af27dd9-f245-4aa8-912c-31499d6aafba))
-    (pin "2" (uuid 19386b32-b214-4131-992e-c07dacc408ce))
-    (pin "3" (uuid b36047f7-f826-4af9-9c9c-8fa68e78ebe3))
+    (pin "1" (uuid c9dc1b6a-4a46-4352-88c2-3838325bfc7f))
+    (pin "2" (uuid fdcde3b7-d58d-4ad3-a999-f12c6c912f24))
+    (pin "3" (uuid 31f4371c-aa0b-45dc-a884-780ec9d80bce))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2518,7 +2518,7 @@
     (property "Datasheet" "" (at 72.39 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae58d479-6edf-4819-829d-548b1e46283e))
+    (pin "1" (uuid 67010153-cb11-4ea6-bc6e-1f148c06c4ca))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2584,8 +2584,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 205.74 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc588e8f-185f-4075-a8f2-381162154e36))
-    (pin "2" (uuid e8345659-6f84-41e2-b763-cd6d109635fe))
+    (pin "1" (uuid 4f778e74-33b7-452e-b011-d9868e2e89b2))
+    (pin "2" (uuid f41397fa-effc-4aaf-ab2e-fbc7b5dec99a))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2616,8 +2616,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 167.64 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0be88a90-6b7d-4b06-8368-fe026e1f838e))
-    (pin "2" (uuid 821180f6-de9b-4160-8b72-c86e236882b5))
+    (pin "1" (uuid 9fdbb880-1169-4da3-931d-7061381c3ede))
+    (pin "2" (uuid 9aa5a948-0db0-4fe3-89c7-774b91ddc342))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2648,8 +2648,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 162.56 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41b4fe37-e87f-42bc-80f3-1a0bccf6ac8d))
-    (pin "2" (uuid a52bee9d-067a-4397-994a-c7d57e2200a2))
+    (pin "1" (uuid 076183db-cf1c-41a3-902d-a5ee7554402e))
+    (pin "2" (uuid ea82d237-9a13-405f-b329-03ae73ee06cd))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2680,9 +2680,9 @@
     (property "JLCRotOffset" "0" (at 130.81 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 896f5753-a59c-45c4-a5ce-26392bb6cb7d))
-    (pin "2" (uuid e6a49f5d-7538-4885-8d4f-6ab89622a19f))
-    (pin "3" (uuid 7c9472b3-9353-4aa7-ad48-e4725cdd0eb6))
+    (pin "1" (uuid 0135f5e4-2ccc-409e-8b3e-35aa64bd1e37))
+    (pin "2" (uuid f992388b-48a0-419d-b742-373c469f8c1f))
+    (pin "3" (uuid 727964d1-0f6f-4904-a83e-8165b9294c9b))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2710,8 +2710,8 @@
     (property "MPN" "C2886317" (at 128.27 165.1 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 01f830b5-870d-4e26-a58f-771183359244))
-    (pin "2" (uuid 47b1924a-3758-4047-9211-d6b91b6576bb))
+    (pin "1" (uuid bfdd8d03-7606-45db-b1a4-aedc1ed8b4f8))
+    (pin "2" (uuid c4c5c44f-16a1-44eb-9fbe-537ae35391c6))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2739,8 +2739,8 @@
     (property "MPN" "C123955" (at 130.81 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d5961cd4-1146-4a17-a6d1-64ba321c7f54))
-    (pin "2" (uuid 4adcb005-d50c-4f14-8bc8-965900cc04e5))
+    (pin "1" (uuid fb0ddb13-1abe-4654-88d9-9086a8282c47))
+    (pin "2" (uuid 174cae0f-5aed-4498-970d-a06861d00606))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/144a673d-64a9-413f-998d-d6e18d46a900"
@@ -2776,8 +2776,8 @@
     (property "Mouser" "80-C0603C102K5R7081" (at 138.43 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c92e2c4-deac-4359-b5ce-def0f386a553))
-    (pin "2" (uuid 919763ae-7ba7-46e2-879c-c2816d84fca3))
+    (pin "1" (uuid 78146db0-7aac-44a9-b23b-9c7531e673df))
+    (pin "2" (uuid 0eb34fe0-4ed7-4f34-a305-53b64bbe26fb))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2802,7 +2802,7 @@
     (property "Datasheet" "" (at 30.48 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2900f28d-fb1f-4c16-b17e-f8f94473ec2a))
+    (pin "1" (uuid 23357cdf-de4f-4238-80fd-609d46f60995))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2835,8 +2835,8 @@
     (property "MPN" "C2847454" (at 82.55 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c60849e7-b8d1-4dec-8caa-c32d998c4608))
-    (pin "2" (uuid 92d85721-0a80-4e4c-8c0a-af8bcc459be8))
+    (pin "1" (uuid 0b1e9e94-0049-4945-a403-a095e3436cd6))
+    (pin "2" (uuid b1a27d6d-93a4-46f4-a874-f660f80337f5))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2867,8 +2867,8 @@
     (property "Mouser" "81-GRM32EC81C476KE5K" (at 187.96 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0cd5245c-270c-4ba2-8e20-81a996b1a09c))
-    (pin "2" (uuid fd0c8b18-78a8-4da9-8a2b-75877a7500e1))
+    (pin "1" (uuid 10e1dccf-3fd5-4ba1-92a2-63aaf62d141c))
+    (pin "2" (uuid 7e369997-47cf-4c19-bc17-f5a2205b7cf8))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2893,7 +2893,7 @@
     (property "Datasheet" "" (at 72.39 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 71eaae2d-ff4f-4969-80ba-9179744cefb4))
+    (pin "1" (uuid a1f06983-89c2-4dd7-b6df-0be06b08484d))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -2926,8 +2926,8 @@
     (property "MPN" "C191023" (at 217.17 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6660da6f-f23c-43d8-8935-8dd778519235))
-    (pin "2" (uuid fb7b3a43-3528-4ae3-bc27-4d1691f04409))
+    (pin "1" (uuid f50622fe-bbdb-46d9-8324-aa4664c1699b))
+    (pin "2" (uuid 1ee6f4cc-8e85-4739-bb22-4cf924298872))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2958,8 +2958,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 128.27 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c4e195a-dabc-489f-a539-0eb1f144e581))
-    (pin "2" (uuid 65c9a514-3194-45c6-a019-cc1f68f751e7))
+    (pin "1" (uuid 0535475c-bc17-433c-8b6d-ffff150d3e97))
+    (pin "2" (uuid 634fbffb-e97b-444c-b5d1-c4ee926c90cb))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -2987,8 +2987,8 @@
     (property "MPN" "C408533" (at 182.88 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c9a5cf2-ca81-4372-a9c6-786b720ed8d2))
-    (pin "2" (uuid e725c4eb-b1d6-424f-bec9-fb76b3f36c60))
+    (pin "1" (uuid f6479847-d2f8-4b4b-9343-5ee5f67e0a77))
+    (pin "2" (uuid 5b6632ac-d2d3-488e-adae-b7483f766e0b))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/144a673d-64a9-413f-998d-d6e18d46a900"
@@ -3024,8 +3024,8 @@
     (property "Mouser" "603-RC0805FR-0744K2L" (at 68.58 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b9be6d7-1cd8-46f3-b02b-6a41c4f2427e))
-    (pin "2" (uuid bb142412-2b44-49e5-8a91-d8da781b6076))
+    (pin "1" (uuid 52940623-0515-445e-8e09-a7f83db16960))
+    (pin "2" (uuid 28f3715a-81f1-4437-a62c-7111179b8a6d))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3053,8 +3053,8 @@
     (property "MPN" "C12891" (at 130.81 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ad222a2f-0e70-4fb9-992d-7552521cc9e7))
-    (pin "2" (uuid e61be9fb-65ee-4754-9796-8438ebb9af91))
+    (pin "1" (uuid c72430b6-9644-47fc-9999-3184a44234db))
+    (pin "2" (uuid 28f5e035-2e36-44bd-ad80-5b18042ed615))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3115,8 +3115,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 128.27 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6820704a-c5ce-4b6d-95ad-4c36139adc45))
-    (pin "2" (uuid 8163897d-891b-488e-851c-f7c495498b6f))
+    (pin "1" (uuid 4814261d-997a-4f8b-a112-983a22fab8ed))
+    (pin "2" (uuid 1c82e0cb-c0fa-405f-8126-1fb81ae37c5d))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3147,8 +3147,8 @@
     (property "Mouser" "821-1SMB5928" (at 189.23 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a7a5a76-57f1-43e5-a8ac-6d26ef23343e))
-    (pin "2" (uuid df98cf5a-62d8-4d9f-b940-316e6b0735a3))
+    (pin "1" (uuid 97f0993e-cc49-4348-8479-4b77ccf939cb))
+    (pin "2" (uuid c6ab978a-d867-4037-9763-f37a8cfaec9c))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3247,7 +3247,7 @@
     (property "Datasheet" "" (at 208.28 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2144630b-2c04-4760-b369-eab649f1f8a2))
+    (pin "1" (uuid 66624791-4b06-4721-94b1-3eab9e6e18b8))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -3286,8 +3286,8 @@
     (property "Mouser" "581-08055C104KAT4A" (at 50.8 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6572f5d0-baea-4482-94eb-aa2e60aca955))
-    (pin "2" (uuid 15a45e0a-6781-4299-9212-ba52db2367b0))
+    (pin "1" (uuid 6ad4a68e-7a87-4d40-abde-1d050c07513d))
+    (pin "2" (uuid 142a985e-c25d-43af-aac7-ef247201de0c))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/144a673d-64a9-413f-998d-d6e18d46a900"
@@ -3359,8 +3359,8 @@
     (property "MPN" "C12891" (at 151.13 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52deda1f-4e9c-4c0e-a4c1-8b394401b90a))
-    (pin "2" (uuid 868de51b-4622-4992-8ba5-5ee603c7e8b6))
+    (pin "1" (uuid 6ef93da6-a150-4c69-934f-088a2ee7bdef))
+    (pin "2" (uuid 0be2dc93-0f83-4a6b-95a2-dd320369e7e4))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3385,7 +3385,7 @@
     (property "Datasheet" "" (at 187.96 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c0528290-f659-4b33-b5ad-40095e3d27ec))
+    (pin "1" (uuid 5f46dd8d-2289-4f46-b565-5e4be4834fc9))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3410,7 +3410,7 @@
     (property "Datasheet" "~" (at 228.6 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ada4662-d445-4a86-b993-e002acebae10))
+    (pin "1" (uuid 2ee91f00-ec01-4614-a1c1-9cdcac83a551))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3471,8 +3471,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 158.75 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e07cc853-6ccd-49ca-ae97-8333ca1ae933))
-    (pin "2" (uuid 685ddb9a-2e2f-4b44-a8f4-c98bb4245224))
+    (pin "1" (uuid a9d54769-78b9-4e93-bf4a-cd672c9e3027))
+    (pin "2" (uuid 6d5977d3-f34c-46f5-8a2d-52b99c608af0))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3503,22 +3503,22 @@
     (property "JLCRotOffset" "90" (at 85.09 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 32d55cc6-49ff-4a86-85f1-53281b80174b))
-    (pin "10" (uuid 4ca7c834-cb10-4874-82e6-1bf4931a7147))
-    (pin "11" (uuid 430eb82c-6591-4a82-abe9-e9b7255921bb))
-    (pin "12" (uuid 192a1fcf-ca1b-4b6d-b2d3-b18df5c04bc7))
-    (pin "13" (uuid c3b3c12a-29b2-4e68-a293-8c74545a273d))
-    (pin "14" (uuid 91859e78-d56c-4d26-8c41-10bec15784e1))
-    (pin "15" (uuid ee691cd4-b250-470d-bf03-6875fab96e86))
-    (pin "16" (uuid 62e43969-3c67-451f-ab34-6c9677266ca1))
-    (pin "2" (uuid 2eb3afe1-2f65-4900-86a8-ebff0a11e4ef))
-    (pin "3" (uuid e7e91f8a-8e82-448a-90aa-b1646c2a8e39))
-    (pin "4" (uuid 0c809d40-d235-49f5-b239-784238e0a9da))
-    (pin "5" (uuid f91bf02d-d718-4c7d-b791-658f29526408))
-    (pin "6" (uuid a28034b1-3853-43b8-bba4-c0e0876c0c2e))
-    (pin "7" (uuid b0060683-3198-4194-b5d6-57417a09f960))
-    (pin "8" (uuid 88e5c3f1-c4bd-406c-b7ff-33f70e723896))
-    (pin "9" (uuid e998ea73-03e9-494b-b413-a5d9255125df))
+    (pin "1" (uuid 9039533b-7372-41a8-b73d-ef3a85a3b401))
+    (pin "10" (uuid 487a985e-b2d8-4b16-8efb-6e623f3e467e))
+    (pin "11" (uuid 574a537a-aedc-4785-9032-257bc9eed4e8))
+    (pin "12" (uuid 2a5e58af-7e95-437b-ac54-431edbca5dd1))
+    (pin "13" (uuid e618f5bc-b49e-492e-931b-51ef7fd3a9cb))
+    (pin "14" (uuid fe0768b1-0e3e-4a0c-bbb7-cc9779871b86))
+    (pin "15" (uuid 6bedc8e2-ecf7-4376-b0c6-f2d46537e93a))
+    (pin "16" (uuid db0fb38e-27a5-4a18-84d6-eeae63ddec2b))
+    (pin "2" (uuid 568e2034-b4ec-4a0d-a06f-6633640834b0))
+    (pin "3" (uuid 54a583d9-f7ce-4f92-945e-2b9f2e6ed44d))
+    (pin "4" (uuid d68ad9f9-6f7f-45cf-9361-fdd18d79c0f9))
+    (pin "5" (uuid 6170c742-9d38-4d26-8399-5d3a9aede76a))
+    (pin "6" (uuid ffefc5e1-d36e-4752-9bb7-3b9cb3f35a78))
+    (pin "7" (uuid 5d09bd67-1bf4-4e85-9d3e-85bd1029279a))
+    (pin "8" (uuid eeafee3e-5778-453c-9fb8-039825fa0624))
+    (pin "9" (uuid 6cc79526-07ef-4a10-a86c-746838f022b6))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3543,7 +3543,7 @@
     (property "Datasheet" "~" (at 99.06 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e895201-83b2-4321-8d47-a07b10812017))
+    (pin "1" (uuid c7a4b8be-4c68-4cd3-a4be-f6309aef8cd0))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3571,8 +3571,8 @@
     (property "MPN" "C12891" (at 161.29 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8f3e89cc-5513-4b6d-a5c9-87f6c0494aee))
-    (pin "2" (uuid fd59ad66-d77d-476c-b407-21e4fe8193cd))
+    (pin "1" (uuid 49f855b5-a5aa-4760-9e24-72c488f70134))
+    (pin "2" (uuid 88b89aa6-91d8-4fd5-b35c-6faebc2cdb02))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3603,8 +3603,8 @@
     (property "Mouser" "80-C0603C102K5R7081" (at 72.39 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3dd5eaeb-cf81-44b3-9b62-508398527ef3))
-    (pin "2" (uuid 5012f7c3-42c4-4e16-8481-ef5b0d921d0e))
+    (pin "1" (uuid 74f9983c-eff6-4a46-8f8b-86306c7217b0))
+    (pin "2" (uuid 23976dcd-0d82-4616-8bd1-7f32ad9f32ff))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3635,8 +3635,8 @@
     (property "Mouser" "603-RC0805FR-0744K2L" (at 35.56 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cedcaf0d-418f-4207-8135-9c58101e6f02))
-    (pin "2" (uuid d2dd17fd-7dab-48d2-ae77-c8633ebf3275))
+    (pin "1" (uuid 5da51449-36dc-4b91-b50a-60351b5ccc45))
+    (pin "2" (uuid db7a4cf3-4165-4f29-86a1-1db0266e9859))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3661,7 +3661,7 @@
     (property "Datasheet" "" (at 228.6 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b868901-db1d-4100-9e8b-b836c8b8ed05))
+    (pin "1" (uuid b61dd214-7b5f-44bc-a06e-0e2a3b2b83ae))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -3700,8 +3700,8 @@
     (property "Mouser" "603-AC0805JR-0710KL" (at 217.17 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 82bfd9c9-08a6-41f0-9664-33fe3796cd46))
-    (pin "2" (uuid 51b667ea-6ed1-4acc-b683-03e2a3b8ddcf))
+    (pin "1" (uuid 3a51008c-6276-4320-8878-380415cc1f6a))
+    (pin "2" (uuid 4d370486-a8b0-497f-95a4-d39da6972b08))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/144a673d-64a9-413f-998d-d6e18d46a900"
@@ -3773,8 +3773,8 @@
     (property "MPN" "C12891" (at 171.45 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 65618772-eb5d-4c60-8f9b-3cd38c63c6cf))
-    (pin "2" (uuid a428ef8c-3139-49f7-b642-c53e5ab450da))
+    (pin "1" (uuid 9cd550e2-8e05-4707-84db-6442c514b96f))
+    (pin "2" (uuid e5cac6ef-07df-4fcb-9fa5-cbc405cf02d1))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3805,8 +3805,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 162.56 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 89fa3b35-e354-4216-b888-af2a850da3c6))
-    (pin "2" (uuid 0a628096-03db-48a8-b532-d3dbca428f2a))
+    (pin "1" (uuid c8c195eb-556f-4716-aeb5-f5cbbcbc4e03))
+    (pin "2" (uuid 50334a03-824c-4d1f-b1b7-f07fc1216eb5))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3831,7 +3831,7 @@
     (property "Datasheet" "" (at 238.76 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a3f898b-ff16-420d-a495-2ef18942b7ec))
+    (pin "1" (uuid 9b7630ab-cc2b-4e6b-9822-c3c47925b9a0))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -3870,8 +3870,8 @@
     (property "Mouser" "603-RC0805FR-07100KL" (at 240.03 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d983696d-312a-4cf3-9096-5f3a0b8035c1))
-    (pin "2" (uuid cde42857-c1cb-4b00-bc07-fcc59a2c64ba))
+    (pin "1" (uuid fa8f5b99-19bf-4be9-b986-29ff0c5a0291))
+    (pin "2" (uuid 9d700b3f-29c6-492f-9564-82748c371be9))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3902,8 +3902,8 @@
     (property "Mouser" "603-RC0805FR-0744K2L" (at 63.5 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41a06621-8b5e-4e9e-8282-a361331b7938))
-    (pin "2" (uuid dd9e31db-5183-4a43-ab53-2525cb6afdaf))
+    (pin "1" (uuid 1c20f765-3e0f-4a6d-9434-ca9419e5ce3e))
+    (pin "2" (uuid fa9ca3af-3753-4365-ba19-3b35a2aab615))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -3934,8 +3934,8 @@
     (property "Mouser" "71-CRCW0805-1.8K-E3" (at 240.03 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e383e8e4-fd07-4c72-8164-3c18679390c0))
-    (pin "2" (uuid bb100b94-dbce-4b68-982c-1fe06627ea15))
+    (pin "1" (uuid 8219f306-168b-4ecc-bb23-f879fe575178))
+    (pin "2" (uuid bab9c1f4-294f-4725-95cd-ebb6a52d911c))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4002,8 +4002,8 @@
     (property "MPN" "C920964" (at 30.48 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da0556e8-82ba-4f06-a061-5ea61cdc8c8b))
-    (pin "2" (uuid 2168648d-5fe4-4de3-bde0-6d29ca860e80))
+    (pin "1" (uuid a068bef6-bb67-44a1-af14-e93d60ce74bc))
+    (pin "2" (uuid 2b553411-e80c-4242-a43f-82ef37971371))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4034,8 +4034,8 @@
     (property "Mouser" "603-RC0805FR-0744K2L" (at 43.18 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e424a3b4-3137-4739-a5f6-66e9405a53f0))
-    (pin "2" (uuid 2d66a14c-5aef-472d-a7bb-a3f6c92187e5))
+    (pin "1" (uuid fac2dbbf-c664-4426-884a-5a4a02baf009))
+    (pin "2" (uuid 96d786f0-4a71-4031-9a15-8fea04318bbd))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4105,8 +4105,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 100.33 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63b7698d-e4bd-472c-be61-528f648f11a8))
-    (pin "2" (uuid d4a9507c-4ea6-4d51-a10d-79ccebb1641b))
+    (pin "1" (uuid 68d85d2f-00db-4618-9def-a2fee3252260))
+    (pin "2" (uuid 451bb5ce-2dd1-41a8-83de-4b2513733f29))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4131,7 +4131,7 @@
     (property "Datasheet" "" (at 217.17 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 88ab9706-583f-46e0-b3b3-1204df302e7d))
+    (pin "1" (uuid 86120be0-d5fb-4127-9849-416e099b887c))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -4164,7 +4164,7 @@
     (property "Datasheet" "~" (at 78.74 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63cbc77a-321a-4acb-8749-0c003612999c))
+    (pin "1" (uuid 31b54b45-b9c7-4d57-b53b-e65d5c1fc0b7))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4189,7 +4189,7 @@
     (property "Datasheet" "" (at 30.48 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6269e58b-7e1b-47f4-8e95-dd2c65caa134))
+    (pin "1" (uuid 7029c2b7-db49-42c4-9155-1a0e7a9d6e7d))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -4225,8 +4225,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 205.74 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e8ad5e7-49a4-4825-8c3e-c3c160899c24))
-    (pin "2" (uuid b015ab5f-2bbb-4b56-acb4-25bfbe2f9783))
+    (pin "1" (uuid df093ee6-adb6-4486-a506-3b7985ae4240))
+    (pin "2" (uuid 520300c5-fd2b-443a-88cb-04bb490f0940))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4254,8 +4254,8 @@
     (property "MPN" "C920964" (at 30.48 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 15589b7c-2264-428a-91f0-c3edc5588ea5))
-    (pin "2" (uuid 9c09fb22-7c66-40d2-9aa4-c68553516732))
+    (pin "1" (uuid d099e282-334e-496f-b122-69412726bbca))
+    (pin "2" (uuid 78b0c7b1-9559-402c-aee1-848b738d2c6d))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4280,7 +4280,7 @@
     (property "Datasheet" "" (at 240.03 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3bc8b5d0-dfe5-4a70-9ac7-29cabd9e4cfe))
+    (pin "1" (uuid 467c692a-a4e4-428f-8c42-da39844ef304))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -4353,8 +4353,8 @@
     (property "Mouser" "603-RC0805FR-0744K2L" (at 39.37 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14e186cd-b65e-4f16-b154-355276306f2a))
-    (pin "2" (uuid 481ef000-4b20-4515-b9d6-47bde2d76230))
+    (pin "1" (uuid 88eec567-e06e-4de1-9fda-787b99c3379a))
+    (pin "2" (uuid 4b8c9ff3-c0d7-45d6-84ec-f9a0ddfa1db3))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4391,9 +4391,9 @@
     (property "JLCRotOffset" "180" (at 144.78 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6296bbac-543f-4355-9e0f-5804643e9f11))
-    (pin "2" (uuid 82c20ac4-bf60-4778-a678-5eb3f868ed75))
-    (pin "3" (uuid e0be07e8-7b2e-4cab-8df4-e8b89898cc9f))
+    (pin "1" (uuid ef09b3ac-2425-45af-b371-76b91238ca55))
+    (pin "2" (uuid 80bd3067-f938-4e7d-af87-0c7d3f7715e9))
+    (pin "3" (uuid a10935e4-3173-4e0b-9639-f75f9ebd83f6))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4424,8 +4424,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 134.62 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0983839b-6336-4880-b464-e06175d97d2b))
-    (pin "2" (uuid aee21c8b-ab82-4088-8a30-9e5adf772e35))
+    (pin "1" (uuid e4561c82-c876-4ce3-a87c-9ccf166ea83f))
+    (pin "2" (uuid a914b163-4dce-4c0e-8858-437400438f8c))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4456,8 +4456,8 @@
     (property "Mouser" "581-08055C104KAT4A" (at 119.38 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae1e1dc8-9b34-41e9-8ccf-34af1131ab00))
-    (pin "2" (uuid 1cc247b0-9218-4de9-98fd-0a8861d2f727))
+    (pin "1" (uuid d05d41a2-b7c4-49bf-b4a6-6fbb9325dee7))
+    (pin "2" (uuid 360dc14d-11ff-42b0-a247-b88638105dbe))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/144a673d-64a9-413f-998d-d6e18d46a900"
@@ -4523,8 +4523,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 105.41 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c271aa0d-0620-4f3c-bd71-8903a911342d))
-    (pin "2" (uuid 0542528a-8108-40d6-b00a-ca5ef9264aae))
+    (pin "1" (uuid 26bbab8a-e764-43f7-b764-7938041121a6))
+    (pin "2" (uuid bf347892-9aff-4e95-a493-c51479e62cec))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4558,11 +4558,11 @@
     (property "JLCRotOffset" "180" (at 238.76 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b73038e5-a59c-41c7-a6a3-d407e281e098))
-    (pin "2" (uuid 84b2d7c9-4e1c-497a-b19a-0c817e923c73))
-    (pin "3" (uuid 06dd2a1b-f074-438c-b793-cd71aa702a3c))
-    (pin "4" (uuid 81a795c3-96d3-4f22-a115-5292e1547603))
-    (pin "5" (uuid 52dc1d00-9c1d-41f4-850a-b1f0b931f00c))
+    (pin "1" (uuid e84a8721-2fb2-4fe9-b3c0-7a092d74e4ba))
+    (pin "2" (uuid dfcb0d62-16b3-43fb-aeb7-dba5c7f59dc1))
+    (pin "3" (uuid 468698c0-122e-4835-88bf-0466d8fdfa09))
+    (pin "4" (uuid 73a31d16-2020-4576-a1e1-8baf5d7ed4bd))
+    (pin "5" (uuid 35fe8a3a-d0bd-458a-b401-2a107dc35f07))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4593,8 +4593,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 123.19 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6923791e-4a41-42ea-9b74-b77b1a939567))
-    (pin "2" (uuid d30d6cda-168d-4130-b3a3-e8b1b21c0058))
+    (pin "1" (uuid 16a7f7a4-42db-4de8-8c66-fb32828300e7))
+    (pin "2" (uuid 15720495-8997-4996-8407-83d499336e00))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4622,8 +4622,8 @@
     (property "MPN" "C12891" (at 181.61 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3ed52f9-dee8-42df-8d82-479b311a2c39))
-    (pin "2" (uuid 027b474e-671d-428c-941c-ebe2f3e8c600))
+    (pin "1" (uuid b304ad65-fb27-4f71-9c00-43602e421e7e))
+    (pin "2" (uuid 11ce3a76-3aa2-4e5a-9e65-edd351af187c))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4648,7 +4648,7 @@
     (property "Datasheet" "" (at 205.74 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eb2702d8-c676-4db6-b848-e1271347a8f8))
+    (pin "1" (uuid 22a18823-7c86-466c-b348-de8624d8c87c))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -4681,7 +4681,7 @@
     (property "Datasheet" "" (at 198.12 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bed1c6be-54cb-49c2-8f31-dc0e78b98948))
+    (pin "1" (uuid 7159ac5a-e229-4fd6-ab94-4bd13f8b0f2c))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -4717,8 +4717,8 @@
     (property "MPN" "C12891" (at 140.97 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 468cb064-6898-4b38-9735-f0ddcdf36291))
-    (pin "2" (uuid 996dde01-1da7-4d71-8de3-2fac4c295586))
+    (pin "1" (uuid 863190a9-a764-4e95-bf56-444598a55857))
+    (pin "2" (uuid 9044a68b-bbad-4d24-8930-b15c1ec61f92))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4825,14 +4825,14 @@
     (property "JLCRotOffset" "-90" (at 128.27 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b721eec-18ca-4e44-b5a4-b5ac7a7c4f1e))
-    (pin "2" (uuid 6e1f7a42-8a9d-49fe-9f47-53a692b6c6ef))
-    (pin "3" (uuid 0de2de3b-09b3-45a2-851c-0dbd1e668a2b))
-    (pin "4" (uuid f7aa1720-9396-40a6-9902-67add03042a6))
-    (pin "5" (uuid 5a840dba-2a11-4233-9789-9348150781e2))
-    (pin "6" (uuid 11886d7b-9732-4efc-8b8e-33a2c342eefc))
-    (pin "7" (uuid 81a4c11d-50d6-42a5-ad39-a65c33dc1d4a))
-    (pin "8" (uuid c67dcba1-087d-4175-9072-9ef6be0d3887))
+    (pin "1" (uuid 38916a92-dbb1-4d74-bd26-8374c7026984))
+    (pin "2" (uuid 38026f2d-7fa0-40c5-9b7a-b7e7ea7e057d))
+    (pin "3" (uuid 0fa47db7-cc6c-48d7-a6a5-008246829c2c))
+    (pin "4" (uuid 4e76591b-acef-4acd-b847-f3747d461cba))
+    (pin "5" (uuid f432aa97-369a-4a35-a099-f7578e143d26))
+    (pin "6" (uuid 8c69104a-ac4b-4e10-bbdb-264d9efbec02))
+    (pin "7" (uuid 03cd6260-7edd-434d-898b-84724e799c93))
+    (pin "8" (uuid 9dac4c69-c69b-489d-ba28-53d7a0bce56e))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -4857,7 +4857,7 @@
     (property "Datasheet" "" (at 243.84 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0734026e-1bed-4b1b-9588-7ade340ca607))
+    (pin "1" (uuid 4ef1fb23-ee24-4c10-bd59-bf36d690c73d))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -4890,7 +4890,7 @@
     (property "Datasheet" "" (at 176.53 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 359d0e1b-572f-4641-84c4-fc311b1b3afd))
+    (pin "1" (uuid 504b3071-e040-47b2-98ae-5185032c1e61))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -4926,8 +4926,8 @@
     (property "Mouser" "581-08055C104KAT4A" (at 71.12 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b831c19-0300-4708-ae27-4ad02118b01d))
-    (pin "2" (uuid 2f5dcdde-19dc-4937-ab15-a162dc2da074))
+    (pin "1" (uuid 144ae997-296b-4896-96e1-a6149e66b184))
+    (pin "2" (uuid 9f9f7b9a-eab2-4356-9c12-afae8bf5f9e0))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/144a673d-64a9-413f-998d-d6e18d46a900"
@@ -4957,7 +4957,7 @@
     (property "Datasheet" "" (at 85.09 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fef17817-5448-411f-8ed6-f95be4467454))
+    (pin "1" (uuid ae95ce51-c328-4ed0-b359-bdaba548843d))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -5017,7 +5017,7 @@
     (property "Datasheet" "" (at 228.6 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a1622b6-38d0-41e4-8d0f-5b25a4eb2386))
+    (pin "1" (uuid bbc8749f-5e6e-4f02-9e06-4a9ba30e6a45))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -5048,8 +5048,8 @@
     (property "Mouser" "71-CRCW080520R0FKEAC" (at 128.27 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 665ba452-3b08-4754-ab12-ff0ff45722dd))
-    (pin "2" (uuid fa562bac-5ded-4e1a-acdb-bbe79879e516))
+    (pin "1" (uuid 6386f7a5-3dda-4e8c-b25f-b12ee1c93bc6))
+    (pin "2" (uuid c37035bc-19f4-4d0b-b810-1e90601302ea))
     (instances
       (project "TL494"
         (path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
@@ -5077,8 +5077,8 @@
     (property "MPN" "C2290" (at 217.17 107.95 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 85ed394f-4a94-47a7-9d16-070b200a3938))
-    (pin "2" (uuid 1f824d1c-678d-4257-a73d-6876162118c3))
+    (pin "1" (uuid 13b6e4bd-ee22-483f-9d1f-223a26967f76))
+    (pin "2" (uuid 0c8bc0d4-4fcb-48e5-a1f8-21be0d26909f))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/144a673d-64a9-413f-998d-d6e18d46a900"
@@ -5108,7 +5108,7 @@
     (property "Datasheet" "" (at 189.23 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6f9df351-e607-4bae-8572-c35eb1ba7c1a))
+    (pin "1" (uuid 94e271f8-1c26-42c5-aad9-5cd2aff275c7))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -5141,7 +5141,7 @@
     (property "Datasheet" "" (at 243.84 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26687fcc-972e-42e0-8833-65a00412b6bd))
+    (pin "1" (uuid 425df17e-b227-4c66-869b-0ee801f5a296))
     (instances
       (project "EPC2304"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
@@ -5174,7 +5174,7 @@
     (property "Datasheet" "" (at 62.23 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b3c059e2-d7fd-43c0-b54c-fed4a51d3c0a))
+    (pin "1" (uuid e5c47a3e-54bd-40d8-9887-617ff5a39b96))
     (instances
       (project "MosfetBoard"
         (path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
