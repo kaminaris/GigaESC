@@ -17,6 +17,9 @@ GigaESC - Based upon the VESC®*-Project VESC is a registered TM, owned by Benja
 * Optional Hardware current protection
 * Designed for easy manufacturing at JLCPcb (KiCad Fabrication Toolkit)
 
+Licensed under CERN Open Hardware Licence Version 2
+[LICENCE.txt](/LICENCE.txt)
+
 # ⚠️ Please do not order before contacting me on discord️ ⚠️
 
 https://discord.gg/JgvV5NwYts
