@@ -17,7 +17,8 @@ GigaESC - Based upon the VESC®*-Project VESC is a registered TM, owned by Benja
 * Optional Hardware current protection
 * Designed for easy manufacturing at JLCPcb (KiCad Fabrication Toolkit)
 
-Licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
+Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
+![](https://i.imgur.com/AfPvydZ.png)
 
 # ⚠️ Please do not order before contacting me on discord️ ⚠️
 
