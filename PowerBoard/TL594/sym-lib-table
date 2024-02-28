@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "GigaESCSymbols")(type "KiCad")(uri "A:/Projects/Electronic/GigaESC/GigaESCSymbols.kicad_sym")(options "")(descr ""))
-)
