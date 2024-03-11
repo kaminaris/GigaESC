@@ -19,9 +19,9 @@ GigaESC - Based upon the VESC®*-Project VESC is a registered TM, owned by Benja
 Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
 ![](https://i.imgur.com/AfPvydZ.png)
 
-# ⚠️ Please do not order before contacting me on discord️ ⚠️
+# ⚠️Please do not order before contacting me on discord️⚠️
 
-https://discord.gg/JgvV5NwYts
+https://discord.gg/embedded
 
 ## Ordering guide
 

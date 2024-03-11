@@ -1,5 +1,12 @@
 # Changelog
 
+## V3.2.0
+- Moved to KiCad 8
+- Updated MCU to bigger package
+- Changed inter-board connector to 2x15 pin header
+- Added solid mounting screw points
+- Updated labels
+
 ## V2.1.0
 - Added UC3845 power supply board
 
