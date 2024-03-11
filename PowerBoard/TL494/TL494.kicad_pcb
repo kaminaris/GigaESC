@@ -8061,7 +8061,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 1.85 90)
+			(at 3.75 0 90)
 			(layer "F.Fab")
 			(uuid "7379ff0b-0e8c-489e-b2e6-becfc008da4f")
 			(effects
@@ -8517,7 +8517,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 1.85 90)
+			(at 3.75 0 90)
 			(layer "F.Fab")
 			(uuid "b9baaa66-0416-4c52-926c-85072ed90145")
 			(effects
@@ -8739,7 +8739,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 1.85 90)
+			(at 3.75 0 90)
 			(layer "F.Fab")
 			(uuid "d2c0122d-34cf-4bb2-8568-0c4a5061d0aa")
 			(effects
@@ -9417,7 +9417,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 1.85 90)
+			(at 3.75 0 90)
 			(layer "F.Fab")
 			(uuid "ed52775a-dedd-4ff4-aba7-93c94f87a4b9")
 			(effects
@@ -9639,7 +9639,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 1.85 90)
+			(at 3.75 0 90)
 			(layer "F.Fab")
 			(uuid "503c2473-8c00-46f0-a9fe-ce7b40795b23")
 			(effects
@@ -16299,7 +16299,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 1.85 90)
+			(at 4 0 90)
 			(layer "F.Fab")
 			(uuid "1767ff0e-1ad3-4605-add6-6196af5fe36e")
 			(effects
@@ -16734,7 +16734,7 @@
 			)
 		)
 		(property "Value" "TL431"
-			(at 0 -2.4 90)
+			(at 1.25 0.25 0)
 			(layer "B.Fab")
 			(uuid "dc5a6fb3-fb0c-4326-9942-f32d695813b5")
 			(effects
@@ -17052,7 +17052,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 0 -1.43 0)
+			(at 3.5 0 0)
 			(layer "B.Fab")
 			(uuid "ba284ab9-9a6b-49c6-8a25-f63f6bf14435")
 			(effects
@@ -17291,7 +17291,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 0)
+			(at -0.5 -2 -90)
 			(layer "B.Fab")
 			(uuid "0e710ee4-7a69-40f4-8e8a-b2ced5fd41e1")
 			(effects
@@ -17530,7 +17530,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.43 90)
+			(at 2.25 0 90)
 			(layer "B.Fab")
 			(uuid "35e83c2c-76bc-42a0-b429-bb479aaefaa9")
 			(effects
@@ -18008,7 +18008,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 0)
+			(at 2.75 0 0)
 			(layer "B.Fab")
 			(uuid "2800d692-4f38-48fc-9087-7f1da7b0d451")
 			(effects
@@ -18247,7 +18247,7 @@
 			)
 		)
 		(property "Value" "2.2u 100V"
-			(at 0 -1.85 90)
+			(at -1.25 -1 90)
 			(layer "B.Fab")
 			(uuid "22b7ae20-c3d2-487b-9520-ca23c2e59799")
 			(effects
@@ -18475,6 +18475,7 @@
 		(property "Value" "TestPoint"
 			(at 0 -1.55 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "6a194762-39d8-4580-8719-86cfa477d96e")
 			(effects
 				(font
@@ -18606,7 +18607,7 @@
 			(uuid "b9ff73d6-66e1-4b64-8ac8-6fa5be3cd443")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.45 0)
+			(at -2.25 0.25 0)
 			(layer "B.Fab")
 			(uuid "0bd8bf22-e4e9-4700-a3eb-18c3a0752756")
 			(effects
@@ -18646,7 +18647,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 -1.43 0)
+			(at 0 -1.25 0)
 			(layer "B.Fab")
 			(uuid "aa58238d-6305-4f12-b9a7-c2e858871034")
 			(effects
@@ -18885,7 +18886,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 0)
+			(at 3 0 0)
 			(layer "B.Fab")
 			(uuid "c0489c3c-e0d2-499b-b193-ba225f5a491a")
 			(effects
@@ -19124,7 +19125,7 @@
 			)
 		)
 		(property "Value" "2.2u 100V"
-			(at 0 -1.85 90)
+			(at -0.25 1.5 90)
 			(layer "B.Fab")
 			(uuid "ae332346-a3db-460a-91ca-eca06bd75519")
 			(effects
@@ -19350,7 +19351,7 @@
 			)
 		)
 		(property "Value" "IRS21271"
-			(at 0 -3.4 90)
+			(at -4.5 -0.75 0)
 			(layer "B.Fab")
 			(uuid "29c2eb6c-7a66-4fa5-a94e-04e3c6427272")
 			(effects
@@ -19692,7 +19693,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 0 -1.43 0)
+			(at -3.25 0 0)
 			(layer "B.Fab")
 			(uuid "df6b46b1-cdfd-4c9a-80b7-0b6c76b92324")
 			(effects
@@ -19931,7 +19932,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 0 -1.43 0)
+			(at -2.5 0 0)
 			(layer "B.Fab")
 			(uuid "217d4268-9e00-4c78-a6e9-9331209c2f3c")
 			(effects
@@ -20170,7 +20171,7 @@
 			)
 		)
 		(property "Value" "BZT52C5V1S"
-			(at 0.1 -1.9 90)
+			(at 5 4.25 45)
 			(layer "B.Fab")
 			(uuid "fc439b2c-a31d-45f4-ad5a-2ff2ff942a72")
 			(effects
@@ -20468,7 +20469,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 0 -1.43 0)
+			(at 3.25 0 0)
 			(layer "B.Fab")
 			(uuid "abd17fea-0c9d-4c56-a90a-17b86bca8767")
 			(effects
@@ -21005,7 +21006,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 0 -1.43 90)
+			(at 2.25 -0.25 90)
 			(layer "B.Fab")
 			(uuid "026588da-f815-411c-901a-7b75a6138a50")
 			(effects
@@ -21244,7 +21245,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 0 -1.43 0)
+			(at -2.75 0 0)
 			(layer "B.Fab")
 			(uuid "8e7bd370-331a-48ef-a04f-a5af83df9207")
 			(effects
@@ -21961,7 +21962,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 0 -1.43 180)
+			(at -3.25 0 180)
 			(layer "B.Fab")
 			(uuid "ab472c96-3fc6-46c3-a2bd-3423f3fc8811")
 			(effects
@@ -22200,7 +22201,7 @@
 			)
 		)
 		(property "Value" "47u 16V"
-			(at 0 -2.3 0)
+			(at 5.5 0 0)
 			(layer "B.Fab")
 			(uuid "6c70fccb-87a4-4c54-aae3-7fb4075e0ba8")
 			(effects
@@ -22439,7 +22440,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 -1.43 90)
+			(at 0 -1.5 90)
 			(layer "B.Fab")
 			(uuid "2d0fb10b-76ac-439f-9ec2-d1b74b867eeb")
 			(effects
@@ -22678,7 +22679,7 @@
 			)
 		)
 		(property "Value" "SS520F"
-			(at 0 -2.6 0)
+			(at 0 4 0)
 			(layer "B.Fab")
 			(uuid "1b69b12e-6fbc-48fc-8593-b318bac796ab")
 			(effects
@@ -22979,7 +22980,7 @@
 			)
 		)
 		(property "Value" "S9012 2T1"
-			(at 0 -2.4 180)
+			(at 1.000001 -2.25 90)
 			(layer "B.Fab")
 			(uuid "49c14b99-c761-4def-8e91-4dc3eb043a54")
 			(effects
@@ -23262,7 +23263,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 0 -1.43 0)
+			(at -3.25 0 0)
 			(layer "B.Fab")
 			(uuid "a5dceeb7-29c1-4804-9177-54a762970d9c")
 			(effects
@@ -23501,7 +23502,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 90)
+			(at 1 1.5 90)
 			(layer "B.Fab")
 			(uuid "c6c1b871-0e51-48be-a5a6-7c3e5138d197")
 			(effects
@@ -23740,7 +23741,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.43 -90)
+			(at -0.75 -2.75 180)
 			(layer "B.Fab")
 			(uuid "29fb98d0-0d99-480c-ba82-572abf1a8eb3")
 			(effects
@@ -23979,7 +23980,7 @@
 			)
 		)
 		(property "Value" "BSS126"
-			(at 0 -2.4 0)
+			(at 3.75 -2 0)
 			(layer "B.Fab")
 			(uuid "79cf9f1b-c3a2-4356-a465-40f69dca2ca7")
 			(effects
@@ -24272,7 +24273,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 0 -1.43 90)
+			(at -2.25 0 90)
 			(layer "B.Fab")
 			(uuid "7c9d947a-eafe-4e3b-bdc8-3ee9fccef6e2")
 			(effects
@@ -25934,7 +25935,7 @@
 			(uuid "7c80c1ed-bb6e-4e68-91a0-7e040438963d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0.75 -1.5 180)
 			(layer "B.Fab")
 			(uuid "5ab7f704-2790-43da-a0ab-42869fad5afc")
 			(effects
@@ -26437,7 +26438,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 0)
+			(at 2.75 0 0)
 			(layer "B.Fab")
 			(uuid "837e25f3-c537-41a2-8b7a-67b216bacd7c")
 			(effects
@@ -26676,7 +26677,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.43 0)
+			(at 3.25 0 0)
 			(layer "B.Fab")
 			(uuid "64c785cb-0a18-4b0c-b958-a2824a431407")
 			(effects
@@ -26915,7 +26916,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 0 -1.43 0)
+			(at -2.5 0.5 0)
 			(layer "B.Fab")
 			(uuid "04c0838e-f0cf-4efd-bc0f-2bdbcd12d079")
 			(effects
@@ -27154,7 +27155,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 -1.43 0)
+			(at 0 1.25 0)
 			(layer "B.Fab")
 			(uuid "4066aace-7225-4dda-8d72-2c78460c7b33")
 			(effects

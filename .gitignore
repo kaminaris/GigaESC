@@ -33,3 +33,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+Render/
+*.pcb3d
+*.stl
+*.blend
+*.gltf
+*.obj

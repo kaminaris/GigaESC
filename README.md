@@ -2,16 +2,15 @@
 
 GigaESC - Based upon the VESC®*-Project VESC is a registered TM, owned by Benjamin Vedder
 
-![](https://i.imgur.com/BsOo4ez.jpeg)
+![](https://i.imgur.com/H1bGVwg.jpeg)
+![](https://i.imgur.com/UIH9Y2X.jpeg)
 
 * Modular design
 * Logic board
-* Socketable Drivers
 * Separate Power Stage (Mosfet) board
 * 40s capable
 * Up to 188V (Mosfets and caps up to 200V)
-* Up to 400A (depending on choice of mosfets)
-* Multiple Child driver boards
+* Up to 300A (depending on choice of mosfets)
 * Hall sensor current measurement or low side shunts
 * Built in IMU - LSM6DS3TR-C
 * Optional Hardware current protection

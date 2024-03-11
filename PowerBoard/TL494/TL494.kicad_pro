@@ -497,9 +497,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "TL494.step",
+      "step": "TL494x.step",
       "svg": "",
-      "vrml": "LT8316.wrl"
+      "vrml": "TL494.wrl"
     },
     "page_layout_descr_file": ""
   },
