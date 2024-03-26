@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -59,7 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|71520001|125270001|2b5e2848-0f2a-48a4-bbd8-8822909091f4|8bb79b43-8647-45e8-b005-81ac52e5c138"
+        "lib_footprint_mismatch|71875000|126500000|d21fd20e-4151-4b94-b4a3-f3f6d7a01680|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|73410000|136252500|ed63a342-6092-4adc-8a5f-f367a2959dca|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -87,7 +88,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -104,7 +105,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_thickness": "ignore",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -182,7 +183,6 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
         0.25,
         0.3,
         0.5,
@@ -463,7 +463,7 @@
     ]
   },
   "meta": {
-    "filename": "LT8609A.kicad_pro",
+    "filename": "TL494V2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -501,9 +501,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "TL494.step",
+      "step": "TL494x.step",
       "svg": "",
-      "vrml": "LT8316.wrl"
+      "vrml": "TL494V2.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -521,7 +521,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -539,7 +539,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -567,20 +567,8 @@
         },
         {
           "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
+          "label": "BOM",
+          "name": "BOM",
           "show": false
         },
         {
@@ -597,80 +585,20 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MPN",
           "name": "MPN",
           "show": true
         },
         {
           "group_by": false,
+          "label": "Manuf",
+          "name": "Manuf",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Mouser",
           "name": "Mouser",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SNAPEDA_PACKAGE_ID",
-          "name": "SNAPEDA_PACKAGE_ID",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SNAPEDA_PN",
-          "name": "SNAPEDA_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
           "show": false
         },
         {

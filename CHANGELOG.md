@@ -1,5 +1,11 @@
 # Changelog
 
+## V3.2.2
+- Added TL494 V2 version
+- Updated divider resistors with 3-1 ratio.
+- Changed JTAG to TagConnect 2030
+- Spark switch rework
+
 ## V3.2.0
 - Moved to KiCad 8
 - Updated MCU to bigger package

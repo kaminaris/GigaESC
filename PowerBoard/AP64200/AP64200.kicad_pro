@@ -58,9 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|71520001|125270001|2b5e2848-0f2a-48a4-bbd8-8822909091f4|8bb79b43-8647-45e8-b005-81ac52e5c138"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -463,7 +461,7 @@
     ]
   },
   "meta": {
-    "filename": "LT8609A.kicad_pro",
+    "filename": "AP64200.kicad_pro",
     "version": 1
   },
   "net_settings": {
