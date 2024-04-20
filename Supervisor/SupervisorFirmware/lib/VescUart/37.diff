@@ -1,0 +1,1352 @@
+diff --git a/src/VescUart.cpp b/src/VescUart.cpp
+index 4d25e18..d52bd93 100644
+--- a/src/VescUart.cpp
++++ b/src/VescUart.cpp
+@@ -1,24 +1,38 @@
+ #include <stdint.h>
+ #include "VescUart.h"
+ 
+-VescUart::VescUart(uint32_t timeout_ms) : _TIMEOUT(timeout_ms) {
+-	nunchuck.valueX         = 127;
+-	nunchuck.valueY         = 127;
+-	nunchuck.lowerButton  	= false;
+-	nunchuck.upperButton  	= false;
++VescUart::VescUart(uint32_t timeout_ms) : _TIMEOUT(timeout_ms)
++{
++	nunchuck.valueX = 127;
++	nunchuck.valueY = 127;
++	nunchuck.lowerButton = false;
++	nunchuck.upperButton = false;
++
++	appData.dutyCycle=0;
++	appData.erpm=0;
++	appData.inputVoltage=0;
++	appData.loopTime=0;
++	appData.motorCurrent=0;
++	appData.pidOutput=0;
++	appData.pitch=0;
++	appData.roll=0;
++	appData.state=0;
++	appData.switchState=0;
++	appData.vescId=0;
+ }
+ 
+-void VescUart::setSerialPort(Stream* port)
++void VescUart::setSerialPort(Stream *port)
+ {
+ 	serialPort = port;
+ }
+ 
+-void VescUart::setDebugPort(Stream* port)
++void VescUart::setDebugPort(Stream *port)
+ {
+ 	debugPort = port;
+ }
+ 
+-int VescUart::receiveUartMessage(uint8_t * payloadReceived) {
++int VescUart::receiveUartMessage(uint8_t *payloadReceived)
++{
+ 
+ 	// Messages <= 255 starts with "2", 2nd byte is length
+ 	// Messages > 255 starts with "3" 2nd and 3rd byte is length combined with 1st >>8 and then &0xFF
+@@ -32,46 +46,54 @@ int VescUart::receiveUartMessage(uint8_t * payloadReceived) {
+ 	bool messageRead = false;
+ 	uint8_t messageReceived[256];
+ 	uint16_t lenPayload = 0;
+-	
++
+ 	uint32_t timeout = millis() + _TIMEOUT; // Defining the timestamp for timeout (100ms before timeout)
+ 
+-	while ( millis() < timeout && messageRead == false) {
++	while (millis() < timeout && messageRead == false)
++	{
+ 
+-		while (serialPort->available()) {
++		while (serialPort->available())
++		{
+ 
+ 			messageReceived[counter++] = serialPort->read();
+ 
+-			if (counter == 2) {
++			if (counter == 2)
++			{
+ 
+ 				switch (messageReceived[0])
+ 				{
+-					case 2:
+-						endMessage = messageReceived[1] + 5; //Payload size + 2 for sice + 3 for SRC and End.
+-						lenPayload = messageReceived[1];
++				case 2:
++					endMessage = messageReceived[1] + 5; // Payload size + 2 for sice + 3 for SRC and End.
++					lenPayload = messageReceived[1];
+ 					break;
+ 
+-					case 3:
+-						// ToDo: Add Message Handling > 255 (starting with 3)
+-						if( debugPort != NULL ){
+-							debugPort->println("Message is larger than 256 bytes - not supported");
+-						}
++				case 3:
++					// ToDo: Add Message Handling > 255 (starting with 3)
++					if (debugPort != NULL)
++					{
++						debugPort->println("Message is larger than 256 bytes - not supported");
++					}
+ 					break;
+ 
+-					default:
+-						if( debugPort != NULL ){
+-							debugPort->println("Unvalid start bit");
+-						}
++				default:
++					if (debugPort != NULL)
++					{
++						debugPort->println("Unvalid start bit");
++					}
+ 					break;
+ 				}
+ 			}
+ 
+-			if (counter >= sizeof(messageReceived)) {
++			if (counter >= sizeof(messageReceived))
++			{
+ 				break;
+ 			}
+ 
+-			if (counter == endMessage && messageReceived[endMessage - 1] == 3) {
++			if (counter == endMessage && messageReceived[endMessage - 1] == 3)
++			{
+ 				messageReceived[endMessage] = 0;
+-				if (debugPort != NULL) {
++				if (debugPort != NULL)
++				{
+ 					debugPort->println("End of message reached!");
+ 				}
+ 				messageRead = true;
+@@ -79,28 +101,32 @@ int VescUart::receiveUartMessage(uint8_t * payloadReceived) {
+ 			}
+ 		}
+ 	}
+-	if(messageRead == false && debugPort != NULL ) {
++	if (messageRead == false && debugPort != NULL)
++	{
+ 		debugPort->println("Timeout");
+ 	}
+-	
++
+ 	bool unpacked = false;
+ 
+-	if (messageRead) {
++	if (messageRead)
++	{
+ 		unpacked = unpackPayload(messageReceived, endMessage, payloadReceived);
+ 	}
+ 
+-	if (unpacked) {
++	if (unpacked)
++	{
+ 		// Message was read
+-		return lenPayload; 
++		return lenPayload;
+ 	}
+-	else {
++	else
++	{
+ 		// No Message Read
+ 		return 0;
+ 	}
+ }
+ 
+-
+-bool VescUart::unpackPayload(uint8_t * message, int lenMes, uint8_t * payload) {
++bool VescUart::unpackPayload(uint8_t *message, int lenMes, uint8_t *payload)
++{
+ 
+ 	uint16_t crcMessage = 0;
+ 	uint16_t crcPayload = 0;
+@@ -110,8 +136,10 @@ bool VescUart::unpackPayload(uint8_t * message, int lenMes, uint8_t * payload) {
+ 	crcMessage &= 0xFF00;
+ 	crcMessage += message[lenMes - 2];
+ 
+-	if(debugPort!=NULL){
+-		debugPort->print("SRC received: "); debugPort->println(crcMessage);
++	if (debugPort != NULL)
++	{
++		debugPort->print("SRC received: ");
++		debugPort->println(crcMessage);
+ 	}
+ 
+ 	// Extract payload:
+@@ -119,32 +147,40 @@ bool VescUart::unpackPayload(uint8_t * message, int lenMes, uint8_t * payload) {
+ 
+ 	crcPayload = crc16(payload, message[1]);
+ 
+-	if( debugPort != NULL ){
+-		debugPort->print("SRC calc: "); debugPort->println(crcPayload);
++	if (debugPort != NULL)
++	{
++		debugPort->print("SRC calc: ");
++		debugPort->println(crcPayload);
+ 	}
+-	
+-	if (crcPayload == crcMessage) {
+-		if( debugPort != NULL ) {
+-			debugPort->print("Received: "); 
+-			serialPrint(message, lenMes); debugPort->println();
++
++	if (crcPayload == crcMessage)
++	{
++		if (debugPort != NULL)
++		{
++			debugPort->print("Received: ");
++			serialPrint(message, lenMes);
++			debugPort->println();
+ 
+ 			debugPort->print("Payload :      ");
+-			serialPrint(payload, message[1] - 1); debugPort->println();
++			serialPrint(payload, message[1] - 1);
++			debugPort->println();
+ 		}
+ 
+ 		return true;
+-	}else{
++	}
++	else
++	{
+ 		return false;
+ 	}
+ }
+ 
+-
+-int VescUart::packSendPayload(uint8_t * payload, int lenPay) {
++int VescUart::packSendPayload(uint8_t *payload, int lenPay)
++{
+ 
+ 	uint16_t crcPayload = crc16(payload, lenPay);
+ 	int count = 0;
+ 	uint8_t messageSend[256];
+-	
++
+ 	if (lenPay <= 256)
+ 	{
+ 		messageSend[count++] = 2;
+@@ -164,13 +200,15 @@ int VescUart::packSendPayload(uint8_t * payload, int lenPay) {
+ 	messageSend[count++] = (uint8_t)(crcPayload & 0xFF);
+ 	messageSend[count++] = 3;
+ 	// messageSend[count] = NULL;
+-	
+-	if(debugPort!=NULL){
+-		debugPort->print("Package to send: "); serialPrint(messageSend, count);
++
++	if (debugPort != NULL)
++	{
++		debugPort->print("Package to send: ");
++		serialPrint(messageSend, count);
+ 	}
+ 
+ 	// Sending package
+-	if( serialPort != NULL )
++	if (serialPort != NULL)
+ 		serialPort->write(messageSend, count);
+ 
+ 	// Returns number of send bytes
+@@ -178,7 +216,8 @@ int VescUart::packSendPayload(uint8_t * payload, int lenPay) {
+ }
+ 
+ 
+-bool VescUart::processReadPacket(uint8_t * message) {
++bool VescUart::processReadPacket(uint8_t *message)
++{
+ 
+ 	COMM_PACKET_ID packetId;
+ 	int32_t index = 0;
+@@ -186,125 +225,154 @@ bool VescUart::processReadPacket(uint8_t * message) {
+ 	packetId = (COMM_PACKET_ID)message[0];
+ 	message++; // Removes the packetId from the actual message (payload)
+ 
+-	switch (packetId){
+-		case COMM_FW_VERSION: // Structure defined here: https://github.com/vedderb/bldc/blob/43c3bbaf91f5052a35b75c2ff17b5fe99fad94d1/commands.c#L164
+-
+-			fw_version.major = message[index++];
+-			fw_version.minor = message[index++];
+-			return true;
+-		case COMM_GET_VALUES: // Structure defined here: https://github.com/vedderb/bldc/blob/43c3bbaf91f5052a35b75c2ff17b5fe99fad94d1/commands.c#L164
+-
+-			data.tempMosfet 		= buffer_get_float16(message, 10.0, &index); 	// 2 bytes - mc_interface_temp_fet_filtered()
+-			data.tempMotor 			= buffer_get_float16(message, 10.0, &index); 	// 2 bytes - mc_interface_temp_motor_filtered()
+-			data.avgMotorCurrent 	= buffer_get_float32(message, 100.0, &index); // 4 bytes - mc_interface_read_reset_avg_motor_current()
+-			data.avgInputCurrent 	= buffer_get_float32(message, 100.0, &index); // 4 bytes - mc_interface_read_reset_avg_input_current()
+-			index += 4; // Skip 4 bytes - mc_interface_read_reset_avg_id()
+-			index += 4; // Skip 4 bytes - mc_interface_read_reset_avg_iq()
+-			data.dutyCycleNow 		= buffer_get_float16(message, 1000.0, &index); 	// 2 bytes - mc_interface_get_duty_cycle_now()
+-			data.rpm 				= buffer_get_float32(message, 1.0, &index);		// 4 bytes - mc_interface_get_rpm()
+-			data.inpVoltage 		= buffer_get_float16(message, 10.0, &index);		// 2 bytes - GET_INPUT_VOLTAGE()
+-			data.ampHours 			= buffer_get_float32(message, 10000.0, &index);	// 4 bytes - mc_interface_get_amp_hours(false)
+-			data.ampHoursCharged 	= buffer_get_float32(message, 10000.0, &index);	// 4 bytes - mc_interface_get_amp_hours_charged(false)
+-			data.wattHours			= buffer_get_float32(message, 10000.0, &index);	// 4 bytes - mc_interface_get_watt_hours(false)
+-			data.wattHoursCharged	= buffer_get_float32(message, 10000.0, &index);	// 4 bytes - mc_interface_get_watt_hours_charged(false)
+-			data.tachometer 		= buffer_get_int32(message, &index);				// 4 bytes - mc_interface_get_tachometer_value(false)
+-			data.tachometerAbs 		= buffer_get_int32(message, &index);				// 4 bytes - mc_interface_get_tachometer_abs_value(false)
+-			data.error 				= (mc_fault_code)message[index++];								// 1 byte  - mc_interface_get_fault()
+-			data.pidPos				= buffer_get_float32(message, 1000000.0, &index);	// 4 bytes - mc_interface_get_pid_pos_now()
+-			data.id					= message[index++];								// 1 byte  - app_get_configuration()->controller_id	
+-
+-			return true;
++	switch (packetId)
++	{
++	case COMM_FW_VERSION: // Structure defined here: https://github.com/vedderb/bldc/blob/43c3bbaf91f5052a35b75c2ff17b5fe99fad94d1/commands.c#L164
+ 
+-		break;
++		fw_version.major = message[index++];
++		fw_version.minor = message[index++];
++		return true;
++	case COMM_GET_VALUES: // Structure defined here: https://github.com/vedderb/bldc/blob/43c3bbaf91f5052a35b75c2ff17b5fe99fad94d1/commands.c#L164
++
++		data.tempMosfet = buffer_get_float16(message, 10.0, &index);		  // 2 bytes - mc_interface_temp_fet_filtered()
++		data.tempMotor = buffer_get_float16(message, 10.0, &index);			  // 2 bytes - mc_interface_temp_motor_filtered()
++		data.avgMotorCurrent = buffer_get_float32(message, 100.0, &index);	  // 4 bytes - mc_interface_read_reset_avg_motor_current()
++		data.avgInputCurrent = buffer_get_float32(message, 100.0, &index);	  // 4 bytes - mc_interface_read_reset_avg_input_current()
++		index += 4;															  // Skip 4 bytes - mc_interface_read_reset_avg_id()
++		index += 4;															  // Skip 4 bytes - mc_interface_read_reset_avg_iq()
++		data.dutyCycleNow = buffer_get_float16(message, 1000.0, &index);	  // 2 bytes - mc_interface_get_duty_cycle_now()
++		data.rpm = buffer_get_float32(message, 1.0, &index);				  // 4 bytes - mc_interface_get_rpm()
++		data.inpVoltage = buffer_get_float16(message, 10.0, &index);		  // 2 bytes - GET_INPUT_VOLTAGE()
++		data.ampHours = buffer_get_float32(message, 10000.0, &index);		  // 4 bytes - mc_interface_get_amp_hours(false)
++		data.ampHoursCharged = buffer_get_float32(message, 10000.0, &index);  // 4 bytes - mc_interface_get_amp_hours_charged(false)
++		data.wattHours = buffer_get_float32(message, 10000.0, &index);		  // 4 bytes - mc_interface_get_watt_hours(false)
++		data.wattHoursCharged = buffer_get_float32(message, 10000.0, &index); // 4 bytes - mc_interface_get_watt_hours_charged(false)
++		data.tachometer = buffer_get_int32(message, &index);				  // 4 bytes - mc_interface_get_tachometer_value(false)
++		data.tachometerAbs = buffer_get_int32(message, &index);				  // 4 bytes - mc_interface_get_tachometer_abs_value(false)
++		data.error = (mc_fault_code)message[index++];						  // 1 byte  - mc_interface_get_fault()
++		data.pidPos = buffer_get_float32(message, 1000000.0, &index);		  // 4 bytes - mc_interface_get_pid_pos_now()
++		data.id = message[index++];											  // 1 byte  - app_get_configuration()->controller_id
+ 
+-		/* case COMM_GET_VALUES_SELECTIVE:
++		return true;
+ 
+-			uint32_t mask = 0xFFFFFFFF; */
++		break;
+ 
+-		default:
+-			return false;
++	case COMM_GET_CUSTOM_CONFIG:
++		// 34 byte received 
++		//balance data 
++		appData.pidOutput = buffer_get_float32(message, 1e6, &index); // 4 byte  pid output
++		appData.pitch = buffer_get_float32(message, 1e6, &index);	   // 4 byte 
++		appData.roll = buffer_get_float32(message, 1e6, &index);	//4 byte 
++		appData.loopTime = buffer_get_uint32(message, &index); //4 byte 
++		appData.motorCurrent = buffer_get_float32(message, 1e6, &index); //4byte 
++		appData.state = buffer_get_uint16(message, &index); //2 byte 
++		appData.switchState = buffer_get_uint16(message, &index); //2byte 
++		//other data 
++		appData.vescId = buffer_get_uint16(message, &index); //2byte 
++		appData.dutyCycle = buffer_get_float16(message, 1e3, &index);//2byte 
++		appData.erpm=buffer_get_float32(message, 1e0, &index); //4byte ;
++		appData.inputVoltage=buffer_get_float16(message, 1e1, &index); //2byte ;
++		
++		return true;
++		break;
++	default:
++		return false;
+ 		break;
+ 	}
+ }
+ 
+-bool VescUart::getFWversion(void){
++
++bool VescUart::getFWversion(void)
++{
+ 	return getFWversion(0);
+ }
+ 
+-bool VescUart::getFWversion(uint8_t canId){
+-	
++bool VescUart::getFWversion(uint8_t canId)
++{
++
+ 	int32_t index = 0;
+ 	int payloadSize = (canId == 0 ? 1 : 3);
+ 	uint8_t payload[payloadSize];
+-	
+-	if (canId != 0) {
+-		payload[index++] = { COMM_FORWARD_CAN };
++
++	if (canId != 0)
++	{
++		payload[index++] = {COMM_FORWARD_CAN};
+ 		payload[index++] = canId;
+ 	}
+-	payload[index++] = { COMM_FW_VERSION };
++	payload[index++] = {COMM_FW_VERSION};
+ 
+ 	packSendPayload(payload, payloadSize);
+ 
+ 	uint8_t message[256];
+ 	int messageLength = receiveUartMessage(message);
+-	if (messageLength > 0) { 
+-		return processReadPacket(message); 
++	if (messageLength > 0)
++	{
++		return processReadPacket(message);
+ 	}
+ 	return false;
+ }
+ 
+-bool VescUart::getVescValues(void) {
++bool VescUart::getVescValues(void)
++{
+ 	return getVescValues(0);
+ }
+ 
+-bool VescUart::getVescValues(uint8_t canId) {
++bool VescUart::getVescValues(uint8_t canId)
++{
+ 
+-	if (debugPort!=NULL){
+-		debugPort->println("Command: COMM_GET_VALUES "+String(canId));
++	if (debugPort != NULL)
++	{
++		debugPort->println("Command: COMM_GET_VALUES " + String(canId));
+ 	}
+ 
+ 	int32_t index = 0;
+ 	int payloadSize = (canId == 0 ? 1 : 3);
+ 	uint8_t payload[payloadSize];
+-	if (canId != 0) {
+-		payload[index++] = { COMM_FORWARD_CAN };
++	if (canId != 0)
++	{
++		payload[index++] = {COMM_FORWARD_CAN};
+ 		payload[index++] = canId;
+ 	}
+-	payload[index++] = { COMM_GET_VALUES };
++	payload[index++] = {COMM_GET_VALUES};
+ 
+ 	packSendPayload(payload, payloadSize);
+ 
+ 	uint8_t message[256];
+ 	int messageLength = receiveUartMessage(message);
+ 
+-	if (messageLength > 55) {
+-		return processReadPacket(message); 
++	if (messageLength > 55)
++	{
++		return processReadPacket(message);
+ 	}
+ 	return false;
+ }
+-void VescUart::setNunchuckValues() {
++void VescUart::setNunchuckValues()
++{
+ 	return setNunchuckValues(0);
+ }
+ 
+-void VescUart::setNunchuckValues(uint8_t canId) {
++void VescUart::setNunchuckValues(uint8_t canId)
++{
+ 
+-	if(debugPort!=NULL){
+-		debugPort->println("Command: COMM_SET_CHUCK_DATA "+String(canId));
+-	}	
++	if (debugPort != NULL)
++	{
++		debugPort->println("Command: COMM_SET_CHUCK_DATA " + String(canId));
++	}
+ 	int32_t index = 0;
+ 	int payloadSize = (canId == 0 ? 11 : 13);
+ 	uint8_t payload[payloadSize];
+ 
+-	if (canId != 0) {
+-		payload[index++] = { COMM_FORWARD_CAN };
++	if (canId != 0)
++	{
++		payload[index++] = {COMM_FORWARD_CAN};
+ 		payload[index++] = canId;
+ 	}
+-	payload[index++] = { COMM_SET_CHUCK_DATA };
++	payload[index++] = {COMM_SET_CHUCK_DATA};
+ 	payload[index++] = nunchuck.valueX;
+ 	payload[index++] = nunchuck.valueY;
+ 	buffer_append_bool(payload, nunchuck.lowerButton, &index);
+ 	buffer_append_bool(payload, nunchuck.upperButton, &index);
+-	
++
+ 	// Acceleration Data. Not used, Int16 (2 byte)
+ 	payload[index++] = 0;
+ 	payload[index++] = 0;
+@@ -313,104 +381,128 @@ void VescUart::setNunchuckValues(uint8_t canId) {
+ 	payload[index++] = 0;
+ 	payload[index++] = 0;
+ 
+-	if(debugPort != NULL){
++	if (debugPort != NULL)
++	{
+ 		debugPort->println("Nunchuck Values:");
+-		debugPort->print("x="); debugPort->print(nunchuck.valueX); debugPort->print(" y="); debugPort->print(nunchuck.valueY);
+-		debugPort->print(" LBTN="); debugPort->print(nunchuck.lowerButton); debugPort->print(" UBTN="); debugPort->println(nunchuck.upperButton);
++		debugPort->print("x=");
++		debugPort->print(nunchuck.valueX);
++		debugPort->print(" y=");
++		debugPort->print(nunchuck.valueY);
++		debugPort->print(" LBTN=");
++		debugPort->print(nunchuck.lowerButton);
++		debugPort->print(" UBTN=");
++		debugPort->println(nunchuck.upperButton);
+ 	}
+ 
+ 	packSendPayload(payload, payloadSize);
+ }
+ 
+-void VescUart::setCurrent(float current) {
++void VescUart::setCurrent(float current)
++{
+ 	return setCurrent(current, 0);
+ }
+ 
+-void VescUart::setCurrent(float current, uint8_t canId) {
++void VescUart::setCurrent(float current, uint8_t canId)
++{
+ 	int32_t index = 0;
+ 	int payloadSize = (canId == 0 ? 5 : 7);
+ 	uint8_t payload[payloadSize];
+-	if (canId != 0) {
+-		payload[index++] = { COMM_FORWARD_CAN };
++	if (canId != 0)
++	{
++		payload[index++] = {COMM_FORWARD_CAN};
+ 		payload[index++] = canId;
+ 	}
+-	payload[index++] = { COMM_SET_CURRENT };
++	payload[index++] = {COMM_SET_CURRENT};
+ 	buffer_append_int32(payload, (int32_t)(current * 1000), &index);
+ 	packSendPayload(payload, payloadSize);
+ }
+ 
+-void VescUart::setBrakeCurrent(float brakeCurrent) {
++void VescUart::setBrakeCurrent(float brakeCurrent)
++{
+ 	return setBrakeCurrent(brakeCurrent, 0);
+ }
+ 
+-void VescUart::setBrakeCurrent(float brakeCurrent, uint8_t canId) {
++void VescUart::setBrakeCurrent(float brakeCurrent, uint8_t canId)
++{
+ 	int32_t index = 0;
+ 	int payloadSize = (canId == 0 ? 5 : 7);
+ 	uint8_t payload[payloadSize];
+-	if (canId != 0) {
+-		payload[index++] = { COMM_FORWARD_CAN };
++	if (canId != 0)
++	{
++		payload[index++] = {COMM_FORWARD_CAN};
+ 		payload[index++] = canId;
+ 	}
+ 
+-	payload[index++] = { COMM_SET_CURRENT_BRAKE };
++	payload[index++] = {COMM_SET_CURRENT_BRAKE};
+ 	buffer_append_int32(payload, (int32_t)(brakeCurrent * 1000), &index);
+ 
+ 	packSendPayload(payload, payloadSize);
+ }
+ 
+-void VescUart::setRPM(float rpm) {
++void VescUart::setRPM(float rpm)
++{
+ 	return setRPM(rpm, 0);
+ }
+ 
+-void VescUart::setRPM(float rpm, uint8_t canId) {
++void VescUart::setRPM(float rpm, uint8_t canId)
++{
+ 	int32_t index = 0;
+ 	int payloadSize = (canId == 0 ? 5 : 7);
+ 	uint8_t payload[payloadSize];
+-	if (canId != 0) {
+-		payload[index++] = { COMM_FORWARD_CAN };
++	if (canId != 0)
++	{
++		payload[index++] = {COMM_FORWARD_CAN};
+ 		payload[index++] = canId;
+ 	}
+-	payload[index++] = { COMM_SET_RPM };
++	payload[index++] = {COMM_SET_RPM};
+ 	buffer_append_int32(payload, (int32_t)(rpm), &index);
+ 	packSendPayload(payload, payloadSize);
+ }
+ 
+-void VescUart::setDuty(float duty) {
++void VescUart::setDuty(float duty)
++{
+ 	return setDuty(duty, 0);
+ }
+ 
+-void VescUart::setDuty(float duty, uint8_t canId) {
++void VescUart::setDuty(float duty, uint8_t canId)
++{
+ 	int32_t index = 0;
+ 	int payloadSize = (canId == 0 ? 5 : 7);
+ 	uint8_t payload[payloadSize];
+-	if (canId != 0) {
+-		payload[index++] = { COMM_FORWARD_CAN };
++	if (canId != 0)
++	{
++		payload[index++] = {COMM_FORWARD_CAN};
+ 		payload[index++] = canId;
+ 	}
+-	payload[index++] = { COMM_SET_DUTY };
++	payload[index++] = {COMM_SET_DUTY};
+ 	buffer_append_int32(payload, (int32_t)(duty * 100000), &index);
+ 
+ 	packSendPayload(payload, payloadSize);
+ }
+ 
+-void VescUart::sendKeepalive(void) {
++void VescUart::sendKeepalive(void)
++{
+ 	return sendKeepalive(0);
+ }
+ 
+-void VescUart::sendKeepalive(uint8_t canId) {
++void VescUart::sendKeepalive(uint8_t canId)
++{
+ 	int32_t index = 0;
+ 	int payloadSize = (canId == 0 ? 1 : 3);
+ 	uint8_t payload[payloadSize];
+-	if (canId != 0) {
+-		payload[index++] = { COMM_FORWARD_CAN };
++	if (canId != 0)
++	{
++		payload[index++] = {COMM_FORWARD_CAN};
+ 		payload[index++] = canId;
+ 	}
+-	payload[index++] = { COMM_ALIVE };
++	payload[index++] = {COMM_ALIVE};
+ 	packSendPayload(payload, payloadSize);
+ }
+ 
+-void VescUart::serialPrint(uint8_t * data, int len) {
+-	if(debugPort != NULL){
++void VescUart::serialPrint(uint8_t *data, int len)
++{
++	if (debugPort != NULL)
++	{
+ 		for (int i = 0; i <= len; i++)
+ 		{
+ 			debugPort->print(data[i]);
+@@ -420,21 +512,167 @@ void VescUart::serialPrint(uint8_t * data, int len) {
+ 	}
+ }
+ 
+-void VescUart::printVescValues() {
+-	if(debugPort != NULL){
+-		debugPort->print("avgMotorCurrent: "); 	debugPort->println(data.avgMotorCurrent);
+-		debugPort->print("avgInputCurrent: "); 	debugPort->println(data.avgInputCurrent);
+-		debugPort->print("dutyCycleNow: "); 	debugPort->println(data.dutyCycleNow);
+-		debugPort->print("rpm: "); 				debugPort->println(data.rpm);
+-		debugPort->print("inputVoltage: "); 	debugPort->println(data.inpVoltage);
+-		debugPort->print("ampHours: "); 		debugPort->println(data.ampHours);
+-		debugPort->print("ampHoursCharged: "); 	debugPort->println(data.ampHoursCharged);
+-		debugPort->print("wattHours: "); 		debugPort->println(data.wattHours);
+-		debugPort->print("wattHoursCharged: "); debugPort->println(data.wattHoursCharged);
+-		debugPort->print("tachometer: "); 		debugPort->println(data.tachometer);
+-		debugPort->print("tachometerAbs: "); 	debugPort->println(data.tachometerAbs);
+-		debugPort->print("tempMosfet: "); 		debugPort->println(data.tempMosfet);
+-		debugPort->print("tempMotor: "); 		debugPort->println(data.tempMotor);
+-		debugPort->print("error: "); 			debugPort->println(data.error);
++void VescUart::printVescValues()
++{
++	if (debugPort != NULL)
++	{
++		debugPort->print("avgMotorCurrent: ");
++		debugPort->println(data.avgMotorCurrent);
++		debugPort->print("avgInputCurrent: ");
++		debugPort->println(data.avgInputCurrent);
++		debugPort->print("dutyCycleNow: ");
++		debugPort->println(data.dutyCycleNow);
++		debugPort->print("rpm: ");
++		debugPort->println(data.rpm);
++		debugPort->print("inputVoltage: ");
++		debugPort->println(data.inpVoltage);
++		debugPort->print("ampHours: ");
++		debugPort->println(data.ampHours);
++		debugPort->print("ampHoursCharged: ");
++		debugPort->println(data.ampHoursCharged);
++		debugPort->print("wattHours: ");
++		debugPort->println(data.wattHours);
++		debugPort->print("wattHoursCharged: ");
++		debugPort->println(data.wattHoursCharged);
++		debugPort->print("tachometer: ");
++		debugPort->println(data.tachometer);
++		debugPort->print("tachometerAbs: ");
++		debugPort->println(data.tachometerAbs);
++		debugPort->print("tempMosfet: ");
++		debugPort->println(data.tempMosfet);
++		debugPort->print("tempMotor: ");
++		debugPort->println(data.tempMotor);
++		debugPort->print("error: ");
++		debugPort->println(data.error);
++	}
++}
++
++void VescUart::printCustomValues()
++{
++	if (debugPort != NULL)
++	{
++		debugPort->print("pidOutput: ");
++		debugPort->println(appData.pidOutput);
++		debugPort->print("pitch angle: ");
++		debugPort->println(appData.pitch);
++		debugPort->print("roll angle: ");
++		debugPort->println(appData.roll);
++		debugPort->print("motor current: ");
++		debugPort->println(appData.motorCurrent);
++		debugPort->print("loop time: ");
++		debugPort->println(appData.loopTime);
++		debugPort->print("state: ");
++		debugPort->println(appData.state);
++		debugPort->print("switch state: ");
++		debugPort->println(appData.switchState);
++		debugPort->print("VESC vescId: ");
++		debugPort->println(appData.vescId);
++		debugPort->print("Input Voltage: ");
++		debugPort->println(appData.inputVoltage);
++		debugPort->print("ERPM: ");
++		debugPort->println(appData.erpm);
++		debugPort->print("Duty Cycle: ");
++		debugPort->println(appData.dutyCycle);
++	}
++}
++/**
++ * @brief 
++ * 
++ * @return true 
++ * @return false 
++ */
++bool VescUart::updateCustomValues()
++{
++	return updateCustomValues(0);
++
++}
++
++/**
++ * @brief custom data get from vesc 
++ * Balance App:	pid_output (float) 
++ * 				pitch_angle(float)
++ * 				roll_angle(float)
++ * 				loop_time (uint32_t)
++ * 				State(uint16_t)
++ * 				Switch State(uint16_t)
++ * Other 	  :	vesc id (uint16_t)
++ * 				duty cycle (float)	
++ * 				erpm (float)
++ * 				input voltage(float)
++ * 
++ * @param canId 
++ * @return true 
++ * @return false 
++ */
++bool VescUart::updateCustomValues(uint8_t canId)
++{
++	if (debugPort != NULL)
++	{
++		debugPort->println("COMM_GET_CUSTOM_CONFIG " + String(canId));
++	}
++
++	int32_t index = 0;
++	int payloadSize = (canId == 0 ? 1 : 3);
++	uint8_t payload[payloadSize];
++	if (canId != 0)
++	{
++		payload[index++] = {COMM_GET_CUSTOM_CONFIG};
++		payload[index++] = canId;
++	}
++	payload[index++] = {COMM_GET_CUSTOM_CONFIG};
++	packSendPayload(payload, payloadSize);
++
++	uint8_t message[256];
++	int messageLength = receiveUartMessage(message);
++	
++	if (messageLength >34)
++	{
++		return processReadPacket(message);
+ 	}
++	return false;
++}
++
++
++/**
++ * @brief Return PID OUTPUT 
++ * should call updateCustomValues() first.
++ */
++float VescUart::getPidOUtput()
++{
++ return appData.pidOutput;
++}
++/**
++ * @brief return erpm 
++ * should call updateCustomValues() first.
++ */
++float VescUart::getErpm()
++{
++
++	return appData.erpm;
++}
++/**
++ * @brief return Switch state 
++ * should call updateCustomValues() first.
++ */
++uint16_t VescUart::getSwitchState()
++{
++	return appData.switchState;
++}
++/**
++ * @brief return VESC ID to control Audio source  
++ * should call updateCustomValues() first.
++ */
++uint16_t VescUart::getVescId()
++{
++	return appData.vescId;
++}
++
++
++/**
++ * @brief return VESC ID to control Audio source  
++ * should call updateCustomValues() first.
++ */
++float VescUart::getMotorCurrent()
++{
++	return appData.motorCurrent;
+ }
+diff --git a/src/VescUart.h b/src/VescUart.h
+index dd8492b..8156a1c 100644
+--- a/src/VescUart.h
++++ b/src/VescUart.h
+@@ -6,232 +6,303 @@
+ #include "buffer.h"
+ #include "crc.h"
+ 
+-class VescUart
++class   VescUart
+ {
+ 
+-	/** Struct to store the telemetry data returned by the VESC */
+-	struct dataPackage {
+-       float avgMotorCurrent;
+-        float avgInputCurrent;
+-        float dutyCycleNow;
+-        float rpm;
+-        float inpVoltage;
+-        float ampHours;
+-        float ampHoursCharged;
+-        float wattHours;
+-        float wattHoursCharged;
+-        long tachometer;
+-        long tachometerAbs;
+-        float tempMosfet;
+-        float tempMotor;
+-        float pidPos;
+-        uint8_t id;
+-        mc_fault_code error; 
+-	};
+-
+-	/** Struct to hold the nunchuck values to send over UART */
+-	struct nunchuckPackage {
+-		int	valueX;
+-		int	valueY;
+-		bool upperButton; // valUpperButton
+-		bool lowerButton; // valLowerButton
+-	};
+-
+-    struct FWversionPackage {
+-        uint8_t major;
+-        uint8_t minor;
+-    };
+-
+-	//Timeout - specifies how long the function will wait for the vesc to respond
+-	const uint32_t _TIMEOUT;
+-
+-	public:
+-		/**
+-		 * @brief      Class constructor
+-		 */
+-		VescUart(uint32_t timeout_ms = 100);
+-
+-		/** Variabel to hold measurements returned from VESC */
+-		dataPackage data; 
+-
+-		/** Variabel to hold nunchuck values */
+-		nunchuckPackage nunchuck; 
+-
+-       /** Variable to hold firmware version */
+-        FWversionPackage fw_version; 
+-
+-        /**
+-         * @brief      Set the serial port for uart communication
+-         * @param      port  - Reference to Serial port (pointer) 
+-         */
+-        void setSerialPort(Stream* port);
+-
+-        /**
+-         * @brief      Set the serial port for debugging
+-         * @param      port  - Reference to Serial port (pointer) 
+-         */
+-        void setDebugPort(Stream* port);
+-
+-        /**
+-         * @brief      Populate the firmware version variables
+-         *
+-         * @return     True if successfull otherwise false
+-         */
+-        bool getFWversion(void);
+-
+-        /**
+-         * @brief      Populate the firmware version variables
+-         *
+-         * @param      canId  - The CAN ID of the VESC
+-         * @return     True if successfull otherwise false
+-         */
+-        bool getFWversion(uint8_t canId);
+-
+-        /**
+-         * @brief      Sends a command to VESC and stores the returned data
+-         *
+-         * @return     True if successfull otherwise false
+-         */
+-        bool getVescValues(void);
+-
+-        /**
+-         * @brief      Sends a command to VESC and stores the returned data
+-         * @param      canId  - The CAN ID of the VESC
+-         *
+-         * @return     True if successfull otherwise false
+-         */
+-        bool getVescValues(uint8_t canId);
+-
+-        /**
+-         * @brief      Sends values for joystick and buttons to the nunchuck app
+-         */
+-        void setNunchuckValues(void);
+-        /**
+-         * @brief      Sends values for joystick and buttons to the nunchuck app
+-         * @param      canId  - The CAN ID of the VESC
+-         */
+-        void setNunchuckValues(uint8_t canId);
+-
+-        /**
+-         * @brief      Set the current to drive the motor
+-         * @param      current  - The current to apply
+-         */
+-        void setCurrent(float current);
+-
+-        /**
+-         * @brief      Set the current to drive the motor
+-         * @param      current  - The current to apply
+-         * @param      canId  - The CAN ID of the VESC
+-         */
+-        void setCurrent(float current, uint8_t canId);
+-
+-        /**
+-         * @brief      Set the current to brake the motor
+-         * @param      brakeCurrent  - The current to apply
+-         */
+-        void setBrakeCurrent(float brakeCurrent);
+-
+-        /**
+-         * @brief      Set the current to brake the motor
+-         * @param      brakeCurrent  - The current to apply
+-         * @param      canId  - The CAN ID of the VESC
+-         */
+-        void setBrakeCurrent(float brakeCurrent, uint8_t canId);
+-
+-
+-        /**
+-         * @brief      Set the rpm of the motor
+-         * @param      rpm  - The desired RPM (actually eRPM = RPM * poles)
+-         */
+-        void setRPM(float rpm);		
+-
+-        /**
+-         * @brief      Set the rpm of the motor
+-         * @param      rpm  - The desired RPM (actually eRPM = RPM * poles)
+-         * @param      canId  - The CAN ID of the VESC
+-         */
+-        void setRPM(float rpm, uint8_t canId);
+-
+-        /**
+-         * @brief      Set the duty of the motor
+-         * @param      duty  - The desired duty (0.0-1.0)
+-         */
+-        void setDuty(float duty);
+-
+-        /**
+-         * @brief      Set the duty of the motor
+-         * @param      duty  - The desired duty (0.0-1.0)
+-         * @param      canId  - The CAN ID of the VESC
+-         */
+-        void setDuty(float duty, uint8_t canId);
+-
+-        /**
+-         * @brief      Send a keepalive message
+-         */
+-        void sendKeepalive(void);
+-
+-        /**
+-         * @brief      Send a keepalive message
+-         * @param      canId  - The CAN ID of the VESC
+-         */
+-        void sendKeepalive(uint8_t canId);
+-
+-        /**
+-         * @brief      Help Function to print struct dataPackage over Serial for Debug
+-         */
+-        void printVescValues(void);
+-
+-	private: 
+-
+-		/** Variabel to hold the reference to the Serial object to use for UART */
+-		Stream* serialPort = NULL;
+-
+-		/** Variabel to hold the reference to the Serial object to use for debugging. 
+-		  * Uses the class Stream instead of HarwareSerial */
+-		Stream* debugPort = NULL;
+-
+-		/**
+-		 * @brief      Packs the payload and sends it over Serial
+-		 *
+-		 * @param      payload  - The payload as a unit8_t Array with length of int lenPayload
+-		 * @param      lenPay   - Length of payload
+-		 * @return     The number of bytes send
+-		 */
+-		int packSendPayload(uint8_t * payload, int lenPay);
+-
+-		/**
+-		 * @brief      Receives the message over Serial
+-		 *
+-		 * @param      payloadReceived  - The received payload as a unit8_t Array
+-		 * @return     The number of bytes receeived within the payload
+-		 */
+-		int receiveUartMessage(uint8_t * payloadReceived);
+-
+-		/**
+-		 * @brief      Verifies the message (CRC-16) and extracts the payload
+-		 *
+-		 * @param      message  - The received UART message
+-		 * @param      lenMes   - The lenght of the message
+-		 * @param      payload  - The final payload ready to extract data from
+-		 * @return     True if the process was a success
+-		 */
+-		bool unpackPayload(uint8_t * message, int lenMes, uint8_t * payload);
+-
+-		/**
+-		 * @brief      Extracts the data from the received payload
+-		 *
+-		 * @param      message  - The payload to extract data from
+-		 * @return     True if the process was a success
+-		 */
+-		bool processReadPacket(uint8_t * message);
+-
+-		/**
+-		 * @brief      Help Function to print uint8_t array over Serial for Debug
+-		 *
+-		 * @param      data  - Data array to print
+-		 * @param      len   - Lenght of the array to print
+-		 */
+-		void serialPrint(uint8_t * data, int len);
++  /** Struct to store the telemetry data returned by the VESC */
++  struct dataPackage
++  {
++    float avgMotorCurrent;
++    float avgInputCurrent;
++    float dutyCycleNow;
++    float rpm;
++    float inpVoltage;
++    float ampHours;
++    float ampHoursCharged;
++    float wattHours;
++    float wattHoursCharged;
++    long tachometer;
++    long tachometerAbs;
++    float tempMosfet;
++    float tempMotor;
++    float pidPos;
++    uint8_t id;
++    mc_fault_code error;
++  };
++
++  struct customData
++  { 
++    float pidOutput;
++    float pitch;
++    float roll;
++    uint32_t loopTime;
++    float motorCurrent;
++    //float debug1; // unwant skip it 
++    uint16_t state;
++    uint16_t switchState;
++    //float adc1;
++    //float adc2;
++    //int32_t debug2; //unwant skip it 
++    uint16_t vescId;
++    float dutyCycle;
++    float erpm;
++    float inputVoltage;
++  };
++
++  /** Struct to hold the nunchuck values to send over UART */
++  struct nunchuckPackage
++  {
++    int valueX;
++    int valueY;
++    bool upperButton; // valUpperButton
++    bool lowerButton; // valLowerButton
++  };
++
++  struct FWversionPackage
++  {
++    uint8_t major;
++    uint8_t minor;
++  };
++
++  // Timeout - specifies how long the function will wait for the vesc to respond
++  const uint32_t _TIMEOUT;
++
++public:
++  /**
++   * @brief      Class constructor
++   */
++  VescUart(uint32_t timeout_ms = 100);
++
++  /** Variabel to hold measurements returned from VESC */
++  dataPackage data;
++  
++ 
++  /** Variabel to hold nunchuck values */
++  nunchuckPackage nunchuck;
++
++  /** Variable to hold firmware version */
++  FWversionPackage fw_version;
++
++  /**
++   * @brief      Set the serial port for uart communication
++   * @param      port  - Reference to Serial port (pointer)
++   */
++  void setSerialPort(Stream *port);
++
++  /**
++   * @brief      Set the serial port for debugging
++   * @param      port  - Reference to Serial port (pointer)
++   */
++  void setDebugPort(Stream *port);
++
++  /**
++   * @brief      Populate the firmware version variables
++   *
++   * @return     True if successfull otherwise false
++   */
++  bool getFWversion(void);
++
++  /**
++   * @brief      Populate the firmware version variables
++   *
++   * @param      canId  - The CAN ID of the VESC
++   * @return     True if successfull otherwise false
++   */
++  bool getFWversion(uint8_t canId);
++
++  /**
++   * @brief      Sends a command to VESC and stores the returned data
++   *
++   * @return     True if successfull otherwise false
++   */
++  bool getVescValues(void);
++
++  /**
++   * @brief      Sends a command to VESC and stores the returned data
++   * @param      canId  - The CAN ID of the VESC
++   *
++   * @return     True if successfull otherwise false
++   */
++  bool getVescValues(uint8_t canId);
++
++  /**
++   * @brief      Sends values for joystick and buttons to the nunchuck app
++   */
++  void setNunchuckValues(void);
++  /**
++   * @brief      Sends values for joystick and buttons to the nunchuck app
++   * @param      canId  - The CAN ID of the VESC
++   */
++  void setNunchuckValues(uint8_t canId);
++
++  /**
++   * @brief      Set the current to drive the motor
++   * @param      current  - The current to apply
++   */
++  void setCurrent(float current);
++
++  /**
++   * @brief      Set the current to drive the motor
++   * @param      current  - The current to apply
++   * @param      canId  - The CAN ID of the VESC
++   */
++  void setCurrent(float current, uint8_t canId);
++
++  /**
++   * @brief      Set the current to brake the motor
++   * @param      brakeCurrent  - The current to apply
++   */
++  void setBrakeCurrent(float brakeCurrent);
++
++  /**
++   * @brief      Set the current to brake the motor
++   * @param      brakeCurrent  - The current to apply
++   * @param      canId  - The CAN ID of the VESC
++   */
++  void setBrakeCurrent(float brakeCurrent, uint8_t canId);
++
++  /**
++   * @brief      Set the rpm of the motor
++   * @param      rpm  - The desired RPM (actually eRPM = RPM * poles)
++   */
++  void setRPM(float rpm);
++
++  /**
++   * @brief      Set the rpm of the motor
++   * @param      rpm  - The desired RPM (actually eRPM = RPM * poles)
++   * @param      canId  - The CAN ID of the VESC
++   */
++  void setRPM(float rpm, uint8_t canId);
++
++  /**
++   * @brief      Set the duty of the motor
++   * @param      duty  - The desired duty (0.0-1.0)
++   */
++  void setDuty(float duty);
++
++  /**
++   * @brief      Set the duty of the motor
++   * @param      duty  - The desired duty (0.0-1.0)
++   * @param      canId  - The CAN ID of the VESC
++   */
++  void setDuty(float duty, uint8_t canId);
++
++  /**
++   * @brief      Send a keepalive message
++   */
++  void sendKeepalive(void);
++
++  /**
++   * @brief      Send a keepalive message
++   * @param      canId  - The CAN ID of the VESC
++   */
++  void sendKeepalive(uint8_t canId);
++
++  /**
++   * @brief      Help Function to print struct dataPackage over Serial for Debug
++   */
++  void printVescValues(void);
++  /**
++   * @brief      Help Function to print struct dataPackage over Serial for Debug
++   * 
++   */
++  void printCustomValues(void);
++  /**
++   * @brief get the balance data
++   *
++   */
++bool updateCustomValues( uint8_t canId);
++/**
++ * @brief Get the Custom Config object
++ * 
++ * @return true 
++ * @return false 
++ */
++bool updateCustomValues( );
++/**
++ * @brief Return PID OUTPUT 
++ * should call updateCustomValues() first.
++ */
++float getPidOUtput();
++/**
++ * @brief return erpm 
++ * should call updateCustomValues() first.
++ */
++float getErpm();
++/**
++ * @brief return Switch state 
++ * should call updateCustomValues() first.
++ */
++uint16_t getSwitchState();
++/**
++ * @brief return VESC ID to control Audio source  
++ * should call updateCustomValues() first.
++ */
++uint16_t getVescId();
++/**
++ * @brief Get the Motor Current object
++ * 
++ * @return should call updateCustomValues() first.
++ */
++float getMotorCurrent();
++
++private:
++  /** Variabel to hold the reference to the Serial object to use for UART */
++  Stream *serialPort = NULL;
++
++  /** Variabel to hold the reference to the Serial object to use for debugging.
++   * Uses the class Stream instead of HarwareSerial */
++  Stream *debugPort = NULL;
++
++  customData appData;
++  
++  /**
++   * @brief      Packs the payload and sends it over Serial
++   *
++   * @param      payload  - The payload as a unit8_t Array with length of int lenPayload
++   * @param      lenPay   - Length of payload
++   * @return     The number of bytes send
++   */
++  int packSendPayload(uint8_t *payload, int lenPay);
++
++  /**
++   * @brief      Receives the message over Serial
++   *
++   * @param      payloadReceived  - The received payload as a unit8_t Array
++   * @return     The number of bytes receeived within the payload
++   */
++  int receiveUartMessage(uint8_t *payloadReceived);
++
++  /**
++   * @brief      Verifies the message (CRC-16) and extracts the payload
++   *
++   * @param      message  - The received UART message
++   * @param      lenMes   - The lenght of the message
++   * @param      payload  - The final payload ready to extract data from
++   * @return     True if the process was a success
++   */
++  bool unpackPayload(uint8_t *message, int lenMes, uint8_t *payload);
++
++  /**
++   * @brief      Extracts the data from the received payload
++   *
++   * @param      message  - The payload to extract data from
++   * @return     True if the process was a success
++   */
++  bool processReadPacket(uint8_t *message);
++
++  /**
++   * @brief      Help Function to print uint8_t array over Serial for Debug
++   *
++   * @param      data  - Data array to print
++   * @param      len   - Lenght of the array to print
++   */
++  void serialPrint(uint8_t *data, int len);
++
++
++
++
++
+ 
+ };
+ 

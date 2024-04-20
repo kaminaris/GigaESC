@@ -1,5 +1,9 @@
 # Changelog
 
+## V3.3.0
+- Updated TL494 V2.1 version
+- Initial supervisor
+
 ## V3.2.2
 - Added TL494 V2 version
 - Updated divider resistors with 3-1 ratio.

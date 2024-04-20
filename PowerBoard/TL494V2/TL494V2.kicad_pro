@@ -39,7 +39,7 @@
         "pads": {
           "drill": 0.0,
           "height": 0.6,
-          "width": 1.4
+          "width": 1.95
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|71875000|126500000|d21fd20e-4151-4b94-b4a3-f3f6d7a01680|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|73410000|136252500|ed63a342-6092-4adc-8a5f-f367a2959dca|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -642,6 +639,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
