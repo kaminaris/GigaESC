@@ -1,4 +1,7 @@
 # Changelog
+## V3.3.1
+- Supervisor routed
+- TL494V2 with over current protection
 
 ## V3.3.0
 - Updated TL494 V2.1 version

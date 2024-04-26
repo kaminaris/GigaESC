@@ -463,7 +463,7 @@
     ]
   },
   "meta": {
-    "filename": "TL494V2.kicad_pro",
+    "filename": "TL494V2OC.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -503,7 +503,7 @@
       "specctra_dsn": "",
       "step": "TL494x.step",
       "svg": "",
-      "vrml": "TL494V2.wrl"
+      "vrml": "TL494V2OC.wrl"
     },
     "page_layout_descr_file": ""
   },

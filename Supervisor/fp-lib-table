@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SupervisorLibrary")(type "KiCad")(uri "${KIPRJMOD}/SupervisorLibrary.pretty")(options "")(descr ""))
+)

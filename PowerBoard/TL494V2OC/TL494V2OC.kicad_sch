@@ -5,6 +5,201 @@
 	(uuid "bd3f89f6-d222-47d4-8082-7044d630a3f6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Current:INA199xxDCK"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "INA199xxDCK"
+				(at 3.81 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina199.pdf"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "INA199 26-V, Bidirectional, Zero-Drift, Low- or High-Side, Voltage-Output, Current-Shunt Monitor, SOT-363, SC-70"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "current monitor shunt sensor bidirectional"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SC?70*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INA199xxDCK_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "INA199xxDCK_1_1"
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "REF"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
@@ -1865,6 +2060,176 @@
 				)
 			)
 			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3974,6 +4339,12 @@
 		(uuid "004e0366-70fa-44c7-bfcd-13603e657a15")
 	)
 	(junction
+		(at 34.29 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "009a4736-2e70-47fc-a69d-182248b06b0b")
+	)
+	(junction
 		(at 140.97 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4028,6 +4399,12 @@
 		(uuid "21590be7-1599-4db2-81c2-9d4c357eed82")
 	)
 	(junction
+		(at 26.67 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23d9db73-0629-413a-86f2-ace7600efe92")
+	)
+	(junction
 		(at 138.43 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4064,12 +4441,6 @@
 		(uuid "3e61f39a-c8ba-4782-b61f-47eeda2d6897")
 	)
 	(junction
-		(at 207.01 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fe58a12-bfbc-42c4-b761-47128c05c70d")
-	)
-	(junction
 		(at 50.8 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4082,10 +4453,22 @@
 		(uuid "42f61a12-8463-438c-afa6-ed98c1a931f1")
 	)
 	(junction
+		(at 203.2 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f0fddb-20d0-4bec-a6cf-9c2910616532")
+	)
+	(junction
 		(at 240.03 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ce0a667-0078-4a2c-84a8-db245874f289")
+	)
+	(junction
+		(at 190.5 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5066cb92-f7e0-44cd-a2b2-9bd845db9931")
 	)
 	(junction
 		(at 107.95 41.91)
@@ -4106,10 +4489,10 @@
 		(uuid "60c00f3e-5f4c-4933-81bb-5397626dc1d0")
 	)
 	(junction
-		(at 62.23 118.11)
+		(at 34.29 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "646cfb91-f319-4270-a8b7-9d3480a51f77")
+		(uuid "63c13a85-6d74-4351-920d-d372aadfcb71")
 	)
 	(junction
 		(at 172.72 104.14)
@@ -4148,12 +4531,6 @@
 		(uuid "7b8c663a-5b48-41b1-934e-8b60ff18fe4c")
 	)
 	(junction
-		(at 27.94 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f12841c-f0ff-490d-a4c0-6fba84d70104")
-	)
-	(junction
 		(at 135.89 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4166,28 +4543,10 @@
 		(uuid "89c0e6d5-7fde-4ee5-a013-e8789b76c79f")
 	)
 	(junction
-		(at 190.5 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9008ed5d-df24-4097-9594-4ed1cb812f31")
-	)
-	(junction
-		(at 39.37 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9375a042-4d2a-4db9-a177-aa719bacd316")
-	)
-	(junction
 		(at 50.8 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95ed7e78-9a3d-4993-987e-32dded57e774")
-	)
-	(junction
-		(at 33.02 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a0c098d-d90f-4991-9891-60de99844752")
 	)
 	(junction
 		(at 153.67 111.76)
@@ -4206,6 +4565,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab27450d-7e2a-45f0-b1cc-1356c34605c4")
+	)
+	(junction
+		(at 21.59 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb4a8d62-e1b6-4b58-acf8-e8bec206410b")
+	)
+	(junction
+		(at 39.37 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb7d7a31-af99-4bb1-adb5-c2219a829b65")
 	)
 	(junction
 		(at 135.89 41.91)
@@ -4238,6 +4609,12 @@
 		(uuid "d4d1874d-a492-49d6-994b-94a5383298ff")
 	)
 	(junction
+		(at 26.67 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d510fbec-ee76-4dc1-905e-0007154218ef")
+	)
+	(junction
 		(at 153.67 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4248,6 +4625,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df041fe0-fb70-4d50-b2e9-c926232108ae")
+	)
+	(junction
+		(at 207.01 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfcb6562-b224-4119-8e6a-9a35e347021b")
+	)
+	(junction
+		(at 207.01 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e02171ed-902e-4b25-9b1f-72906ffd8abb")
+	)
+	(junction
+		(at 34.29 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2da25a3-4899-4382-9d7d-acf2f1bff3bd")
 	)
 	(junction
 		(at 132.08 81.28)
@@ -4268,10 +4663,10 @@
 		(uuid "f249537c-d47c-4e24-8ec9-cb73c93a485a")
 	)
 	(junction
-		(at 27.94 120.65)
+		(at 195.58 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f76d5c5f-82a6-4ef4-a765-5c434112daa8")
+		(uuid "f82a9314-f266-4246-9aeb-382688cc6723")
 	)
 	(junction
 		(at 138.43 165.1)
@@ -4369,6 +4764,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 128.27) (xy 36.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08834e89-04a9-421c-bcd4-f1675aa4ec7d")
+	)
+	(wire
+		(pts
 			(xy 218.44 104.14) (xy 231.14 104.14)
 		)
 		(stroke
@@ -4429,16 +4834,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 118.11) (xy 39.37 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14593ff3-eb96-457a-8e97-dad4f0e10445")
-	)
-	(wire
-		(pts
 			(xy 109.22 125.73) (xy 111.76 125.73)
 		)
 		(stroke
@@ -4446,6 +4841,16 @@
 			(type default)
 		)
 		(uuid "16871427-7101-4d81-af4a-7210e0a1ea6f")
+	)
+	(wire
+		(pts
+			(xy 34.29 139.7) (xy 50.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1744b5ef-35a7-4143-9aa8-23c784650ba6")
 	)
 	(wire
 		(pts
@@ -4469,16 +4874,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 128.27) (xy 33.02 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1be62033-2fa4-4fc9-ae5e-763ebc4e3a65")
-	)
-	(wire
-		(pts
 			(xy 177.8 132.08) (xy 187.96 132.08)
 		)
 		(stroke
@@ -4486,6 +4881,16 @@
 			(type default)
 		)
 		(uuid "202edc86-0b7b-4d5a-873f-d1723535245f")
+	)
+	(wire
+		(pts
+			(xy 21.59 115.57) (xy 26.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2086c65d-5744-47c3-9bf3-64ce714aab42")
 	)
 	(wire
 		(pts
@@ -4509,13 +4914,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 115.57) (xy 62.23 118.11)
+			(xy 39.37 107.95) (xy 39.37 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a609e77-82fb-4cf4-b2a0-d6afb044ce22")
+		(uuid "28dc6e88-5404-4624-9b77-68a9ff7df182")
 	)
 	(wire
 		(pts
@@ -4546,16 +4951,6 @@
 			(type default)
 		)
 		(uuid "2e6a8dea-90c8-4f21-b248-6c3a17b8f790")
-	)
-	(wire
-		(pts
-			(xy 64.77 113.03) (xy 62.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa73abe-0e5b-4a0a-9cf2-2cf16d9cf591")
 	)
 	(wire
 		(pts
@@ -4619,6 +5014,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 87.63) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b83d78-9578-482b-965b-c629b95fd369")
+	)
+	(wire
+		(pts
+			(xy 195.58 104.14) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d85e0f-5cdb-4186-b05a-6aea5a23288b")
+	)
+	(wire
+		(pts
 			(xy 102.87 88.9) (xy 119.38 88.9)
 		)
 		(stroke
@@ -4639,7 +5054,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 139.7) (xy 50.8 139.7)
+			(xy 26.67 139.7) (xy 34.29 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4717,6 +5132,26 @@
 		)
 		(uuid "47f482aa-8de7-4069-8cc1-3b322e3f10ba")
 	)
+	(wire
+		(pts
+			(xy 201.93 87.63) (xy 203.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adf4636-d16f-4671-85f2-ec981df926fe")
+	)
+	(wire
+		(pts
+			(xy 34.29 120.65) (xy 50.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fba86b0-9c50-47f1-a24b-d1e5ebe48824")
+	)
 	(polyline
 		(pts
 			(xy 168.91 109.22) (xy 144.78 109.22)
@@ -4789,6 +5224,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 77.47) (xy 207.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6efd91fb-b55a-47ef-a61e-982dc6ddc760")
+	)
+	(wire
+		(pts
+			(xy 195.58 87.63) (xy 196.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b60c01-d7ff-4bed-8995-968be4f16d40")
+	)
+	(wire
+		(pts
 			(xy 153.67 129.54) (xy 153.67 130.81)
 		)
 		(stroke
@@ -4796,16 +5251,6 @@
 			(type default)
 		)
 		(uuid "740a93c9-febb-4662-a934-6fe8c80bd791")
-	)
-	(wire
-		(pts
-			(xy 33.02 128.27) (xy 39.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fc4c35-5e07-4d30-9cbe-1531cc5fa39d")
 	)
 	(wire
 		(pts
@@ -4839,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 118.11) (xy 72.39 118.11)
+			(xy 54.61 118.11) (xy 72.39 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4899,6 +5344,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 135.89) (xy 34.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d70f29-051a-438e-8162-a0851496de55")
+	)
+	(wire
+		(pts
 			(xy 144.78 179.07) (xy 144.78 172.72)
 		)
 		(stroke
@@ -4949,6 +5404,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 107.95) (xy 72.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9530211c-9123-4d76-bb31-e5601658d055")
+	)
+	(wire
+		(pts
 			(xy 62.23 123.19) (xy 72.39 123.19)
 		)
 		(stroke
@@ -4979,16 +5444,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 118.11) (xy 27.94 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d1b8664-332c-4e4b-a4d4-556a197c3d65")
-	)
-	(wire
-		(pts
 			(xy 107.95 41.91) (xy 116.84 41.91)
 		)
 		(stroke
@@ -5006,16 +5461,6 @@
 			(type default)
 		)
 		(uuid "9dfca4f1-5cb9-47c3-977c-f80007e78d00")
-	)
-	(wire
-		(pts
-			(xy 62.23 115.57) (xy 64.77 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae1970a-37be-4407-9484-f15f38f581d2")
 	)
 	(wire
 		(pts
@@ -5046,16 +5491,6 @@
 			(type default)
 		)
 		(uuid "af687942-6f20-4fe4-9942-1b8712b61715")
-	)
-	(wire
-		(pts
-			(xy 54.61 118.11) (xy 62.23 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aff4ff48-5968-4b2f-995b-2198c1378f73")
 	)
 	(wire
 		(pts
@@ -5119,7 +5554,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 120.65) (xy 50.8 120.65)
+			(xy 26.67 120.65) (xy 34.29 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5156,6 +5591,16 @@
 			(type default)
 		)
 		(uuid "bac12268-8daa-4e41-9493-8d391b22f7dd")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc864f5a-6738-4ac1-a2b4-2c919f2572bd")
 	)
 	(wire
 		(pts
@@ -5219,13 +5664,23 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 120.65) (xy 33.02 120.65)
+			(xy 21.59 107.95) (xy 26.67 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7b13421-589e-4af6-95ac-ad9f1457c53e")
+	)
+	(wire
+		(pts
+			(xy 21.59 115.57) (xy 21.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c60d0b-6580-450d-b76c-2c58c417e7d3")
 	)
 	(wire
 		(pts
@@ -5239,7 +5694,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 135.89) (xy 39.37 139.7)
+			(xy 26.67 135.89) (xy 26.67 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5349,6 +5804,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 128.27) (xy 26.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d848bcd8-b44b-4c48-be0c-9dcadf53cbbe")
+	)
+	(wire
+		(pts
 			(xy 97.79 118.11) (xy 102.87 118.11)
 		)
 		(stroke
@@ -5439,33 +5904,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 104.14) (xy 207.01 104.14)
+			(xy 203.2 104.14) (xy 207.01 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8266c1b-849f-4fed-91aa-ef41c66f01bb")
-	)
-	(wire
-		(pts
-			(xy 27.94 107.95) (xy 72.39 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec2575e4-7eb1-4537-9fdc-913ffdf7f8b4")
-	)
-	(wire
-		(pts
-			(xy 27.94 118.11) (xy 27.94 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed0c39b8-69da-499e-bdaa-3eb1c0814c2d")
+		(uuid "ea77529a-c8c6-482b-968d-415cb739c8f5")
 	)
 	(wire
 		(pts
@@ -5496,6 +5941,16 @@
 			(type default)
 		)
 		(uuid "f8099aaa-5fff-44e4-a47a-81b55896335f")
+	)
+	(wire
+		(pts
+			(xy 26.67 107.95) (xy 39.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa208f3-ccca-4ad3-922c-c072e3d982e3")
 	)
 	(wire
 		(pts
@@ -5566,6 +6021,16 @@
 		)
 		(uuid "303c2935-e0cb-441e-9818-4c4208751da4")
 	)
+	(text "2A * 0.01 * 50 = 1V"
+		(exclude_from_sim no)
+		(at 198.755 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "361da1f4-c893-416e-bafc-5eeb99a541d7")
+	)
 	(text "1.599V ~ 48%"
 		(exclude_from_sim no)
 		(at 65.405 122.555 0)
@@ -5628,6 +6093,16 @@
 		)
 		(uuid "c6bdc04e-a585-4032-806a-06fb66dae657")
 	)
+	(text "1.016V"
+		(exclude_from_sim no)
+		(at 40.005 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d02d4bf5-7ebe-4d81-a037-c97540f41f22")
+	)
 	(text "Division up to 186V => 3.3V\n!!Those values have to be the same as on mosfet board!!"
 		(exclude_from_sim no)
 		(at 195.58 54.61 0)
@@ -5639,9 +6114,9 @@
 		)
 		(uuid "d73127d2-9e29-48ee-84be-e7dd97727768")
 	)
-	(text "D2 Leg 1 is NC so we can use \nthat to help with layout\n"
+	(text "D2 Leg 1 is NC so we can \nuse that to help with layout\n"
 		(exclude_from_sim no)
-		(at 193.04 93.345 0)
+		(at 176.53 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5660,6 +6135,50 @@
 		)
 		(uuid "f6ea308f-2e63-4f32-9cc5-6e3fd660ba3e")
 	)
+	(global_label "CFB-"
+		(shape input)
+		(at 36.83 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0826b815-fb9f-4e91-bd26-0f11f18c077d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.0162 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CFB"
+		(shape input)
+		(at 72.39 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bcee15c-2db2-4b85-98aa-f23a715ce6f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.7762 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STARTUP"
 		(shape input)
 		(at 218.44 86.36 90)
@@ -5673,6 +6192,50 @@
 		(uuid "28c35866-a932-474a-be26-3c85ac809809")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 218.44 75.271 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STARTUP"
+		(shape input)
+		(at 191.77 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f5f40be-8db3-4af2-a4ae-b970a99ba4a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.681 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CFB"
+		(shape input)
+		(at 199.39 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48605027-a4b4-481d-a85c-f5b589782d3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 65.7762 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,6 +6263,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CFB-"
+		(shape input)
+		(at 72.39 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9dc7023c-786b-4b00-bc4e-4d1dab21309d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.2038 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5815,6 +6400,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 199.39 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0037b213-010e-4992-9c0e-10c536399fc8")
+		(property "Reference" "R27"
+			(at 199.39 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10m"
+			(at 199.39 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 199.39 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2903468"
+			(at 199.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fb9d67c-70d4-4f50-b030-523d5ea7ce67")
+		)
+		(pin "1"
+			(uuid "92f1e8ce-c5f1-41b2-82ca-32fa471768fe")
+		)
+		(instances
+			(project "TL494V2OC"
+				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 57.15 124.46 0)
 		(unit 1)
@@ -5882,7 +6544,7 @@
 			(uuid "1ebae99a-85f6-4254-b382-cbd337ad0883")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C20")
 					(unit 1)
@@ -5975,7 +6637,7 @@
 			(uuid "2051dcc0-b09e-4ceb-8ec0-acb69553d846")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "Q5")
 					(unit 1)
@@ -6042,7 +6704,7 @@
 			(uuid "75d0ee58-a837-40d5-a92e-3bcf5bb83e3f")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR038")
 					(unit 1)
@@ -6114,7 +6776,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR031")
 					(unit 1)
@@ -6187,7 +6849,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR06")
 					(unit 1)
@@ -6254,7 +6916,7 @@
 			(uuid "377d37d7-1145-434b-a680-7bfc58ba4e5b")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR024")
 					(unit 1)
@@ -6329,7 +6991,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR036")
 					(unit 1)
@@ -6339,7 +7001,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 124.46 0)
+		(at 26.67 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6347,7 +7009,7 @@
 		(dnp no)
 		(uuid "1149a355-346f-4f26-be3b-27ec54fa739a")
 		(property "Reference" "R11"
-			(at 40.64 123.19 0)
+			(at 27.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +7018,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 40.64 125.73 0)
+			(at 27.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +7027,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 37.592 124.46 90)
+			(at 24.892 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +7036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 124.46 0)
+			(at 26.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,7 +7045,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 124.46 0)
+			(at 26.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +7054,7 @@
 			)
 		)
 		(property "MPN" "C23186"
-			(at 39.37 124.46 0)
+			(at 26.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +7063,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0805FR-0744K2L"
-			(at 39.37 124.46 0)
+			(at 26.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,94 +7078,9 @@
 			(uuid "b6e0d6ad-b548-43ae-9bfa-7a17ce887580")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1429a508-ab1e-4305-8d89-982b8e00a0db")
-		(property "Reference" "R15"
-			(at 63.5 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 68.58 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 68.58 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C25804"
-			(at 68.58 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-RC0805FR-0744K2L"
-			(at 68.58 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2e3c843-5486-4b3b-a175-240ce4e22ee3")
-		)
-		(pin "2"
-			(uuid "ff5c8302-1e3b-4240-a9c1-d427dfde1ec7")
-		)
-		(instances
-			(project "TL494V2"
-				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6576,7 +7153,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR019")
 					(unit 1)
@@ -6683,7 +7260,7 @@
 			(uuid "7aa919fb-d856-49af-9c67-48a50cf0d539")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "U3")
 					(unit 1)
@@ -6756,7 +7333,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR04")
 					(unit 1)
@@ -6832,9 +7409,74 @@
 			(uuid "fa0022d2-42b8-46a2-8b2c-241ae9693991")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 207.01 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b68a2b5-33b2-4c10-8566-3bc6057fca59")
+		(property "Reference" "#PWR025"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 212.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "999a8bc8-1402-4b94-8daa-e73a0906b616")
+		)
+		(instances
+			(project "TL494V2OC"
+				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6917,7 +7559,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR013")
 					(unit 1)
@@ -6983,7 +7625,7 @@
 			(uuid "fd0a196d-9983-45db-a2e2-b770c1a4b429")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#FLG05")
 					(unit 1)
@@ -7054,7 +7696,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR023")
 					(unit 1)
@@ -7121,7 +7763,7 @@
 			(uuid "a8b82524-f79b-4034-8e43-729da7c81343")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR08")
 					(unit 1)
@@ -7196,7 +7838,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR017")
 					(unit 1)
@@ -7262,7 +7904,7 @@
 			(uuid "7931f577-f3b0-4762-8e57-f9147d53320f")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#FLG04")
 					(unit 1)
@@ -7272,7 +7914,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 27.94 124.46 0)
+		(at 21.59 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7280,7 +7922,7 @@
 		(dnp no)
 		(uuid "25d237bb-2783-4af9-9ed7-cde7bc5f3b38")
 		(property "Reference" "C21"
-			(at 21.59 123.825 90)
+			(at 15.24 111.125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7930,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 24.13 123.825 90)
+			(at 17.78 111.125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,7 +7938,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 28.9052 128.27 0)
+			(at 22.5552 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 124.46 0)
+			(at 21.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +7956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 124.46 0)
+			(at 21.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,7 +7965,7 @@
 			)
 		)
 		(property "MPN" "C14663"
-			(at 27.94 124.46 0)
+			(at 21.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +7974,7 @@
 			)
 		)
 		(property "Mouser" "581-08055C104KAT4A"
-			(at 27.94 124.46 0)
+			(at 21.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7989,7 @@
 			(uuid "a558c3c4-a91b-4b87-a0ea-41f61e87e690")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C21")
 					(unit 1)
@@ -7420,7 +8062,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR012")
 					(unit 1)
@@ -7507,7 +8149,7 @@
 			(uuid "9aa5a948-0db0-4fe3-89c7-774b91ddc342")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R13")
 					(unit 1)
@@ -7594,7 +8236,7 @@
 			(uuid "ea82d237-9a13-405f-b329-03ae73ee06cd")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R8")
 					(unit 1)
@@ -7672,9 +8314,88 @@
 			(uuid "c4c5c44f-16a1-44eb-9fbe-537ae35391c6")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 34.29 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fcb8cd3-9f68-4046-ac8c-8c2ee56595d5")
+		(property "Reference" "R9"
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 36.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 32.512 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C23186"
+			(at 34.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d73538d-bc13-42c9-8cf3-ad9e7c406645")
+		)
+		(pin "1"
+			(uuid "11d0545b-db89-4b62-8a6c-efc9b154634c")
+		)
+		(instances
+			(project "TL494V2OC"
+				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7759,7 +8480,7 @@
 			(uuid "0eb34fe0-4ed7-4f34-a305-53b64bbe26fb")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C8")
 					(unit 1)
@@ -7831,7 +8552,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR034")
 					(unit 1)
@@ -7919,7 +8640,7 @@
 			(uuid "434267aa-3f48-45bc-a584-0a01ea265350")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R26")
 					(unit 1)
@@ -7998,7 +8719,7 @@
 			(uuid "d516016b-5671-4c68-bcc8-06a261939c44")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R20")
 					(unit 1)
@@ -8085,7 +8806,7 @@
 			(uuid "7e369997-47cf-4c19-bc17-f5a2205b7cf8")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C15")
 					(unit 1)
@@ -8158,7 +8879,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR02")
 					(unit 1)
@@ -8236,7 +8957,7 @@
 			(uuid "1ee6f4cc-8e85-4739-bb22-4cf924298872")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "D6")
 					(unit 1)
@@ -8323,7 +9044,7 @@
 			(uuid "634fbffb-e97b-444c-b5d1-c4ee926c90cb")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R19")
 					(unit 1)
@@ -8405,7 +9126,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "L1")
 					(unit 1)
@@ -8483,7 +9204,7 @@
 			(uuid "9a2495eb-55b2-4952-9f6a-27cb743fbd06")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R23")
 					(unit 1)
@@ -8565,94 +9286,9 @@
 			(uuid "bb36524f-3a97-473d-9f44-fa01d6b3d60b")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d3bc6d2-6081-4cef-b2ab-82c7f0885363")
-		(property "Reference" "R9"
-			(at 64.77 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 68.58 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 68.58 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C22775"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-RC0805FR-0744K2L"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52940623-0515-445e-8e09-a7f83db16960")
-		)
-		(pin "2"
-			(uuid "28f3715a-81f1-4437-a62c-7111179b8a6d")
-		)
-		(instances
-			(project "TL494V2"
-				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8726,7 +9362,7 @@
 			(uuid "28f5e035-2e36-44bd-ad80-5b18042ed615")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C2")
 					(unit 1)
@@ -8804,7 +9440,7 @@
 			(uuid "cffd3b86-f5c4-4a4c-988d-eaaba9b858c9")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R22")
 					(unit 1)
@@ -8870,7 +9506,7 @@
 			(uuid "11165174-730f-4019-8ce2-e0a4f24d9e15")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR037")
 					(unit 1)
@@ -8949,7 +9585,7 @@
 			(uuid "eecfbd41-9e15-4813-aa51-469516e55623")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R18")
 					(unit 1)
@@ -8976,7 +9612,7 @@
 			)
 		)
 		(property "Value" "BZG03C16-M3-08"
-			(at 181.61 99.06 90)
+			(at 180.975 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +9672,7 @@
 			(uuid "c6ab978a-d867-4037-9763-f37a8cfaec9c")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "D5")
 					(unit 1)
@@ -9102,7 +9738,7 @@
 			(uuid "d19f19ed-2687-4992-ac91-7f1967608a6b")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#FLG01")
 					(unit 1)
@@ -9180,7 +9816,7 @@
 			(uuid "9fc729e5-5357-43e3-b797-6c29f845fbb2")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "F1")
 					(unit 1)
@@ -9274,7 +9910,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C19")
 					(unit 1)
@@ -9368,7 +10004,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C6")
 					(unit 1)
@@ -9443,7 +10079,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR018")
 					(unit 1)
@@ -9535,7 +10171,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C1")
 					(unit 1)
@@ -9618,7 +10254,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "H1")
 					(unit 1)
@@ -9694,7 +10330,7 @@
 			(uuid "0be2dc93-0f83-4a6b-95a2-dd320369e7e4")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C13")
 					(unit 1)
@@ -9761,7 +10397,7 @@
 			(uuid "5f46dd8d-2289-4f46-b565-5e4be4834fc9")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR014")
 					(unit 1)
@@ -9827,7 +10463,7 @@
 			(uuid "2ee91f00-ec01-4614-a1c1-9cdcac83a551")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#FLG03")
 					(unit 1)
@@ -9912,7 +10548,7 @@
 			(uuid "f9e32d63-69af-42e9-a462-384589f7ab62")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "Q2")
 					(unit 1)
@@ -9985,7 +10621,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR027")
 					(unit 1)
@@ -10115,7 +10751,7 @@
 			(uuid "6cc79526-07ef-4a10-a86c-746838f022b6")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "U1")
 					(unit 1)
@@ -10191,7 +10827,7 @@
 			(uuid "88b89aa6-91d8-4fd5-b35c-6faebc2cdb02")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C14")
 					(unit 1)
@@ -10278,7 +10914,7 @@
 			(uuid "23976dcd-0d82-4616-8bd1-7f32ad9f32ff")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C3")
 					(unit 1)
@@ -10288,7 +10924,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 33.02 124.46 0)
+		(at 26.67 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10296,7 +10932,7 @@
 		(dnp no)
 		(uuid "789fad76-e004-4057-897d-840d7cd57918")
 		(property "Reference" "R14"
-			(at 35.56 124.46 90)
+			(at 29.21 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10304,7 +10940,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 33.02 124.46 90)
+			(at 26.67 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,7 +10948,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 31.242 124.46 90)
+			(at 24.892 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10321,7 +10957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 124.46 0)
+			(at 26.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,7 +10966,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 124.46 0)
+			(at 26.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +10975,7 @@
 			)
 		)
 		(property "MPN" "C25811"
-			(at 33.02 124.46 0)
+			(at 26.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,7 +10984,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0805FR-0744K2L"
-			(at 33.02 124.46 0)
+			(at 26.67 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10363,7 +10999,7 @@
 			(uuid "db7a4cf3-4165-4f29-86a1-1db0266e9859")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R14")
 					(unit 1)
@@ -10438,7 +11074,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR032")
 					(unit 1)
@@ -10531,7 +11167,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R4")
 					(unit 1)
@@ -10614,7 +11250,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "H4")
 					(unit 1)
@@ -10690,7 +11326,7 @@
 			(uuid "e5cac6ef-07df-4fcb-9fa5-cbc405cf02d1")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C16")
 					(unit 1)
@@ -10765,9 +11401,88 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 34.29 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82b7d13d-4ac8-4bc5-b94b-7c7989764c07")
+		(property "Reference" "R28"
+			(at 36.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 36.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 32.512 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C4184"
+			(at 34.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca0a1c6d-c8cf-4401-b8d7-b760698da3bf")
+		)
+		(pin "1"
+			(uuid "eeb23d8e-8c11-4133-80e7-a410ebdfcd01")
+		)
+		(instances
+			(project "TL494V2OC"
+				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10853,7 +11568,7 @@
 			(uuid "9d700b3f-29c6-492f-9564-82748c371be9")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R1")
 					(unit 1)
@@ -10941,7 +11656,7 @@
 			(uuid "fa9ca3af-3753-4365-ba19-3b35a2aab615")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R12")
 					(unit 1)
@@ -11029,7 +11744,7 @@
 			(uuid "bab9c1f4-294f-4725-95cd-ebb6a52d911c")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R2")
 					(unit 1)
@@ -11112,7 +11827,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "H3")
 					(unit 1)
@@ -11191,7 +11906,7 @@
 			(uuid "2b553411-e80c-4242-a43f-82ef37971371")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C9")
 					(unit 1)
@@ -11258,7 +11973,7 @@
 			(uuid "5bbe1f25-23a5-494b-8a4f-39eecfb318b2")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR015")
 					(unit 1)
@@ -11343,7 +12058,7 @@
 			(uuid "96d786f0-4a71-4031-9a15-8fea04318bbd")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R6")
 					(unit 1)
@@ -11424,7 +12139,7 @@
 			(uuid "9349b266-d6af-4261-8f8e-c73d0ffcdf8f")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "D2")
 					(unit 1)
@@ -11503,7 +12218,7 @@
 			(uuid "fe403950-a528-4798-a678-52ca46b3984f")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R17")
 					(unit 1)
@@ -11591,7 +12306,7 @@
 			(uuid "6f6d9d2b-abbe-4ad5-bf24-f4d2308ce09b")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R24")
 					(unit 1)
@@ -11674,7 +12389,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "H2")
 					(unit 1)
@@ -11759,7 +12474,7 @@
 			(uuid "451bb5ce-2dd1-41a8-83de-4b2513733f29")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R3")
 					(unit 1)
@@ -11834,7 +12549,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR029")
 					(unit 1)
@@ -11906,7 +12621,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR035")
 					(unit 1)
@@ -11973,7 +12688,7 @@
 			(uuid "59321ba4-0774-42f7-9f68-e533c22d9526")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR01")
 					(unit 1)
@@ -12039,7 +12754,7 @@
 			(uuid "cf8b0189-6110-497d-9c0f-162274974ce5")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR021")
 					(unit 1)
@@ -12127,7 +12842,7 @@
 			(uuid "7fd08516-31a7-477d-b6f6-60d9af182234")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R25")
 					(unit 1)
@@ -12206,7 +12921,7 @@
 			(uuid "78b0c7b1-9559-402c-aee1-848b738d2c6d")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C7")
 					(unit 1)
@@ -12279,7 +12994,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR07")
 					(unit 1)
@@ -12373,7 +13088,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C5")
 					(unit 1)
@@ -12383,7 +13098,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 132.08 0)
+		(at 26.67 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12391,7 +13106,7 @@
 		(dnp no)
 		(uuid "bf0a91d1-8cb5-479e-996c-69f892484656")
 		(property "Reference" "R10"
-			(at 40.64 130.81 0)
+			(at 27.94 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12400,7 +13115,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 40.64 133.35 0)
+			(at 27.94 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12409,7 +13124,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 37.592 132.08 90)
+			(at 24.892 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12418,7 +13133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 132.08 0)
+			(at 26.67 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12427,7 +13142,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 132.08 0)
+			(at 26.67 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +13151,7 @@
 			)
 		)
 		(property "MPN" "C23186"
-			(at 39.37 132.08 0)
+			(at 26.67 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,7 +13160,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0805FR-0744K2L"
-			(at 39.37 132.08 0)
+			(at 26.67 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +13175,7 @@
 			(uuid "4b8c9ff3-c0d7-45d6-84ec-f9a0ddfa1db3")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R10")
 					(unit 1)
@@ -12569,7 +13284,7 @@
 			(uuid "a10935e4-3173-4e0b-9639-f75f9ebd83f6")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "U4")
 					(unit 1)
@@ -12654,7 +13369,7 @@
 			(uuid "a914b163-4dce-4c0e-8858-437400438f8c")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R16")
 					(unit 1)
@@ -12747,7 +13462,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C11")
 					(unit 1)
@@ -12832,7 +13547,7 @@
 			(uuid "bf347892-9aff-4e95-a493-c51479e62cec")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R5")
 					(unit 1)
@@ -12936,7 +13651,7 @@
 			(uuid "35fe8a3a-d0bd-458a-b401-2a107dc35f07")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "J1")
 					(unit 1)
@@ -13022,7 +13737,7 @@
 			(uuid "15720495-8997-4996-8407-83d499336e00")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R7")
 					(unit 1)
@@ -13087,7 +13802,7 @@
 			(uuid "7d6086a5-6108-42c7-97b2-b7e982b70291")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR039")
 					(unit 1)
@@ -13163,7 +13878,7 @@
 			(uuid "11ce3a76-3aa2-4e5a-9e65-edd351af187c")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C17")
 					(unit 1)
@@ -13238,7 +13953,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR030")
 					(unit 1)
@@ -13313,7 +14028,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR016")
 					(unit 1)
@@ -13389,7 +14104,7 @@
 			(uuid "9044a68b-bbad-4d24-8930-b15c1ec61f92")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C10")
 					(unit 1)
@@ -13474,7 +14189,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR028")
 					(unit 1)
@@ -13568,7 +14283,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C18")
 					(unit 1)
@@ -13643,7 +14358,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR011")
 					(unit 1)
@@ -13715,9 +14430,91 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Current:INA199xxDCK")
+		(at 199.39 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de775759-0a85-4c7d-b6c9-1de43e834f59")
+		(property "Reference" "U2"
+			(at 201.0411 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "INA213"
+			(at 201.0411 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 198.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina199.pdf"
+			(at 195.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "INA199 26-V, Bidirectional, Zero-Drift, Low- or High-Side, Voltage-Output, Current-Shunt Monitor, SOT-363, SC-70"
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0c61f474-dd39-4332-aafd-7a7717dd6df7")
+		)
+		(pin "1"
+			(uuid "a36fea43-cf69-46c9-aa36-5c0e8cb4d1db")
+		)
+		(pin "3"
+			(uuid "070a0ee7-2824-406a-927f-f086cc95eb36")
+		)
+		(pin "2"
+			(uuid "5b101bea-e371-44e9-b2d4-b62ffc91c1b1")
+		)
+		(pin "6"
+			(uuid "7cccdaa3-06c5-45ea-a716-f32eda31d521")
+		)
+		(pin "4"
+			(uuid "03b730e1-81d2-4e80-8017-2cb6be06b06e")
+		)
+		(instances
+			(project "TL494V2OC"
+				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13792,7 +14589,7 @@
 			(uuid "c2dc451e-2c48-4c89-b6b0-4e5efd9e750a")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "D1")
 					(unit 1)
@@ -13871,7 +14668,7 @@
 			(uuid "bc5e9337-a9d0-489e-aa6f-805318cc3751")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "R21")
 					(unit 1)
@@ -13965,7 +14762,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "C4")
 					(unit 1)
@@ -14037,7 +14834,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR020")
 					(unit 1)
@@ -14103,7 +14900,7 @@
 			(uuid "a7e271be-9f44-4539-9701-7fd33b9d030e")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#FLG02")
 					(unit 1)
@@ -14176,7 +14973,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR03")
 					(unit 1)
@@ -14243,7 +15040,7 @@
 			(uuid "bbc8749f-5e6e-4f02-9e06-4a9ba30e6a45")
 		)
 		(instances
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR026")
 					(unit 1)
@@ -14327,7 +15124,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "D4")
 					(unit 1)
@@ -14402,7 +15199,7 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR09")
 					(unit 1)
@@ -14477,81 +15274,9 @@
 					(unit 1)
 				)
 			)
-			(project "TL494V2"
+			(project "TL494V2OC"
 				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 62.23 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb0f9675-3067-443e-8011-56d07b68fbfc")
-		(property "Reference" "#PWR016"
-			(at 66.04 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 62.23 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 62.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5c47a3e-54bd-40d8-9887-617ff5a39b96")
-		)
-		(instances
-			(project "MosfetBoard"
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-			(project "TL494V2"
-				(path "/bd3f89f6-d222-47d4-8082-7044d630a3f6"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
