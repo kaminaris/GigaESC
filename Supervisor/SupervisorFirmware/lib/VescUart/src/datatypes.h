@@ -31,10 +31,10 @@ typedef enum {
 } HW_TYPE;
 
 typedef enum {
-   MC_STATE_OFF = 0,
-   MC_STATE_DETECTING,
-   MC_STATE_RUNNING,
-   MC_STATE_FULL_BRAKE,
+	MC_STATE_OFF = 0,
+	MC_STATE_DETECTING,
+	MC_STATE_RUNNING,
+	MC_STATE_FULL_BRAKE,
 } mc_state;
 
 typedef enum {
@@ -652,7 +652,7 @@ typedef enum {
 	NRF_POWER_M12DBM,
 	NRF_POWER_M6DBM,
 	NRF_POWER_0DBM,
-  NRF_POWER_OFF
+	NRF_POWER_OFF
 } NRF_POWER;
 
 typedef enum {
@@ -1174,23 +1174,23 @@ typedef struct {
 	float temp_mos_2;
 	float temp_mos_3;
 	float temp_motor;
-    float current_motor;
-    float current_in;
-    float id;
-    float iq;
-    float rpm;
-    float duty_now;
-    float amp_hours;
-    float amp_hours_charged;
-    float watt_hours;
-    float watt_hours_charged;
-    int tachometer;
-    int tachometer_abs;
-    float position;
-    mc_fault_code fault_code;
-    int vesc_id;
-    float vd;
-    float vq;
+	float current_motor;
+	float current_in;
+	float id;
+	float iq;
+	float rpm;
+	float duty_now;
+	float amp_hours;
+	float amp_hours_charged;
+	float watt_hours;
+	float watt_hours_charged;
+	int tachometer;
+	int tachometer_abs;
+	float position;
+	mc_fault_code fault_code;
+	int vesc_id;
+	float vd;
+	float vq;
 } mc_values;
 
 typedef enum {
@@ -1231,7 +1231,6 @@ typedef struct {
 	float current_in_tot;
 	uint8_t num_vescs;
 } setup_values;
-
 
 #define BACKUP_VAR_INIT_CODE				92891934
 

@@ -6062,6 +6062,16 @@
 		)
 		(uuid "8e310cb1-a402-45f4-80af-b67474dc17ff")
 	)
+	(text "or CPC3708\nor CPC5603"
+		(exclude_from_sim no)
+		(at 118.11 158.115 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f2b20b7-38e5-4ea3-9d55-ff52a2ecf83e")
+	)
 	(text "Hot loop"
 		(exclude_from_sim no)
 		(at 171.45 78.105 0)
@@ -6528,7 +6538,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C14663"
+		(property "MPN" "C96446"
 			(at -10.16 101.6 90)
 			(effects
 				(font
@@ -14486,6 +14496,15 @@
 		)
 		(property "Description" "INA199 26-V, Bidirectional, Zero-Drift, Low- or High-Side, Voltage-Output, Current-Shunt Monitor, SOT-363, SC-70"
 			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C129346"
+			(at 199.39 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)

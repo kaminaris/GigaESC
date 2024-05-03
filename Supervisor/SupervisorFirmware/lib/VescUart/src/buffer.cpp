@@ -21,36 +21,36 @@
 #include <math.h>
 #include <stdbool.h>
 
-void buffer_append_int16(uint8_t* buffer, int16_t number, int32_t *index) {
+void buffer_append_int16(uint8_t* buffer, int16_t number, int32_t* index) {
 	buffer[(*index)++] = number >> 8;
 	buffer[(*index)++] = number;
 }
 
-void buffer_append_uint16(uint8_t* buffer, uint16_t number, int32_t *index) {
+void buffer_append_uint16(uint8_t* buffer, uint16_t number, int32_t* index) {
 	buffer[(*index)++] = number >> 8;
 	buffer[(*index)++] = number;
 }
 
-void buffer_append_int32(uint8_t* buffer, int32_t number, int32_t *index) {
+void buffer_append_int32(uint8_t* buffer, int32_t number, int32_t* index) {
 	buffer[(*index)++] = number >> 24;
 	buffer[(*index)++] = number >> 16;
 	buffer[(*index)++] = number >> 8;
 	buffer[(*index)++] = number;
 }
 
-void buffer_append_uint32(uint8_t* buffer, uint32_t number, int32_t *index) {
+void buffer_append_uint32(uint8_t* buffer, uint32_t number, int32_t* index) {
 	buffer[(*index)++] = number >> 24;
 	buffer[(*index)++] = number >> 16;
 	buffer[(*index)++] = number >> 8;
 	buffer[(*index)++] = number;
 }
 
-void buffer_append_float16(uint8_t* buffer, float number, float scale, int32_t *index) {
-    buffer_append_int16(buffer, (int16_t)(number * scale), index);
+void buffer_append_float16(uint8_t* buffer, float number, float scale, int32_t* index) {
+	buffer_append_int16(buffer, (int16_t) (number * scale), index);
 }
 
-void buffer_append_float32(uint8_t* buffer, float number, float scale, int32_t *index) {
-    buffer_append_int32(buffer, (int32_t)(number * scale), index);
+void buffer_append_float32(uint8_t* buffer, float number, float scale, int32_t* index) {
+	buffer_append_int32(buffer, (int32_t) (number * scale), index);
 }
 
 /*
@@ -93,7 +93,7 @@ void buffer_append_float32(uint8_t* buffer, float number, float scale, int32_t *
  * This should be a relatively fast and efficient way to serialize
  * floating point numbers in a fully defined manner.
  */
-void buffer_append_float32_auto(uint8_t* buffer, float number, int32_t *index) {
+void buffer_append_float32_auto(uint8_t* buffer, float number, int32_t* index) {
 	// Set subnormal numbers to 0 as they are not handled properly
 	// using this method.
 	if (fabsf(number) < 1.5e-38) {
@@ -106,7 +106,7 @@ void buffer_append_float32_auto(uint8_t* buffer, float number, int32_t *index) {
 	uint32_t sig_i = 0;
 
 	if (sig_abs >= 0.5) {
-		sig_i = (uint32_t)((sig_abs - 0.5f) * 2.0f * 8388608.0f);
+		sig_i = (uint32_t) ((sig_abs - 0.5f) * 2.0f * 8388608.0f);
 		e += 126;
 	}
 
@@ -118,47 +118,51 @@ void buffer_append_float32_auto(uint8_t* buffer, float number, int32_t *index) {
 	buffer_append_uint32(buffer, res, index);
 }
 
-int16_t buffer_get_int16(const uint8_t *buffer, int32_t *index) {
-	int16_t res =	((uint16_t) buffer[*index]) << 8 |
-					((uint16_t) buffer[*index + 1]);
+int16_t buffer_get_int16(const uint8_t* buffer, int32_t* index) {
+	int16_t res =
+		((uint16_t) buffer[*index]) << 8 |
+		((uint16_t) buffer[*index + 1]);
 	*index += 2;
 	return res;
 }
 
-uint16_t buffer_get_uint16(const uint8_t *buffer, int32_t *index) {
-	uint16_t res = 	((uint16_t) buffer[*index]) << 8 |
-					((uint16_t) buffer[*index + 1]);
+uint16_t buffer_get_uint16(const uint8_t* buffer, int32_t* index) {
+	uint16_t res =
+		((uint16_t) buffer[*index]) << 8 |
+		((uint16_t) buffer[*index + 1]);
 	*index += 2;
 	return res;
 }
 
-int32_t buffer_get_int32(const uint8_t *buffer, int32_t *index) {
-	int32_t res =	((uint32_t) buffer[*index]) << 24 |
-					((uint32_t) buffer[*index + 1]) << 16 |
-					((uint32_t) buffer[*index + 2]) << 8 |
-					((uint32_t) buffer[*index + 3]);
+int32_t buffer_get_int32(const uint8_t* buffer, int32_t* index) {
+	int32_t res =
+		((uint32_t) buffer[*index]) << 24 |
+		((uint32_t) buffer[*index + 1]) << 16 |
+		((uint32_t) buffer[*index + 2]) << 8 |
+		((uint32_t) buffer[*index + 3]);
 	*index += 4;
 	return res;
 }
 
-uint32_t buffer_get_uint32(const uint8_t *buffer, int32_t *index) {
-	uint32_t res =	((uint32_t) buffer[*index]) << 24 |
-					((uint32_t) buffer[*index + 1]) << 16 |
-					((uint32_t) buffer[*index + 2]) << 8 |
-					((uint32_t) buffer[*index + 3]);
+uint32_t buffer_get_uint32(const uint8_t* buffer, int32_t* index) {
+	uint32_t res =
+		((uint32_t) buffer[*index]) << 24 |
+		((uint32_t) buffer[*index + 1]) << 16 |
+		((uint32_t) buffer[*index + 2]) << 8 |
+		((uint32_t) buffer[*index + 3]);
 	*index += 4;
 	return res;
 }
 
-float buffer_get_float16(const uint8_t *buffer, float scale, int32_t *index) {
-    return (float)buffer_get_int16(buffer, index) / scale;
+float buffer_get_float16(const uint8_t* buffer, float scale, int32_t* index) {
+	return (float) buffer_get_int16(buffer, index) / scale;
 }
 
-float buffer_get_float32(const uint8_t *buffer, float scale, int32_t *index) {
-    return (float)buffer_get_int32(buffer, index) / scale;
+float buffer_get_float32(const uint8_t* buffer, float scale, int32_t* index) {
+	return (float) buffer_get_int32(buffer, index) / scale;
 }
 
-float buffer_get_float32_auto(const uint8_t *buffer, int32_t *index) {
+float buffer_get_float32_auto(const uint8_t* buffer, int32_t* index) {
 	uint32_t res = buffer_get_uint32(buffer, index);
 
 	int e = (res >> 23) & 0xFF;
@@ -167,7 +171,7 @@ float buffer_get_float32_auto(const uint8_t *buffer, int32_t *index) {
 
 	float sig = 0.0;
 	if (e != 0 || sig_i != 0) {
-		sig = (float)sig_i / (8388608.0 * 2.0) + 0.5;
+		sig = (float) sig_i / (8388608.0 * 2.0) + 0.5;
 		e -= 126;
 	}
 
@@ -178,33 +182,22 @@ float buffer_get_float32_auto(const uint8_t *buffer, int32_t *index) {
 	return ldexpf(sig, e);
 }
 
-
-bool buffer_get_bool(const uint8_t *buffer, int32_t *index) {
-	
-		if (buffer[*index] == 1)
-		{
-			index++;
-			return true;
-		}
-		else
-		{
-			index++;
-			return false;
-		}
-		
+bool buffer_get_bool(const uint8_t* buffer, int32_t* index) {
+	if (buffer[*index] == 1) {
+		(*index)++;
+		return true;
+	} else {
+		(*index)++;
+		return false;
+	}
 }
 
-void buffer_append_bool(uint8_t *buffer,bool value, int32_t *index) {
-
-	if (value == true)
-	{
+void buffer_append_bool(uint8_t* buffer, bool value, int32_t* index) {
+	if (value == true) {
 		buffer[*index] = 1;
 		(*index)++;
-	}
-	else
-	{
+	} else {
 		buffer[*index] = 0;
 		(*index)++;
 	}
-
 }

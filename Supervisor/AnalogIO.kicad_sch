@@ -1626,6 +1626,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C27204"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "7189d215-4e4c-4bfd-bf06-d21a0b1cc7c8")
 		)
@@ -2061,6 +2070,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C27204"
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "7189d215-4e4c-4bfd-bf06-d21a0b1cc7ca")
 		)
@@ -2281,6 +2299,15 @@
 			)
 		)
 		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C27204"
 			(at 96.52 104.14 0)
 			(effects
 				(font

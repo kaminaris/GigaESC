@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.5,
-          "width": 0.63
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -63,7 +63,12 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|113500000|112250000|a4be2328-c667-46b7-ab67-c4391f0202d4|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|136000000|52850000|b0896392-54c4-4874-a0e5-7f7760df3a47|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|112900000|142750000|59d7771f-620c-42b8-a7d6-b5b20ead2b4a|edbf43d4-4294-4d1c-8cba-c6acfdd23c0d",
+        "silk_edge_clearance|159100000|142750000|59d7771f-620c-42b8-a7d6-b5b20ead2b4a|1e3a8d84-f50b-4f31-b81c-6971ea35dcbf"
+      ],
       "meta": {
         "version": 2
       },
@@ -135,7 +140,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -537,7 +542,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -597,7 +602,7 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -683,10 +688,6 @@
     [
       "d8562101-c6e3-4b5e-a97d-b56c7c7da39f",
       "Power"
-    ],
-    [
-      "f1e5299f-ece0-4428-be20-a986974d3724",
-      "RS323"
     ],
     [
       "1eab04ae-5970-4bd9-9fae-634a53f33c18",

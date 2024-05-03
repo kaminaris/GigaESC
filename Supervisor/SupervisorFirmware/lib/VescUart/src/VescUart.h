@@ -1,7 +1,7 @@
-#ifndef _VESCUART_h
-#define _VESCUART_h
+#pragma once
 
 #include <Arduino.h>
+#include <cstdint>
 
 #include "buffer.h"
 #include "crc.h"
@@ -50,8 +50,8 @@ class VescUart {
 	struct nunchuckPackage {
 		int valueX;
 		int valueY;
-		bool upperButton;  // valUpperButton
-		bool lowerButton;  // valLowerButton
+		bool upperButton; // valUpperButton
+		bool lowerButton; // valLowerButton
 	};
 
 	struct FWversionPackage {
@@ -62,11 +62,11 @@ class VescUart {
 	// Timeout - specifies how long the function will wait for the vesc to respond
 	const uint32_t _TIMEOUT;
 
-	public:
+public:
 	/**
 	 * @brief      Class constructor
 	 */
-	VescUart(uint32_t timeout_ms = 100);
+	explicit VescUart(uint32_t timeout_ms = 100);
 
 	/** Variabel to hold measurements returned from VESC */
 	dataPackage data;
@@ -94,7 +94,7 @@ class VescUart {
 	 *
 	 * @return     True if successfull otherwise false
 	 */
-	bool getFWversion(void);
+	bool getFWversion();
 
 	/**
 	 * @brief      Populate the firmware version variables
@@ -109,7 +109,7 @@ class VescUart {
 	 *
 	 * @return     True if successfull otherwise false
 	 */
-	bool getVescValues(void);
+	bool getVescValues();
 
 	/**
 	 * @brief      Sends a command to VESC and stores the returned data
@@ -122,7 +122,8 @@ class VescUart {
 	/**
 	 * @brief      Sends values for joystick and buttons to the nunchuck app
 	 */
-	void setNunchuckValues(void);
+	void setNunchuckValues();
+
 	/**
 	 * @brief      Sends values for joystick and buttons to the nunchuck app
 	 * @param      canId  - The CAN ID of the VESC
@@ -184,7 +185,7 @@ class VescUart {
 	/**
 	 * @brief      Send a keepalive message
 	 */
-	void sendKeepalive(void);
+	void sendKeepalive();
 
 	/**
 	 * @brief      Send a keepalive message
@@ -195,17 +196,20 @@ class VescUart {
 	/**
 	 * @brief      Help Function to print struct dataPackage over Serial for Debug
 	 */
-	void printVescValues(void);
+	void printVescValues();
+
 	/**
 	 * @brief      Help Function to print struct dataPackage over Serial for Debug
 	 *
 	 */
-	void printCustomValues(void);
+	void printCustomValues();
+
 	/**
 	 * @brief get the balance data
 	 *
 	 */
 	bool updateCustomValues(uint8_t canId);
+
 	/**
 	 * @brief Get the Custom Config object
 	 *
@@ -213,26 +217,31 @@ class VescUart {
 	 * @return false
 	 */
 	bool updateCustomValues();
+
 	/**
 	 * @brief Return PID OUTPUT
 	 * should call updateCustomValues() first.
 	 */
 	float getPidOUtput();
+
 	/**
 	 * @brief return erpm
 	 * should call updateCustomValues() first.
 	 */
 	float getErpm();
+
 	/**
 	 * @brief return Switch state
 	 * should call updateCustomValues() first.
 	 */
 	uint16_t getSwitchState();
+
 	/**
 	 * @brief return VESC ID to control Audio source
 	 * should call updateCustomValues() first.
 	 */
 	uint16_t getVescId();
+
 	/**
 	 * @brief Get the Motor Current object
 	 *
@@ -242,13 +251,13 @@ class VescUart {
 
 	customData appData;
 
-	private:
+protected:
 	/** Variabel to hold the reference to the Serial object to use for UART */
-	Stream* serialPort = NULL;
+	Stream* serialPort = nullptr;
 
 	/** Variabel to hold the reference to the Serial object to use for debugging.
 	 * Uses the class Stream instead of HarwareSerial */
-	Stream* debugPort = NULL;
+	Stream* debugPort = nullptr;
 
 	/**
 	 * @brief      Packs the payload and sends it over Serial
@@ -293,5 +302,3 @@ class VescUart {
 	 */
 	void serialPrint(uint8_t* data, int len);
 };
-
-#endif

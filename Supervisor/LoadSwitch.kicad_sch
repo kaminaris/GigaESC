@@ -1567,6 +1567,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C74384"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ebc7c043-bbf6-477e-8d5e-1589a7a01e53")
 		)
@@ -1648,6 +1657,15 @@
 			)
 		)
 		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celsius, UL, BSI, FIMKO, SMD PDIP-4"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3025163"
 			(at 140.97 99.06 0)
 			(effects
 				(font

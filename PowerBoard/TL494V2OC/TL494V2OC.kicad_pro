@@ -60,7 +60,8 @@
       ],
       "drc_exclusions": [
         "lib_footprint_mismatch|71875000|126500000|d21fd20e-4151-4b94-b4a3-f3f6d7a01680|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|73410000|136252500|ed63a342-6092-4adc-8a5f-f367a2959dca|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|73410000|136252500|ed63a342-6092-4adc-8a5f-f367a2959dca|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|76181084|106845441|c18e9ae1-9a26-47ef-bc6a-2ae283ae4599|302ceac1-31b4-409b-a533-44cb3c4c555e"
       ],
       "meta": {
         "version": 2
@@ -539,7 +540,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

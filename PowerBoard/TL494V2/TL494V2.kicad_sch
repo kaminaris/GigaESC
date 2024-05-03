@@ -5607,7 +5607,7 @@
 		)
 		(uuid "970ab7e3-3dc9-43c9-8e7e-44db5fda1ea3")
 	)
-	(text "Soft start 10000 cycles\nC20 = (1/200kHz) * 10000cycles / 4.7kOhm (R23) = 10006nF\n"
+	(text "Soft start 10000 cycles\nC20 = (1/200kHz) * 10000cycles / 4.7kOhm (R23) = 10006nF\nanything works between 1u-10u"
 		(exclude_from_sim no)
 		(at 59.69 148.59 0)
 		(effects
@@ -5866,7 +5866,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C14663"
+		(property "MPN" "C96446"
 			(at -10.16 101.6 90)
 			(effects
 				(font

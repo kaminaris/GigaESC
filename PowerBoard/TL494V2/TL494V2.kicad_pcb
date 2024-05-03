@@ -21054,7 +21054,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "C14663"
+		(property "MPN" "C96446"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23728,7 +23728,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R26"
-			(at 0 -1.25 270)
+			(at 0 -1.25 -90)
 			(layer "B.SilkS")
 			(uuid "45741fb3-99d0-4dd9-9055-9eb4ae97a03b")
 			(effects
@@ -23740,7 +23740,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "B.Fab")
 			(uuid "3321ffed-20bf-49d0-8094-0adbd767dfd2")
 			(effects
@@ -23924,7 +23924,7 @@
 			(uuid "cc7a739c-e138-496b-986d-adfe187e9d5d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "4037d6db-c610-4f1c-be87-74e649a86e53")
 			(effects
