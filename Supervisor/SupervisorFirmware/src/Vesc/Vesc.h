@@ -3,11 +3,8 @@
 
 #include <Arduino.h>
 
-#include "BluetoothConnectivity/AppSerial.h"
-#include "Sound/SoundTune.h"
 #include "VescSettings.h"
 #include "VescUart.h"
-//#include "WireBus.h"
 
 #define RXD2 14
 #define TXD2 11
@@ -38,11 +35,11 @@ struct __attribute__((packed)) RealTimeData {
 
 class Vesc {
 	public:
-	struct RealTimeData data = {};
+	RealTimeData data = {};
 
 	// settings
-	struct VescSettings origSettings = {};
-	struct VescSettings settings = {};
+	VescSettings origSettings = {};
+	VescSettings settings = {};
 
 	bool loadRequested = false;
 	bool saveRequested = false;

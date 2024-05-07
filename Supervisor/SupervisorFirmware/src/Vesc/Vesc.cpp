@@ -8,10 +8,6 @@ void Vesc::init() {
 	vescUart->setSerialPort(&Serial2);
 	// vescUart->setDebugPort(&Serial);
 
-	dutyTune = new SoundTune("/beep.mp3");
-	motorTune = new SoundTune("/motortemp.mp3");
-	mosfetTune = new SoundTune("/mosfettemp.mp3");
-	speedTune = new SoundTune("/speed.mp3");
 }
 
 void Vesc::read() {
@@ -54,11 +50,6 @@ void Vesc::read() {
 		mode = Live;
 		connected = true;
 
-
-		dutyTune->toggle(data.duty > settings.dutyWarning);
-		motorTune->toggle(data.motorTemp > settings.motorTempWarning);
-		mosfetTune->toggle(data.mosfetTemp > settings.mosfetTempWarning);
-		speedTune->toggle(data.speed > settings.speedWarning);
 	}
 	else {
 		connected = false;
@@ -97,16 +88,16 @@ void Vesc::loadInternal() {
 		settings = {};
 	}
 
-	appSerial.printf(
-		"loaded %f, %f, %f, %f, %f, %f, %f",
-		settings.motorPolePairs,
-		settings.minBatteryVoltage,
-		settings.maxBatteryVoltage,
-		settings.wheelDiameter,
-		settings.maxSpeed,
-		settings.odo,
-		settings.motorPulley
-	);
+	// appSerial.printf(
+	// 	"loaded %f, %f, %f, %f, %f, %f, %f",
+	// 	settings.motorPolePairs,
+	// 	settings.minBatteryVoltage,
+	// 	settings.maxBatteryVoltage,
+	// 	settings.wheelDiameter,
+	// 	settings.maxSpeed,
+	// 	settings.odo,
+	// 	settings.motorPulley
+	// );
 	data.origOdo = settings.odo;
 	loadRequested = false;
 }
@@ -124,21 +115,21 @@ void Vesc::saveInternal() {
 
 		if (origB != currentB) {
 			//WireBus::write(i, currentB);
-			appSerial.printf("saving %d %d", i, currentB);
+			// appSerial.printf("saving %d %d", i, currentB);
 		}
 	}
 
 	// sync orig settings since they were saved
 	memcpy((void*)&origSettings, (void*)&settings, sizeof settings);
-	appSerial.printf(
-		"saved %f, %f, %f, %f, %f, %f, %f",
-		settings.motorPolePairs,
-		settings.minBatteryVoltage,
-		settings.maxBatteryVoltage,
-		settings.wheelDiameter,
-		settings.maxSpeed,
-		settings.odo,
-		settings.motorPulley
-	);
+	// appSerial.printf(
+	// 	"saved %f, %f, %f, %f, %f, %f, %f",
+	// 	settings.motorPolePairs,
+	// 	settings.minBatteryVoltage,
+	// 	settings.maxBatteryVoltage,
+	// 	settings.wheelDiameter,
+	// 	settings.maxSpeed,
+	// 	settings.odo,
+	// 	settings.motorPulley
+	// );
 	saveRequested = false;
 }
