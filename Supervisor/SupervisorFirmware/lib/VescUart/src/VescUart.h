@@ -69,13 +69,15 @@ public:
 	explicit VescUart(uint32_t timeout_ms = 100);
 
 	/** Variabel to hold measurements returned from VESC */
-	dataPackage data;
+	dataPackage data{};
 
 	/** Variabel to hold nunchuck values */
-	nunchuckPackage nunchuck;
+	nunchuckPackage nunchuck{};
 
 	/** Variable to hold firmware version */
-	FWversionPackage fw_version;
+	FWversionPackage fw_version{};
+
+	customData appData{};
 
 	/**
 	 * @brief      Set the serial port for uart communication
@@ -248,8 +250,6 @@ public:
 	 * @return should call updateCustomValues() first.
 	 */
 	float getMotorCurrent();
-
-	customData appData;
 
 protected:
 	/** Variabel to hold the reference to the Serial object to use for UART */

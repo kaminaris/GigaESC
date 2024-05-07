@@ -4,7 +4,7 @@
 
 #define Packed __attribute__((packed))
 
-enum class ResponseCode : u8_t {
+enum class ResponseCode : uint8_t {
 	OK = 7,
 	FAIL,
 	UNKNOWN_PACKET,
@@ -13,7 +13,7 @@ enum class ResponseCode : u8_t {
 	FILE_CONTENT,
 };
 
-enum PacketType {
+enum PacketType : uint8_t {
 	PING = 1,
 	GET_CLOCK,
 	GET_EEPROM,
@@ -40,29 +40,16 @@ struct Packed PingPacket {
 };
 
 struct Packed BasicResponse {
-	u8_t r;
+	ResponseCode r;
 };
 
 struct Packed ProgressResponse {
-	u8_t r;
+	ResponseCode r;
 	u8_t progress;
 };
 
-struct Packed SetVolumeRequest {
-	u8_t volume;
-};
-
-struct Packed ClockResponse {
-	u16_t year;
-	u8_t month;
-	u8_t day;
-	u8_t hour;
-	u8_t minute;
-	u8_t second;
-};
-
 struct Packed FileItemResponse {
-	u8_t r;
+	ResponseCode r;
 	u32_t index;
 	u32_t size;
 	u8_t fileName[128];
@@ -101,7 +88,7 @@ struct Packed FileReadRequest {
 };
 
 struct Packed FileContentResponse {
-	u8_t r;
+	ResponseCode r;
 	u32_t position;
 	u16_t size;
 	u32_t totalSize;
@@ -112,11 +99,32 @@ struct Packed FileDeleteRequest {
 	u8_t fileName[128];
 };
 
-struct Packed PlayRequest {
-	u8_t fileName[128];
-};
-
 struct Packed EepromPacket {
 	u16_t address;
 	u8_t d[128];
+};
+
+enum PreferenceValueType: uint8_t {
+	TChar,
+	TUnsignedChar,
+	TShort,
+	TUnsignedShort,
+	TInt,
+	TUnsignedInt,
+	TLong,
+	TUnsignedLong,
+	TLong64,
+	TUnsignedLong64,
+	TFloat,
+	TDouble,
+	TBool,
+	TString,
+	TBytes
+};
+
+struct Packed PreferencePacket {
+	PreferenceValueType type;
+	uint16_t length;
+	u8_t name[128];
+	u8_t value[370];
 };

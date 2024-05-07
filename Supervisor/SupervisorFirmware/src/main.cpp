@@ -1,28 +1,29 @@
 #include "Arduino.h"
 #include "BluetoothConnectivity/AppSerial.h"
 #include <VescUart.h>
-#include <ESP32-TWAI-CAN.hpp>
-#define CAN_TX		5
-#define CAN_RX		6
+#include <CanBus/CanBus.h>
 
+constexpr gpio_num_t CAN_TX = GPIO_NUM_5;
+constexpr gpio_num_t CAN_RX = GPIO_NUM_6;
+
+Preferences preferences;
 VescUart vescUart;
+extern AppSerial appSerial;
 
 void setup() {
-	AppSerial::setup();
-	ESP32Can.setPins(CAN_TX, CAN_RX);
-	ESP32Can.setRxQueueSize(5);
-	ESP32Can.setTxQueueSize(5);
-	ESP32Can.setSpeed(TWAI_SPEED_500KBPS);
+	preferences.begin("supervisor", false);
+	appSerial.setup(&preferences);
 
-	if (ESP32Can.begin()) {
+	if (CanBus::setup(CAN_TX, CAN_RX)) {
 		Serial.println("CAN bus started!");
 	} else {
 		Serial.println("CAN bus failed!");
 	}
 
+	vescUart.setSerialPort(&Serial1);
 }
 
 void loop() {
 	delay(1000);
-	vescUart.printVescValues();
+	// vescUart.printVescValues();
 }

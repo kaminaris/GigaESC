@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "8fdb8007-41f7-41d1-8b90-0ead5a99c246")
 	(paper "A4")
+	(title_block
+		(title "GigaESCSupervisor")
+		(date "2024-05-03")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names

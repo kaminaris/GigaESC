@@ -1,29 +1,22 @@
 #include "VescUart.h"
 
 VescUart::VescUart(uint32_t timeout_ms) : _TIMEOUT(timeout_ms) {
-	fw_version = {};
-	data = {};
+	nunchuck.valueX = 127;
+	nunchuck.valueY = 127;
+	nunchuck.upperButton = false;
+	nunchuck.lowerButton = false;
 
-	nunchuck = {
-		.valueX = 127,
-		.valueY = 127,
-		.upperButton = false,
-		.lowerButton = false
-	};
-
-	appData = {
-		.pidOutput = 0,
-		.pitch = 0,
-		.roll = 0,
-		.loopTime = 0,
-		.motorCurrent = 0,
-		.state = 0,
-		.switchState = 0,
-		.vescId = 0,
-		.dutyCycle = 0,
-		.erpm = 0,
-		.inputVoltage = 0
-	};
+	appData.pidOutput = 0;
+	appData.pitch = 0;
+	appData.roll = 0;
+	appData.loopTime = 0;
+	appData.motorCurrent = 0;
+	appData.state = 0;
+	appData.switchState = 0;
+	appData.vescId = 0;
+	appData.dutyCycle = 0;
+	appData.erpm = 0;
+	appData.inputVoltage = 0;
 }
 
 void VescUart::setSerialPort(Stream* port) {
