@@ -15,6 +15,7 @@ enum class ResponseCode : uint8_t {
 
 enum PacketType : uint8_t {
 	PING = 1,
+	GET_PLUGINS,
 	GET_CHIP_INFO,
 	FIRMWARE_UPDATE,
 	RESTART,
@@ -38,6 +39,11 @@ struct Packed BasicResponse {
 struct Packed ProgressResponse {
 	ResponseCode r;
 	u8_t progress;
+};
+
+struct Packed PluginsResponse {
+	ResponseCode r;
+	char plugins[370];
 };
 
 struct Packed FileItemResponse {

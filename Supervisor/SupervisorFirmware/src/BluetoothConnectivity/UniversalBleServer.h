@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Arduino.h>
-#include <FastCRC.h>
 #include <NimBLEAdvertising.h>
 #include <NimBLEDevice.h>
 #include <NimBLEServer.h>
@@ -11,16 +10,19 @@
 
 #include <Preferences.h>
 #include "PacketList.h"
+#include "UniversalBleServerPluginInterface.h"
 
 #define DUAL_SERIAL
+class UniversalBleServerPluginInterface;
 
 class UniversalBleServer : public Print {
 public:
-	Preferences* preferences = nullptr;
 	NimBLEServer* pServer = nullptr;
 	NimBLECharacteristic* pTxCharacteristic = nullptr;
 	NimBLECharacteristic* pDebugCharacteristic = nullptr;
+
 	std::function<bool(uint8_t, uint8_t*)> packetCallback;
+	std::vector<UniversalBleServerPluginInterface*> plugins;
 
 	bool deviceConnected = false;
 	bool oldDeviceConnected = false;
@@ -48,20 +50,20 @@ public:
 	 * @param uuidSecond
 	 * @param uuidThird
 	 * @param uuidFourth
-	 * @param pref
 	 */
 	void setup(
 		const std::string &deviceName,
 		uint32_t uuidFirst,
 		uint16_t uuidSecond,
 		uint16_t uuidThird,
-		uint64_t uuidFourth,
-		Preferences* pref
+		uint64_t uuidFourth
 	);
+
+	void addPlugin(UniversalBleServerPluginInterface* plugin);
 
 	void handlePacket(uint8_t packetType, uint8_t* data);
 
-	void respond(const uint8_t* data, size_t size) const;
+	void respond(void* data, size_t size) const;
 
 	void respondOk() const;
 
@@ -73,7 +75,7 @@ public:
 
 	class BleServerCallbacks : public NimBLEServerCallbacks {
 	public:
-		UniversalBleServer* appSerial;
+		UniversalBleServer* universalBleServer;
 
 		explicit BleServerCallbacks(UniversalBleServer* as);
 
@@ -86,7 +88,7 @@ public:
 
 	class BleCallbacks : public NimBLECharacteristicCallbacks {
 	public:
-		UniversalBleServer* appSerial;
+		UniversalBleServer* universalBleServer;
 
 		explicit BleCallbacks(UniversalBleServer* as);
 
