@@ -1,4 +1,3 @@
-#include <Preferences.h>
 #include <LittleFS.h>
 #include <BluetoothConnectivity/Plugins/ChipInfoBlePlugin.h>
 #include <BluetoothConnectivity/Plugins/FileSystemBlePlugin.h>
@@ -13,7 +12,7 @@
 constexpr gpio_num_t CAN_TX = GPIO_NUM_5;
 constexpr gpio_num_t CAN_RX = GPIO_NUM_6;
 
-Preferences preferences;
+PreferencesExt preferences;
 // VescUart vescUart;
 UniversalBleServer uniBle;
 ChipInfoBlePlugin chipInfoBlePlugin(&uniBle);
@@ -62,5 +61,5 @@ void setup() {
 void loop() {
 	delay(5000);
 	// vescUart.printVescValues();
-	uniBle.println("ping");
+	uniBle.println("ping5");
 }

@@ -13,7 +13,7 @@ bool FirmwareUpdateBlePlugin::processPacket(const uint8_t packetType, uint8_t* d
 
 	auto* request = reinterpret_cast<FirmwareUpdateRequest*>(data);
 
-	auto chunkCrc = CRC32.crc32(request->d, request->size);
+	const auto chunkCrc = CRC32.crc32(request->d, request->size);
 	if (chunkCrc != request->checksum) {
 		parentServer->printf(
 			"Chunk CRC does not match! Calculated: %08X Given: %08X \n", chunkCrc, request->checksum

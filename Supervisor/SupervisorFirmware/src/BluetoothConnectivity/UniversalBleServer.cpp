@@ -124,15 +124,18 @@ void UniversalBleServer::setup(
 	const auto pService = pServer->createService(*new NimBLEUUID(uuidFirst, uuidSecond, uuidThird, uuidFourth));
 
 	// Create a BLE Characteristic
+	// TX characteristic is traffic from device to PC
 	pTxCharacteristic = pService->createCharacteristic(
 		*new NimBLEUUID(uuidFirst + 1, uuidSecond, uuidThird, uuidFourth),
 		NOTIFY
 	);
+	// Debug characteristic is traffic from device to PC
 	pDebugCharacteristic = pService->createCharacteristic(
 		*new NimBLEUUID(uuidFirst + 3, uuidSecond, uuidThird, uuidFourth),
 		NOTIFY
 	);
 
+	// RX characteristic is traffic from PC to device
 	const auto pRxCharacteristic = pService->createCharacteristic(
 		*new NimBLEUUID(uuidFirst + 2, uuidSecond, uuidThird, uuidFourth),
 		WRITE_NR

@@ -1,6 +1,7 @@
 #pragma once
 
 #include <Arduino.h>
+#include <nvs.h>
 
 #define Packed __attribute__((packed))
 
@@ -14,18 +15,26 @@ enum class ResponseCode : uint8_t {
 };
 
 enum PacketType : uint8_t {
+	// Base packets, built in
 	PING = 1,
 	GET_PLUGINS,
 	GET_CHIP_INFO,
-	FIRMWARE_UPDATE,
 	RESTART,
+
+	// Firmware update
+	FIRMWARE_UPDATE,
+
+	// Filesystem
+	GET_FILESYSTEM_INFO,
 	GET_FILE_LIST,
 	GET_FILE,
 	WRITE_FILE,
 	DELETE_FILE,
-	GET_SETTINGS,
-	SAVE_SETTINGS,
-	GET_FILESYSTEM_INFO
+
+	// Preferences
+	GET_SETTING,
+	SAVE_SETTING,
+	LIST_SETTINGS,
 };
 
 struct Packed PingPacket {
@@ -102,27 +111,9 @@ struct Packed EepromPacket {
 	u8_t d[128];
 };
 
-enum PreferenceValueType: uint8_t {
-	TChar,
-	TUnsignedChar,
-	TShort,
-	TUnsignedShort,
-	TInt,
-	TUnsignedInt,
-	TLong,
-	TUnsignedLong,
-	TLong64,
-	TUnsignedLong64,
-	TFloat,
-	TDouble,
-	TBool,
-	TString,
-	TBytes
-};
-
 struct Packed PreferencePacket {
-	PreferenceValueType type;
+	PreferenceType type;
 	uint16_t length;
-	u8_t name[128];
+	u8_t name[16];
 	u8_t value[370];
 };
