@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.4,
+          "width": 1.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|190400000|108340000|831e81ec-a31e-4cb1-8737-589834e7f0e8|ef2a3100-0e72-49c8-9c55-91db853d7b0a",
-        "courtyards_overlap|120514603|116650001|cd305a5d-2f67-49b5-894f-a08b7b16bd49|f5041314-f8d2-475e-9d88-1a82515a4540",
-        "courtyards_overlap|191901426|110767761|0ef40a1e-363a-4c43-a851-f246dc8f3159|7f63b6d1-422a-4430-b8d6-7122f7881bb4",
-        "courtyards_overlap|193014603|116650001|0ef40a1e-363a-4c43-a851-f246dc8f3159|e560c9b9-7217-4dcb-a21c-58ae709663d3",
-        "silk_over_copper|158586664|97688879|aebe7428-86a9-4c3e-a33d-400d08046c85|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|160150000|97454254|615acaa0-96c5-435d-98c6-00efbfe701b0|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|161452143|97240476|1c6c5f0e-2e08-4285-a740-74aa571f5b1c|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|120650000|73650000|20b1c9f1-e8ef-470f-8925-43593d43e288|25334dc0-97b7-4cd1-802c-2dea0bdfd1fe|B.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -141,7 +132,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -674,11 +665,119 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESCRIPTION",
+          "name": "DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPosOffset",
+          "name": "JLCPosOffset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCRotOffset",
+          "name": "JLCRotOffset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PURCHASE-URL",
+          "name": "PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -728,23 +827,23 @@
     ],
     [
       "72793ee1-8b24-4ded-a030-5a38e70b572c",
-      "ESP32BT"
+      "Express"
     ],
     [
       "3981a847-2f50-47ee-ae81-91fe330099b5",
-      "AccelGyro"
+      "IMU"
     ],
     [
       "00b03c15-2f32-40aa-9d15-0626e4794bf1",
-      "Switches"
+      "Filters"
     ],
     [
       "de95985c-773b-4c54-94d0-28826fc0c854",
-      "LogicConnectors"
+      "Connectors"
     ],
     [
       "717cb4b7-b47a-435c-946f-7c938a1d7e5f",
-      "LogicPower"
+      "Power"
     ],
     [
       "ac734765-aa76-45cd-b5a0-b23ad6c1564a",
@@ -759,12 +858,12 @@
       "DriverSocketPhase1"
     ],
     [
-      "04d6ed87-6b10-45aa-8255-84943212068b",
-      "DriverSocketPhase2"
-    ],
-    [
       "4e84f19f-3250-45a9-9b88-20e811e150a6",
       "ComparatorHigh"
+    ],
+    [
+      "04d6ed87-6b10-45aa-8255-84943212068b",
+      "DriverSocketPhase2"
     ],
     [
       "693754e5-6fc9-4123-abfe-2e1335cfdb84",

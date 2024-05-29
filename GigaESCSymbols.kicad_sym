@@ -7264,7 +7264,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -2.54 0)
+			(at -8.382 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7272,7 @@
 			)
 		)
 		(property "Value" "RS2057XH"
-			(at 0 -8.89 0)
+			(at 6.096 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7280,7 @@
 			)
 		)
 		(property "Footprint" "MODULE"
-			(at 0 5.08 0)
+			(at -0.254 -15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7289,7 @@
 			)
 		)
 		(property "Datasheet" "DOCUMENTATION"
-			(at 0 -5.08 0)
+			(at 0.254 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,21 +7308,21 @@
 		)
 		(symbol "RS2057XH_1_0"
 			(rectangle
-				(start -11.43 -7.62)
-				(end 11.43 7.62)
+				(start -8.89 7.62)
+				(end 8.89 -7.62)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
 		(symbol "RS2057XH_1_1"
 			(pin input line
-				(at -19.05 2.54 0)
-				(length 7.62)
+				(at -11.43 2.54 0)
+				(length 2.54)
 				(name "NO"
 					(effects
 						(font
@@ -7339,8 +7339,8 @@
 				)
 			)
 			(pin input line
-				(at -19.05 0 0)
-				(length 7.62)
+				(at 0 -10.16 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -7357,8 +7357,8 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -2.54 0)
-				(length 7.62)
+				(at -11.43 -2.54 0)
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
@@ -7375,8 +7375,8 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -2.54 180)
-				(length 7.62)
+				(at 11.43 0 180)
+				(length 2.54)
 				(name "COM"
 					(effects
 						(font
@@ -7393,8 +7393,8 @@
 				)
 			)
 			(pin input line
-				(at 19.05 0 180)
-				(length 7.62)
+				(at 0 10.16 270)
+				(length 2.54)
 				(name "V+"
 					(effects
 						(font
@@ -7411,8 +7411,8 @@
 				)
 			)
 			(pin input line
-				(at 19.05 2.54 180)
-				(length 7.62)
+				(at 11.43 5.08 180)
+				(length 2.54)
 				(name "IN"
 					(effects
 						(font

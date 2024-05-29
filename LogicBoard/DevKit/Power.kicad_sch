@@ -2977,7 +2977,7 @@
 		)
 		(uuid "bd6e9b1c-2e4e-41fa-8b82-2f6cab23efe3")
 	)
-	(global_label "DRIVER_POWER"
+	(global_label "DRIVER POWER"
 		(shape input)
 		(at 158.75 139.7 0)
 		(fields_autoplaced yes)
@@ -3990,7 +3990,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" "-180"
+		(property "JLCRotOffset" "0"
 			(at 196.85 57.15 0)
 			(effects
 				(font
@@ -4880,7 +4880,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" "-180"
+		(property "JLCRotOffset" "0"
 			(at 63.5 133.35 0)
 			(effects
 				(font
