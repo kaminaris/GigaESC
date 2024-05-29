@@ -3,6 +3,9 @@ production/
 *.wrl
 *.step
 replicate_layout.log
+fabrication-toolkit-options.json
+*.f3z
+ibom.html
 
 # Temporary files
 .idea
