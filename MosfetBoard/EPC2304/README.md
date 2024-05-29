@@ -14,6 +14,14 @@ this is a very hard board to solder requires:
 
 ## GaN Soldering procedure
 
+Use 60/40 solder from a reputable source. Trying to use lead-free solder by hand will be extremely difficult. Using poor-quality products will also result in failure, and this applies to flux as well.
+
+This board has 4 layers, so it can absorb a lot of heat. Using high-quality solder is essential because the board is very sensitive to cold joints.
+
+Having a good soldering iron is crucial and can make the difference between success and failure.
+
+To solder GaN mosfets i strongly recommend using soldering paste instead, everything else can be done with wire tin.
+
 1. Apply solder paste with flux on the footprint.
 2. Position the GaN mosfet in place.
 3. Use hot air until the solder melts and the GaN device is securely in place, applying gentle pressure to ensure proper contact.
@@ -30,6 +38,7 @@ this is a very hard board to solder requires:
 
 **[Repeat until the GaN mosfet self-aligns perfectly.]**
 
+**⚠️While doing soldering procedure, make sure there are no microblobs of solder underneath mosfets.**
 This may take a couple of tries to get it right.
 
 ## Testing procedure
@@ -54,5 +63,6 @@ This may take a couple of tries to get it right.
 4. Once any initial problems are resolved:
     - Set the current to the lowest possible value in FOC -> General and perform a full detection until all parameters are green and appear reasonable:
     ![](https://i.imgur.com/bXIzNDb.png)
+    - If you have another VESC, compare results with it. It will depend on motor itself so do not compare them to mine.
     - Perform a short double pulse test, for example: double_pulse 100 10 5 10. Confirm both edges look okay and are not overshooting.
     - Perform the motor detection.

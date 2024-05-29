@@ -4187,6 +4187,16 @@
 		)
 		(uuid "3d86bd1e-9873-4a6c-abfe-66df76e167b4")
 	)
+	(text "330Ω@100MHz 0603 Ferrite Beads"
+		(exclude_from_sim no)
+		(at 116.205 144.145 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b231133-e4be-435c-80de-794d5cabd5f3")
+	)
 	(text "Boosted hall current sensor"
 		(exclude_from_sim no)
 		(at 210.82 80.645 0)
@@ -4656,7 +4666,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 115.57 131.445 90)
 			(effects
 				(font
@@ -4700,7 +4710,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 115.57 127 0)
 			(effects
 				(font
@@ -5568,7 +5578,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 77.47 131.445 90)
 			(effects
 				(font
@@ -5612,7 +5622,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 77.47 127 0)
 			(effects
 				(font
@@ -6063,7 +6073,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 115.57 106.045 90)
 			(effects
 				(font
@@ -6107,7 +6117,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -6289,7 +6299,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 153.67 106.045 90)
 			(effects
 				(font
@@ -6333,7 +6343,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 153.67 101.6 0)
 			(effects
 				(font
@@ -7069,7 +7079,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 30.48 107.95 90)
 			(effects
 				(font
@@ -7113,7 +7123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22859"
+		(property "MPN" "C23214"
 			(at 30.48 107.95 0)
 			(effects
 				(font
@@ -8199,7 +8209,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 77.47 106.045 90)
 			(effects
 				(font
@@ -8243,7 +8253,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 77.47 101.6 0)
 			(effects
 				(font
@@ -8565,7 +8575,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 30.48 133.35 90)
 			(effects
 				(font
@@ -8609,7 +8619,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22859"
+		(property "MPN" "C23214"
 			(at 30.48 133.35 0)
 			(effects
 				(font
@@ -9395,7 +9405,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 153.67 131.445 90)
 			(effects
 				(font
@@ -9439,7 +9449,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 153.67 127 0)
 			(effects
 				(font

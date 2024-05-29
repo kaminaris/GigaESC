@@ -807,7 +807,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "ab37f1ac-890a-486b-9e4a-3cead7fa4011")
@@ -867,7 +867,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1043,7 +1043,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "c401aba3-3b22-4a1f-8bc3-d3385bbc5227")
@@ -1103,7 +1103,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3777,7 +3777,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "3b21f3fc-467c-4974-b0a8-65d5dcde8867")
@@ -3837,7 +3837,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5943,7 +5943,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "eea42a3a-27b6-4026-b223-1f231e5d51ef")
@@ -6003,7 +6003,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6710,7 +6710,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e351905a-78fb-4cd5-bb3b-2a9e11c519de")
+			(uuid "b4d4dd01-fe83-4e39-a0d5-fb723600f691")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6722,7 +6722,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "52e40e88-ccc1-40e5-975d-ebae287fcc51")
+			(uuid "b86cf29d-8222-42c0-80d9-43d9e4d789ba")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -7032,7 +7032,7 @@
 			)
 			(fill solid)
 			(layer "F.Mask")
-			(uuid "e0ec079f-b250-45b2-862a-1c6d15680ad1")
+			(uuid "a5875010-700b-4eea-b8f7-31477073f9ce")
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
@@ -7510,7 +7510,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a69936c3-0ceb-4f2e-bc7c-13dad704e922")
@@ -7557,7 +7557,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22859"
+		(property "MPN" "C23214"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7744,7 +7744,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "1bfca147-2560-4e12-a968-0ddba255dcf0")
@@ -7804,7 +7804,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10332,7 +10332,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e351905a-78fb-4cd5-bb3b-2a9e11c519de")
+			(uuid "47f38543-4c04-49f9-97cc-b2f4ccd93370")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -10344,7 +10344,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "52e40e88-ccc1-40e5-975d-ebae287fcc51")
+			(uuid "95186b15-6234-4ae4-8727-ae3fd65be138")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -10654,7 +10654,7 @@
 			)
 			(fill solid)
 			(layer "F.Mask")
-			(uuid "e0ec079f-b250-45b2-862a-1c6d15680ad1")
+			(uuid "2c7fdb90-7798-43fb-9fc3-1529d9ba485b")
 		)
 	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -11012,7 +11012,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "6489553d-8bb0-4042-9e7b-100e36428dd5")
@@ -11059,7 +11059,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22859"
+		(property "MPN" "C23214"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11482,7 +11482,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6e7a622d-c656-4140-8c3f-fad4c2299be1")
@@ -11529,7 +11529,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22859"
+		(property "MPN" "C23214"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12174,7 +12174,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "4ead5553-0fd1-4e97-b0c9-475d71b749c5")
@@ -12234,7 +12234,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12410,7 +12410,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "4efdd129-e1f1-4512-854c-221bbdc5ee8c")
@@ -12470,7 +12470,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13559,7 +13559,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ffd014d8-eaa5-4c6b-939e-990c7fac7f35")
@@ -13606,7 +13606,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22859"
+		(property "MPN" "C23214"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14099,7 +14099,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6829368c-176c-4ae7-abf0-a9b14fa82a26")
@@ -14146,7 +14146,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22859"
+		(property "MPN" "C23214"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14333,7 +14333,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "6fc0ef57-6e61-4c1a-923d-9ff4ad3df22a")
@@ -14393,7 +14393,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16122,7 +16122,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "fb5173e4-6209-4a1d-a11a-502b93885e81")
@@ -16182,7 +16182,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17066,7 +17066,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "86ec26de-9ef9-4000-8447-990f055e68c7")
@@ -17126,7 +17126,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17302,7 +17302,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "3eae444d-0d4a-4add-bf3c-c3d44410988d")
@@ -17362,7 +17362,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19881,7 +19881,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "4849c8f8-d892-44dd-b07e-3d5cf348d6ac")
@@ -19941,7 +19941,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21450,7 +21450,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "74ba276c-ad01-40c6-b9b2-efb38be596e3")
@@ -21510,7 +21510,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25188,7 +25188,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "ec7e1e40-a6a7-4f2d-9145-d5de8bf8740b")
@@ -25248,7 +25248,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26796,7 +26796,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "4273a820-1821-404f-aa8d-4b91f4526506")
@@ -26856,7 +26856,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27032,7 +27032,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "d01fffd5-b6b0-4b17-a4c5-78afa2583d61")
@@ -27092,7 +27092,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27342,7 +27342,6 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(net 9)
 			(uuid "7d3a135d-bdfc-4e0d-a393-f44a165f916c")
 		)
 		(fp_text user "${REFERENCE}"
@@ -28636,7 +28635,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "a34eaa1b-ffcd-41e0-a204-7e859f2534eb")
@@ -28696,7 +28695,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30302,7 +30301,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18AG331SN1D"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "0d364bb9-7f5a-40da-8523-b956898fe1ed")
@@ -30362,7 +30361,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22979"
+		(property "MPN" "C113010"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31454,7 +31453,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at -2.5 0 0)
 			(layer "F.Fab")
 			(uuid "c1d434c4-2017-48a4-810d-c66264673262")
@@ -31501,7 +31500,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22859"
+		(property "MPN" "C23214"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39732,105 +39731,6 @@
 			(at 156 142.35 0)
 			(layer "Dwgs.User")
 			(uuid "f48ebe96-431f-4027-9882-062ee7b49362")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.6")
-		(uuid "131ae81d-3f04-4f57-99de-a5d0e2d429f6")
-		(pts
-			(xy 175.55 58.16) (xy 206 58)
-		)
-		(height -7.001777)
-		(gr_text "30.4504 mm"
-			(at 190.732167 49.928336 0.3010587965)
-			(layer "User.6")
-			(uuid "131ae81d-3f04-4f57-99de-a5d0e2d429f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.6")
-		(uuid "5963b571-b1c0-43bf-91b9-da8cd967fa3a")
-		(pts
-			(xy 105 65.25) (xy 105 71)
-		)
-		(height 3.5)
-		(gr_text "5.7500 mm"
-			(at 100.35 68.125 90)
-			(layer "User.6")
-			(uuid "5963b571-b1c0-43bf-91b9-da8cd967fa3a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.6")
-		(uuid "8d3a6e17-c96f-4731-812b-327b7ee79dae")
-		(pts
-			(xy 96 58) (xy 104 58)
-		)
-		(height -6)
-		(gr_text "8.0000 mm"
-			(at 100 50.85 0)
-			(layer "User.6")
-			(uuid "8d3a6e17-c96f-4731-812b-327b7ee79dae")
 			(effects
 				(font
 					(size 1 1)
