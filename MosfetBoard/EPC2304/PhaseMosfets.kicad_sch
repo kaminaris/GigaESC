@@ -4566,12 +4566,12 @@
 					(reference "C89")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C97")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C105")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -4605,7 +4605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "GigaVescLibs:CapHead_3.5mm"
 			(at 63.5 179.07 0)
 			(effects
 				(font
@@ -4638,12 +4638,12 @@
 					(reference "H13")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "H15")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "H17")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -4733,12 +4733,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R26")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -4751,12 +4751,12 @@
 					(reference "FB5")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "FB11")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "FB17")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "FB11")
 					(unit 1)
 				)
 			)
@@ -4846,12 +4846,12 @@
 					(reference "C95")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C103")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C111")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -4941,12 +4941,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "D14")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "D16")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -4959,12 +4959,12 @@
 					(reference "D2")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "D5")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "D8")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5034,12 +5034,12 @@
 					(reference "#PWR06")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "#PWR013")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5129,12 +5129,12 @@
 					(reference "Q10")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "Q12")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "Q17")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -5203,12 +5203,12 @@
 					(reference "#PWR025")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "#PWR038")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5278,12 +5278,12 @@
 					(reference "#PWR01")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "#PWR022")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5364,12 +5364,12 @@
 					(reference "C78")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C82")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C86")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -5460,12 +5460,12 @@
 					(reference "TH1")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "TH2")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "TH3")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "TH2")
 					(unit 1)
 				)
 			)
@@ -5550,12 +5550,12 @@
 					(reference "C1")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C2")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C3")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5645,12 +5645,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R26")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -5663,12 +5663,12 @@
 					(reference "FB4")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "FB10")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "FB16")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "FB10")
 					(unit 1)
 				)
 			)
@@ -5758,12 +5758,12 @@
 					(reference "C93")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C101")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C109")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -5853,12 +5853,12 @@
 					(reference "C88")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C96")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C104")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -5949,12 +5949,12 @@
 					(reference "R3")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "R15")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6045,12 +6045,12 @@
 					(reference "C37")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C38")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C43")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -6140,12 +6140,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R26")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -6158,12 +6158,12 @@
 					(reference "FB2")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "FB8")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "FB14")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "FB8")
 					(unit 1)
 				)
 			)
@@ -6253,12 +6253,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R30")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -6271,12 +6271,12 @@
 					(reference "R12")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "R13")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "R14")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6366,12 +6366,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R26")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -6384,12 +6384,12 @@
 					(reference "FB3")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "FB9")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "FB15")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "FB9")
 					(unit 1)
 				)
 			)
@@ -6459,12 +6459,12 @@
 					(reference "#PWR010")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "#PWR040")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6549,12 +6549,12 @@
 					(reference "C10")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C11")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C21")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6644,12 +6644,12 @@
 					(reference "C90")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C98")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C106")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -6739,12 +6739,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "D14")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "D16")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -6757,12 +6757,12 @@
 					(reference "D13")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "D14")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "D15")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6843,12 +6843,12 @@
 					(reference "C70")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C71")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C72")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -6936,12 +6936,12 @@
 					(reference "R16")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "R17")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "R18")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7047,12 +7047,12 @@
 		)
 		(instances
 			(project "EPC2304"
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
-					(reference "U6")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/3d569e84-87d6-4696-b0ce-a4e576394c1a"
 					(reference "U4")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
@@ -7146,12 +7146,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R19")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R27")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -7164,12 +7164,12 @@
 					(reference "R6")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "R8")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7250,12 +7250,12 @@
 					(reference "C77")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C81")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C85")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -7325,12 +7325,12 @@
 					(reference "H1")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "H2")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "H3")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7400,12 +7400,12 @@
 					(reference "#PWR03")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "#PWR04")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7486,12 +7486,12 @@
 					(reference "C76")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C80")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C84")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -7581,12 +7581,12 @@
 					(reference "Q4")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "Q5")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "Q6")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -7665,12 +7665,12 @@
 					(reference "R28")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "R29")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "R30")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "GigaVescLibs:CapHead_3.5mm"
 			(at 38.1 179.07 0)
 			(effects
 				(font
@@ -7737,12 +7737,12 @@
 					(reference "H12")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "H14")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "H16")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -7832,12 +7832,12 @@
 					(reference "C92")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C100")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C108")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -7918,12 +7918,12 @@
 					(reference "C79")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C83")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C87")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -8013,12 +8013,12 @@
 					(reference "C91")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C99")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C107")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -8088,12 +8088,12 @@
 					(reference "#PWR012")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "#PWR031")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8181,12 +8181,12 @@
 					(reference "R19")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "R21")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8276,12 +8276,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R26")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -8294,12 +8294,12 @@
 					(reference "FB1")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "FB7")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "FB13")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "FB7")
 					(unit 1)
 				)
 			)
@@ -8333,7 +8333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "GigaVescLibs:CapHead_3.5mm"
 			(at 38.1 166.37 0)
 			(effects
 				(font
@@ -8366,12 +8366,12 @@
 					(reference "H5")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "H7")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "H8")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -8461,12 +8461,12 @@
 					(reference "Q7")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "Q8")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "Q9")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -8547,12 +8547,12 @@
 					(reference "C73")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C74")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C75")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -8642,12 +8642,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R19")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R27")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -8660,12 +8660,12 @@
 					(reference "R24")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "R37")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "R44")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -8755,12 +8755,12 @@
 					(reference "C94")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C102")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C110")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -8841,12 +8841,12 @@
 					(reference "C67")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C68")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C69")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -8927,12 +8927,12 @@
 					(reference "C64")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C65")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C66")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -9022,12 +9022,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R30")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -9040,12 +9040,12 @@
 					(reference "R1")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "R11")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9079,7 +9079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "GigaVescLibs:CapHead_3.5mm"
 			(at 63.5 166.37 0)
 			(effects
 				(font
@@ -9112,12 +9112,12 @@
 					(reference "H9")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "H10")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "H11")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -9187,12 +9187,12 @@
 					(reference "#PWR07")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "#PWR039")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9282,12 +9282,12 @@
 					(reference "Q13")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "Q14")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "Q15")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -9377,12 +9377,12 @@
 					(reference "Q11")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "Q16")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "Q18")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -9472,12 +9472,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "R26")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -9490,12 +9490,12 @@
 					(reference "FB6")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "FB12")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "FB18")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "FB12")
 					(unit 1)
 				)
 			)
@@ -9585,12 +9585,12 @@
 					(reference "Q1")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "Q2")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "Q3")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9680,12 +9680,12 @@
 				)
 			)
 			(project "GigaVescDrivers"
-				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/087677ba-107a-4510-bc80-02c4cece2e63"
 					(reference "C12")
+					(unit 1)
+				)
+				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/60c370e3-7758-4e46-877e-f687e0b59f6d"
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/74b7e1db-46d0-4e07-8500-01cfc2fa8362/76b34049-053a-4f0a-90ce-743149c2c6b2"
@@ -9698,12 +9698,12 @@
 					(reference "C4")
 					(unit 1)
 				)
-				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/ccaed507-63cb-4563-a707-3e0cba7d2643"
 					(reference "C9")
+					(unit 1)
+				)
+				(path "/8a7bb686-c87a-43a6-b3d4-d988e8a2213f/db7451b3-bde8-4d72-ba04-6d13b057caad"
+					(reference "C8")
 					(unit 1)
 				)
 			)

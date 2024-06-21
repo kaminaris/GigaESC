@@ -1,0 +1,149 @@
+(footprint "CapacitorD18x32"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "37911d00-e6b1-46fd-ad91-71f10f501333")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CapacitorD18x32"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a7c2f69d-decc-4466-80f1-c1ae09404298")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CapacitorD18x32"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25071af3-23b6-41f6-9950-6b8c793f22a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f2e96fb-1220-43b3-b09e-f552ed830651")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc4a95a1-1c9f-42ba-af17-fc99280f5397")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -9)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "e1d6117a-ab83-4ff3-891e-0b2dfcca0ec1")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "da41b056-4895-4ec0-b1f1-bab85ac67723")
+	)
+	(fp_line
+		(start 2.5 -9)
+		(end -2.5 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "0f9fbca4-154a-415b-8cda-93eb0f40e94e")
+	)
+	(fp_line
+		(start 2.5 0)
+		(end 2.5 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "2320a920-be61-4c06-9639-bc471863618d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "968a1584-beac-4b62-a579-2768a0e72b83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2fde60ea-40df-48ac-9a7c-9dadd5d72c5b")
+	)
+	(pad "2" thru_hole rect
+		(at -2.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3944c8cc-8345-4bf7-b08d-22ff530fc20e")
+	)
+	(model "A:/Projects/Electronic/GigaESC/3DModels/Capacitor18.step"
+		(offset
+			(xyz 0 11.8 -0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

@@ -1,0 +1,166 @@
+(footprint "RLVR240-100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "446dd293-96a4-4087-87da-c237cca85d2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FootprintValue"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e53e122a-a609-4e16-b030-15e35f5545e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "RLVR240-100"
+		(at 0 -0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6be5ea4a-e4d1-4a2f-ba1e-9d86ef712e6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1f2d35c-ab3f-4389-ab2f-4cc869e3bca4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7160f40a-f426-4033-85b7-66f1053085a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7 2.25)
+		(end -7 -2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e63df6c-d786-4a14-bf91-f3d88464c22e")
+	)
+	(fp_line
+		(start -6.987282 -2.24993)
+		(end -6.191501 -2.24993)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a08e03f9-5945-4503-bc7e-22db0202ad78")
+	)
+	(fp_line
+		(start -3.78 -2.25)
+		(end 7 -2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05722a17-6957-4524-a127-21a01ef66049")
+	)
+	(fp_line
+		(start 3.8 2.25)
+		(end -7 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc89db9d-f620-4864-8a9b-074751abcb9a")
+	)
+	(fp_line
+		(start 7 -2.25)
+		(end 7 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "004869cc-a52b-4524-b734-252f0116b363")
+	)
+	(fp_line
+		(start 7.012685 -2.24993)
+		(end 7.012685 2.249935)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54e35adf-f41a-4f64-96d6-740cb0e9b4d6")
+	)
+	(fp_line
+		(start 7.012685 2.249935)
+		(end 6.219447 2.249935)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e56549dd-16b6-4489-a325-6eebd12b5f80")
+	)
+	(pad "1" thru_hole circle
+		(at -5 -2)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6e8bf48f-569b-4b59-8c21-72cfcc3aaa33")
+	)
+	(pad "2" thru_hole circle
+		(at 5 2)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b35f1f2b-37fb-4e2c-95d4-558341707978")
+	)
+	(model "A:/Projects/Electronic/GigaESC/3DModels/RLVR240-100FlatX.step"
+		(offset
+			(xyz 0 0 15.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

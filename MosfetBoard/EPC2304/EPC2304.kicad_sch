@@ -2285,7 +2285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "GigaVescLibs:CapHead_3.5mm"
 			(at 176.53 40.64 0)
 			(effects
 				(font
@@ -2736,7 +2736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "GigaVescLibs:CapHead_3.5mm"
 			(at 198.12 40.64 0)
 			(effects
 				(font
@@ -3271,7 +3271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "GigaVescLibs:CapHead_3.5mm"
 			(at 198.12 49.53 0)
 			(effects
 				(font
@@ -3341,7 +3341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "GigaVescLibs:CapHead_3.5mm"
 			(at 176.53 49.53 0)
 			(effects
 				(font
